@@ -1,0 +1,103 @@
+@font-face {
+  font-display: block;
+  font-family: 'iconsmind';
+  src: url('./iconsmind/iconsmind.eot?#iefix-rdmvgc')
+    format('embedded-opentype');
+  src: url('./iconsmind/iconsmind.woff') format('woff'),
+    url('./iconsmind/iconsmind.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: block;
+  font-family: 'icomoonA';
+  src: url('./IcoMoonA/fonts/icomoon.eot?98yxlq');
+  src: url('./IcoMoonA/fonts/icomoon.eot?98yxlq#iefix')
+      format('embedded-opentype'),
+    url('./IcoMoonA/fonts/icomoon.ttf?98yxlq') format('truetype'),
+    url('./IcoMoonA/fonts/icomoon.woff?98yxlq') format('woff'),
+    url('./IcoMoonA/fonts/icomoon.svg?98yxlq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'AvenirNext-Regular';
+  src: url('./AvenirNext/AvenirNext-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'AvenirNext-Bold';
+  src: url('./AvenirNext/AvenirNext-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'AvenirNext-Demi';
+  src: url('./AvenirNext/AvenirNext-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins-Regular';
+  src: url('./Poppings/Poppins-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins-Medium';
+  src: url('./Poppings/Poppins-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins-Bold';
+  src: url('./Poppings/Poppins-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins-SemiBold';
+  src: url('./Poppings/Poppins-SemiBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Gilroy-Regular';
+  src: url('./Gilroy/Gilroy-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Gilroy-Bold';
+  src: url('./Gilroy/Gilroy-Bold.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Gilroy-Black';
+  src: url('./Gilroy/Gilroy-Black.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
