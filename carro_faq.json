@@ -1,0 +1,305 @@
+[
+  {
+    "intent":"ProblemsWCar",
+    "examples": [
+      "what if there is a problem with the car",
+      "what if there is a problem with my car",
+      "what if I encounter problems with the car",
+      "There is a problem with the car",
+      "Do you have a warranty",
+      "what is the warranty",
+      "There is a something wrong with the car",
+      "what if there is a something wrong with the car",
+      "what do I do if there is a problem with the car",
+      "what if there is something wrong with the car",
+      "am I covered by a warranty",
+      "do I get a warranty",
+      "what is covered by a warranty",
+      "how long am I covered by a warranty",
+      "what if there are problems with the car"
+    ],
+    "metadata": [
+      "Your engine and gearbox is covered by a 1 year warranty. Bring the car to our CARRO workshop and we’ll get it sorted."
+    ]
+  },
+  {
+    "intent":"WhereDoesCarroGetItsCars",
+    "examples": [
+      "Where does Carro get its cars",
+      "Where does Carro get its cars from",
+      "Where does Kara get its cars",
+      "where do you get your cars from",
+      "where do the cars come from",
+      "Where does Kara get its cars from",
+      "Where does Carro get the cars from",
+      "Where does Carro get the cars"
+      ],
+    "metadata": [
+      "Pre-owned cars listed on our platform have been purchased from other consumers like you. To ensure that all cars sold on CARRO are of high quality, these cars will go through a rigorous 160-point inspection, cleaning and sanitisation process before being listed. If we identify any issues, our in-house workshop will fix it!"
+    ]
+  },
+  {
+    "intent":"DocumentsToBuy",
+    "examples": [
+      "What are the documents needed to buy a used car from Carro",
+      "What documents do I need to buy a car",
+      "What documents do I need to purchase a car",
+      "What documents do I need to buy a car at Carro",
+      "What documents do I need to buy a car at kara",
+      "What documents do I need to purchase a car at Carro",
+      "What documents do I need to buy a at Kara",
+      "What do I need to buy a car",
+      "What do I bring to buy a car",
+      "What documents do I bring to buy a car",
+      "What documents do I bring to buy a car at Carro",
+      "What documents do I need to buy a car to buy a used car",
+      "What documents do I need if I want to buy a car",
+      "What documents do I need if I want to purchase a car",
+      "What documents should I bring if I want to buy a car",
+      "What documents should I bring if I want to purchase a car",
+      "What documents do I bring",
+      "What are the documents needed to buy a car",
+      "What are the documents needed to purchase a used car from Carro",
+      "What are the documents needed to buy a used car",
+      "What are the documents needed to purchase a used car"
+    ],
+    "metadata": [
+      "To buy a used car, you will need to bring your NRIC or Passport and Proof of Income. The Proof of Income is needed to apply for car loans."
+    ]
+  },
+  {
+    "intent":"DocumentsAfterSelling",
+    "examples": [
+      "What documents will I receive after selling my car",
+      "will I get a sales agreement after selling my car",
+      "will I get a sales agreement",
+      "will I get a sales and purchase agreement",
+      "will I get a sales and purchase agreement after selling my car",
+      "what documents do I get after selling my car",
+      "what documentation will I receive after selling my car",
+      "what documentation will I get after selling"
+    ],
+    "metadata": [
+      "You will receive a Sales & Purchase Agreement detailing the transaction."
+    ]
+  },
+  {
+    "intent":"ServicesYouOffer",
+    "examples": [
+      "Can you tell me about the services you offer",
+      "what services do you offer",
+      "Can you tell me about the services Carro offers",
+      "Can you tell me about the services Kara offers",
+      "what services does Carro offer",
+      "what services does kara offer",
+      "what does carro do",
+      "what does kara do",
+      "what are your services",
+      "tell me about carro's services",
+      "tell me about your services",
+      "what services do you offer",
+      "what services do you provide",
+      "what services does carro offer",
+      "what services doe carro provide",
+      "what services does kara offer",
+      "what services doe kara provide"
+    ],
+    "metadata": [
+      "Carro provides a range of services across the entire car ownership ecosystem. These include in-house financing solutions, innovative insurance products, flexible car ownership experience and after-sales services. It has pioneered innovative services such as Singapore’s first contactless online car purchase service, first car subscription service and the first region-wide behaviour and usage-based car insurance solutions."
+    ]
+  },
+  {
+    "intent":"HowLongDoesDeliveryTake",
+    "examples": [
+      "How long does delivery take",
+      "how long will it take to deliver",
+      "how long will I wait for deliver",
+      "how long until it gets delivered",
+      "when will my car get delivered",
+      "when will it get delivered",
+      "how long until it gets delivered",
+      "how long until my car gets delivered",
+      "when will my car arrive",
+      "when will it arrive",
+      "when can I expect my car to arrive",
+      "when can I expect my car to be delivered",
+      "when can I expect my car to get delivered",
+      "when can I expect it to be delivered",
+      "when can i expect it to arrive",
+      "when can i expect it to get delivered",
+      "when should I expect my car to arrive",
+      "when should I expect my car to be delivered",
+      "when should I expect my car to get delivered",
+      "when should I expect it to be delivered",
+      "when should i expect it to arrive",
+      "when should i expect it to get delivered",
+      "how long will it take to be delivered",
+      "how long will my car take to be delivered",
+      "can I get my car delivered",
+      "can i get it delivered"
+    ],
+    "metadata": [
+      "After completing your purchase, your car will be delivered to you within 3 days. Alternatively, you can visit our CARRO Lounge if you'd like to collect your car on the same day."
+    ]
+  },
+  {
+    "intent":"HowMuchIsDelivery",
+    "examples": [
+      "how much is delivery",
+      "how much does delivery cost",
+      "what is the delivery cost",
+      "how much is the delivery cost",
+      "how much do I pay for delivery",
+      "how much does it cost to get delivered",
+      "how much would delivery cost",
+      "how much would it be to get it delivered",
+      "what is the delivery charge",
+      "delivery fee",
+      "delivery cost",
+      "what is the delivery fee",
+      "delivery charge"
+
+    ],
+    "metadata": [
+      "If you opt for delivery, there will be an $80 delivery fee for all certified pre-owned cars."
+    ]
+  },
+  {
+    "intent":"RefundPolicy",
+    "examples": [
+      "what's your return policy",
+      "what is your refund policy",
+      "return policy",
+      "refund policy",
+      "what if I don't like the car",
+      "what happens if I don't like it",
+      "what happens if I don't like the car",
+      "what is carro's refund policy",
+      "what is carros return policy",
+      "what's the return policy",
+      "what is the refund policy",
+      "what if I am not satisfied by the car",
+      "what if I am not satisfied by my purchase",
+      "can i get a refund",
+      "can i return it",
+      "can i return the car if I don't like it",
+      "can i return the car",
+      "can i get a refund on the car",
+      "can I get a refund if I don't like it",
+      "can I get a refund if I don't like the car",
+      "can I return the car if I don't like it"
+    ],
+    "metadata": [
+      "If you are not satisfied with your purchase, you can return the car within 3 days and with a maximum driving limit of 150 km. After which, you can pick another car that's more suitable for your lifestyle."
+    ]
+  },
+  {
+    "intent":"HowAreCarsPriced",
+    "examples": [
+      "How are cars priced",
+      "How are the cars priced",
+      "how do you price the cars",
+      "how do i price my car",
+      "how do you price my car",
+      "how much should I sell my car for",
+      "how much is my car worth",
+      "what should I price my car",
+      "what is the ideal price of my car",
+      "how do I determine the price of my car",
+      "how do I determine the ideal price of my car",
+      "what is the ideal price of the car",
+      "how do I determine the price of the car",
+      "how do I determine the ideal price of the car",
+      "how do i price the car",
+      "how do you price the car",
+      "how much should I sell the car for"
+    ],
+    "metadata": [
+      "Using our proprietary pricing algorithm, we will calculate the estimated ideal price of the car. By conducting a professional analysis of the car's pricing, we will assist you on pricing your car attractively, while balancing both maximum value you can obtain for your car and the speed of selling it off."
+    ]
+  },
+  {
+    "intent":"WhatIsSoulMachines",
+    "examples": [
+      "what is soul machines",
+      "tell me about soul machines",
+      "who is soul machines",
+      "who are soul machines",
+      "what are soul machines",
+      "what is soul machine",
+      "who is soul machine",
+      "who are soul machine",
+      "what are soul machine",
+      "tell me about soul machine",
+      "explain soul machines to me",
+      "what are soul machines",
+      "tell me about soul machines",
+      "what is soul machine",
+      "what is a soul machine",
+      "who is soul machine",
+      "who are soul machine",
+      "what are soul machine",
+      "what are sore machine",
+      "what is sore machine",
+      "tell me about soul machine",
+      "what is sewing machines",
+      "who is sewing machines",
+      "who are sewing machines",
+      "who was sewing machines",
+      "tell me about sewing machines",
+      "what is sewing machine",
+      "who is sewing machine",
+      "who are sewing machine",
+      "who was sewing machine",
+      "tell me about sewing machine",
+      "what is sow machine",
+      "who is sow machine",
+      "who are sow machine",
+      "who was sow machine",
+      "tell me about sow machine",
+      "what is sew machine",
+      "who is sew machine",
+      "who are sew machine",
+      "who was sew machine",
+      "tell me about sew machine",
+      "what is sow machines",
+      "who is sow machines",
+      "who are sow machines",
+      "who was sow machines",
+      "tell me about sow machines",
+      "what is sew machines",
+      "who is sew machines",
+      "who are sew machines",
+      "who was sew machines",
+      "tell me about sew machines",
+      "what's soul machines",
+      "what is soul machines",
+      "tell me about saw machine",
+      "tell me about soul machine",
+      "tell me about soul machines",
+      "what is a sewing machine",
+      "what is saw machines",
+      "what is sewing machine",
+      "what is sewing machines",
+      "what is soul machine",
+      "what is soul machines",
+      "what is soulmachines",
+      "what is soundmachines",
+      "what is soya machine",
+      "what is the song machine",
+      "who are soul machines",
+      "who is sewing machines",
+      "who is soul machines",
+      "ok what is sewing machines",
+      "hey buddy what is soul machines",
+      "soul machines what is soul machines",
+      "tell me more about the company that built you",
+      "what is the speciality of soul machines and what kind of products did deal with",
+      "what does soul machines do",
+      "viola what can a saw machine do"
+    ],
+    "metadata": [
+      "Soul Machines is the world leader in humanizing AI to create astonishing Digital People. A little secret, they actually created me."
+    ]
+  }
+]
