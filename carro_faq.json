@@ -221,18 +221,18 @@
   {
     "intent":"FirstTimeBuyer",
     "examples": [
-      "What make and model of car do you recommend for a first time buyer?",
-      "What make of car do you recommend for a first time buyer?",
-      "What model of car do you recommend for a first time buyer?",
-      "What make and model of car should I get as a first time buyer?",
-      "What model of car should I get as a first time buyer?",
-      "What car do you recommend for a firsttime buyer?",
-      "What car should I get as a first time buyer?",
-      "What do you recommend for a first time buyer?",
-      "What should I get as a first time buyer?",
-      "What tips do you have for a first time buyer?",
-      "What should I consider as a first time buyer?",
-      "I am a first time buyer. What car should I get?"
+      "What make and model of car do you recommend for a first time buyer",
+      "What make of car do you recommend for a first time buyer",
+      "What model of car do you recommend for a first time buyer",
+      "What make and model of car should I get as a first time buyer",
+      "What model of car should I get as a first time buyer",
+      "What car do you recommend for a firsttime buyer",
+      "What car should I get as a first time buyer",
+      "What do you recommend for a first time buyer",
+      "What should I get as a first time buyer",
+      "What tips do you have for a first time buyer",
+      "What should I consider as a first time buyer",
+      "I am a first time buyer. What car should I get"
     ],
     "metadata": [
       "For a first-time buyer, I would recommend a vehicle that is relatively reliable and fuss-free without blowing too much money and time on repairs. Some of the models I recommend are: Honda Fit/Jazz, Toyota Vios, Toyota Altis, Toyota C-HR, Mitsubishi Attrage, Mazda 2/3. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ? "
@@ -354,7 +354,7 @@
   {
     "intent":"HowWillPaperWorkBeCompleted",
     "examples": [
-      "How will the paper work be completed?",
+      "How will the paper work be completed",
       "Who will complete my paperwork",
       "how will I complete my paperwork",
       "what paperwork do I need to complete",
@@ -383,7 +383,7 @@
   {
     "intent":"FinancingAtCarro",
     "examples": [
-      "How long does it take to get financing at Carro?",
+      "How long does it take to get financing at Carro",
       "When can i get financing at Carro",
       "How long does it take to get financing",
       "When can i get financing",
@@ -427,7 +427,7 @@
   {
     "intent":"HowLongIsOfferValid",
     "examples": [
-      "How long is the offer valid for?",
+      "How long is the offer valid for",
       "How long do I have to consider the offer",
       "How long before I have to accept or reject the offer",
       "How long before I have to accept the offer",
@@ -441,7 +441,7 @@
   {
     "intent":"OutstandingLoan",
     "examples": [
-      "What happens if I have an outstanding loan on the car I'm trying to sell?",
+      "What happens if I have an outstanding loan on the car I'm trying to sell",
       "outstanding loan",
       "do I have to settle outstanding loans",
       "can you help me settle outstanding loans",
@@ -454,7 +454,7 @@
   {
     "intent":"RejectOffer",
     "examples": [
-      "Can I reject an offer?",
+      "Can I reject an offer",
       "am I allowed to reject an offer",
       "am I able to reject an offer"
     ],
@@ -483,21 +483,21 @@
   {
     "intent":"LocationSize",
     "examples": [
-      "Where is your business based?",
-      "How large is the business?",
-      "Where is your business located?",
-      "Where are you based?",
+      "Where is your business based",
+      "How large is the business",
+      "Where is your business located",
+      "Where are you based",
       "How large are you",
-      "Where are you located?",
-      "Where is Carro based?",
+      "Where are you located",
+      "Where is Carro based",
       "How large is Carro",
-      "Where is Carro located?",
+      "Where is Carro located",
       "How big is Carro",
       "what countries are you in",
       "how many employees do you have",
       "how many employees does Carro have",
       "How big is are you",
-      "How big is the business?"
+      "How big is the business"
     ],
     "metadata": [
       "Headquartered in Singapore, CARRO has a strong presence in Asia Pacific supported by more than 2,000 employees across Indonesia, Thailand, Malaysia, and Vietnam. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
@@ -506,7 +506,7 @@
   {
     "intent":"YearsOperating",
     "examples": [
-      "How long have you been operating?",
+      "How long have you been operating",
       "When was carro founded",
       "when was kara founded",
       "how long ago was carro founded",
@@ -519,7 +519,7 @@
   {
     "intent":"Careers",
     "examples": [
-      "How can I get a job at Carro?",
+      "How can I get a job at Carro",
       "Can I get a job",
       "What career opportunities are available",
       "are there any job openings",
@@ -533,7 +533,7 @@
   {
     "intent":"Founder",
     "examples": [
-      "Who founded the business?",
+      "Who founded the business",
       "Who is Carro's founder",
       "Who founded carro",
       "Who founded kara",
@@ -546,11 +546,11 @@
   {
     "intent":"Investors",
     "examples": [
-      "Who's invested in the business?",
-      "Who's invested in this business?",
+      "Who's invested in the business",
+      "Who's invested in this business",
       "Who are Carro's investors",
       "who invested in carro",
-      "Who has invested in the business?",
+      "Who has invested in the business",
       "how much funding does carro have",
       "how much funds have carro raised"
     ],
@@ -597,13 +597,13 @@
       "is there someone I can talk to"
     ],
     "metadata": [
-      "You can call us at 6 5 6 7 4 6 6 5 2 or email us help at carro dot co. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+      "You can call us at 6 5, 6 7 4, 6 6 5 2, or email us help at carro dot co. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
     ]
   },
   {
     "intent":"OperatingHours",
     "examples": [
-      "What are your operating hours?",
+      "What are your operating hours",
       "when are you open",
       "what time are you open",
       "what are your opening hours",
@@ -629,90 +629,6 @@
     ],
     "metadata": [
       "We prefer cashless payment at CARRO. For example, you can use PayNow, Credit Card, NETS or Cheque. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
-    ]
-  },
-  {
-    "intent":"WhatIsSoulMachines",
-    "examples": [
-      "what is soul machines",
-      "tell me about soul machines",
-      "who is soul machines",
-      "who are soul machines",
-      "what are soul machines",
-      "what is soul machine",
-      "who is soul machine",
-      "who are soul machine",
-      "what are soul machine",
-      "tell me about soul machine",
-      "explain soul machines to me",
-      "what are soul machines",
-      "tell me about soul machines",
-      "what is soul machine",
-      "what is a soul machine",
-      "who is soul machine",
-      "who are soul machine",
-      "what are soul machine",
-      "what are sore machine",
-      "what is sore machine",
-      "tell me about soul machine",
-      "what is sewing machines",
-      "who is sewing machines",
-      "who are sewing machines",
-      "who was sewing machines",
-      "tell me about sewing machines",
-      "what is sewing machine",
-      "who is sewing machine",
-      "who are sewing machine",
-      "who was sewing machine",
-      "tell me about sewing machine",
-      "what is sow machine",
-      "who is sow machine",
-      "who are sow machine",
-      "who was sow machine",
-      "tell me about sow machine",
-      "what is sew machine",
-      "who is sew machine",
-      "who are sew machine",
-      "who was sew machine",
-      "tell me about sew machine",
-      "what is sow machines",
-      "who is sow machines",
-      "who are sow machines",
-      "who was sow machines",
-      "tell me about sow machines",
-      "what is sew machines",
-      "who is sew machines",
-      "who are sew machines",
-      "who was sew machines",
-      "tell me about sew machines",
-      "what's soul machines",
-      "what is soul machines",
-      "tell me about saw machine",
-      "tell me about soul machine",
-      "tell me about soul machines",
-      "what is a sewing machine",
-      "what is saw machines",
-      "what is sewing machine",
-      "what is sewing machines",
-      "what is soul machine",
-      "what is soul machines",
-      "what is soulmachines",
-      "what is soundmachines",
-      "what is soya machine",
-      "what is the song machine",
-      "who are soul machines",
-      "who is sewing machines",
-      "who is soul machines",
-      "ok what is sewing machines",
-      "hey buddy what is soul machines",
-      "soul machines what is soul machines",
-      "tell me more about the company that built you",
-      "what is the speciality of soul machines and what kind of products did deal with",
-      "what does soul machines do",
-      "viola what can a saw machine do"
-    ],
-    "metadata": [
-      "Soul Machines is the world leader in humanizing AI to create astonishing Digital People. A little secret, they actually created me.What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
     ]
   }
 ]
