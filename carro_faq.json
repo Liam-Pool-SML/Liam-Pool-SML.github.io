@@ -19,7 +19,7 @@
       "what if there are problems with the car"
     ],
     "metadata": [
-      "Your engine and gearbox is covered by a 1 year warranty. Bring the car to our CARRO workshop and we’ll get it sorted."
+      "Your engine and gearbox is covered by a 1 year warranty. Bring the car to our CARRO workshop and we’ll get it sorted. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
     ]
   },
   {
@@ -35,7 +35,7 @@
       "Where does Carro get the cars"
       ],
     "metadata": [
-      "Pre-owned cars listed on our platform have been purchased from other consumers like you. To ensure that all cars sold on CARRO are of high quality, these cars will go through a rigorous 160-point inspection, cleaning and sanitisation process before being listed. If we identify any issues, our in-house workshop will fix it!"
+      "Pre-owned cars listed on our platform have been purchased from other consumers like you. To ensure that all cars sold on CARRO are of high quality, these cars will go through a rigorous 160-point inspection, cleaning and sanitisation process before being listed. If we identify any issues, our in-house workshop will fix it! What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
     ]
   },
   {
@@ -64,7 +64,7 @@
       "What are the documents needed to purchase a used car"
     ],
     "metadata": [
-      "To buy a used car, you will need to bring your NRIC or Passport and Proof of Income. The Proof of Income is needed to apply for car loans."
+      "To buy a used car, you will need to bring your NRIC or Passport and Proof of Income. The Proof of Income is needed to apply for car loans. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
     ]
   },
   {
@@ -80,7 +80,7 @@
       "what documentation will I get after selling"
     ],
     "metadata": [
-      "You will receive a Sales & Purchase Agreement detailing the transaction."
+      "You will receive a Sales & Purchase Agreement detailing the transaction. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
     ]
   },
   {
@@ -105,7 +105,7 @@
       "what services doe kara provide"
     ],
     "metadata": [
-      "Carro provides a range of services across the entire car ownership ecosystem. These include in-house financing solutions, innovative insurance products, flexible car ownership experience and after-sales services. It has pioneered innovative services such as Singapore’s first contactless online car purchase service, first car subscription service and the first region-wide behaviour and usage-based car insurance solutions."
+      "Carro provides a range of services across the entire car ownership ecosystem. These include in-house financing solutions, innovative insurance products, flexible car ownership experience and after-sales services. It has pioneered innovative services such as Singapore’s first contactless online car purchase service, first car subscription service and the first region-wide behaviour and usage-based car insurance solutions. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
     ]
   },
   {
@@ -139,7 +139,7 @@
       "can i get it delivered"
     ],
     "metadata": [
-      "After completing your purchase, your car will be delivered to you within 3 days. Alternatively, you can visit our CARRO Lounge if you'd like to collect your car on the same day."
+      "After completing your purchase, your car will be delivered to you within 3 days. Alternatively, you can visit our CARRO Lounge if you'd like to collect your car on the same day. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
     ]
   },
   {
@@ -161,7 +161,7 @@
 
     ],
     "metadata": [
-      "If you opt for delivery, there will be an $80 delivery fee for all certified pre-owned cars."
+      "If you opt for delivery, there will be an $80 delivery fee for all certified pre-owned cars. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
     ]
   },
   {
@@ -190,7 +190,7 @@
       "can I return the car if I don't like it"
     ],
     "metadata": [
-      "If you are not satisfied with your purchase, you can return the car within 3 days and with a maximum driving limit of 150 km. After which, you can pick another car that's more suitable for your lifestyle."
+      "If you are not satisfied with your purchase, you can return the car within 3 days and with a maximum driving limit of 150 km. After which, you can pick another car that's more suitable for your lifestyle.What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
     ]
   },
   {
@@ -215,7 +215,420 @@
       "how much should I sell the car for"
     ],
     "metadata": [
-      "Using our proprietary pricing algorithm, we will calculate the estimated ideal price of the car. By conducting a professional analysis of the car's pricing, we will assist you on pricing your car attractively, while balancing both maximum value you can obtain for your car and the speed of selling it off."
+      "Using our proprietary pricing algorithm, we will calculate the estimated ideal price of the car. By conducting a professional analysis of the car's pricing, we will assist you on pricing your car attractively, while balancing both maximum value you can obtain for your car and the speed of selling it off. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"FirstTimeBuyer",
+    "examples": [
+      "What make and model of car do you recommend for a first time buyer?",
+      "What make of car do you recommend for a first time buyer?",
+      "What model of car do you recommend for a first time buyer?",
+      "What make and model of car should I get as a first time buyer?",
+      "What model of car should I get as a first time buyer?",
+      "What car do you recommend for a firsttime buyer?",
+      "What car should I get as a first time buyer?",
+      "What do you recommend for a first time buyer?",
+      "What should I get as a first time buyer?",
+      "What tips do you have for a first time buyer?",
+      "What should I consider as a first time buyer?",
+      "I am a first time buyer. What car should I get?"
+    ],
+    "metadata": [
+      "For a first-time buyer, I would recommend a vehicle that is relatively reliable and fuss-free without blowing too much money and time on repairs. Some of the models I recommend are: Honda Fit/Jazz, Toyota Vios, Toyota Altis, Toyota C-HR, Mitsubishi Attrage, Mazda 2/3. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ? "
+    ]
+  },
+  {
+    "intent":"BeforeConfirmPurchase",
+    "examples": [
+      "What are some things I should look out for before confirming a purchase",
+      "What should I look out for before confirming a purchase",
+      "What tips do you have before confirming a purchase",
+      "what should i do before confirming a purchase",
+      "should I confirm a purchase",
+      "what should I do before confirming a purchase",
+      "should I confirm this purchase",
+      "how do I know when to confirm a purchase",
+      "what are some things I should look out for before confirming a patches"
+    ],
+    "metadata": [
+      "Do your own due-dilligence to ensure that the vehicle you are buying is accident-free as this is a SAFETY issue that will compromise the structural integrity of the vehicle. There are some dealers in the market who would tamper with the mileage of the vehicle, so it is VERY IMPORTANT to not just look for a cheap car, but a GOOD car. Feel free to contact CARRO for a pre-purchase inspection, and we will provide you a full 160-point evaluation report of your vehicle. CARRO is in full compliance with Singapore's Motor Trade law, and we do not participate in tampering with mileage and we DO NOT sell cars that have been in a major accident before. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"BrakePad",
+    "examples": [
+      "How often should I change my brake pad",
+      "When should I change my brake pad",
+      "How do I know to change my brake pad",
+      "Are my brake pads worn out",
+      "what signs should i look out for to know if my I need to change my brake pads",
+      "when should my brake pads be changed"
+    ],
+    "metadata": [
+      "There are a few signs you can look out for to know if your brake pads are worn out. The first is a metal on metal squealing or grinding sound when applying pressure to the brakes or if it takes a longer time and distance to completely stop your vehicle. When you feel vibration when applying the brakes is a sign that your vehicle's braking system is in need of a workshop check! Feel free to contact us and we'll be able to keep your vehicle in a SAFE and PRISTINE condition. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"TradeInMyCar",
+    "examples": [
+      "Can I trade-in my car when buying a certified pre-owned car from Carro",
+      "Can I trade-in my car when buying a pre-owned car from Carro",
+      "Can I trade-in my car when buying a certified car from Carro",
+      "Can I trade-in my car when buying a pre-owned car from kara",
+      "Can I trade-in my car when buying a certified car from kara",
+      "Can I trade-in my car when buying a car from Carro",
+      "Can I trade-in my car when buying a car from kara",
+      "can I trade in my car when buying a certified pre-owned car from Caro",
+      "Can I trade-in my car"
+    ],
+    "metadata": [
+      "Yes, you can! Simply schedule a viewing for the pre-owned car of your choice and inform us of your intention to trade-in your car. More details will then be provided to you. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"EngineTuning",
+    "examples": [
+      "Does Carro do engine tuning",
+      "Engine tuning",
+      "can you tune my engine",
+      "do you do engine tuning",
+      "are you able to do engine tuning",
+      "do you offer engine tuning services",
+      "do you offer engine tuning"
+    ],
+    "metadata": [
+      "Unfortunately, our CARRO Care Workshop does not offer engine tuning services. Nevertheless, we have a variety of other car repair and maintenance services that will assist you in making car care a breeze! What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"EngineOverhauls",
+    "examples": [
+      "Does Carro do engine overhauls",
+      "Engine overhauls",
+      "can you overhaul my engine",
+      "do you do engine overhauls",
+      "are you able to do engine overhauls",
+      "do you offer engine overhaul services",
+      "do you offer engine overhauls"
+    ],
+    "metadata": [
+      "Our CARRO Care Workshop does offer engine overhaul services. However, this depends on the particular car's make and model! If you need car maintenance help, do book an appointment and our expert mechanics will assist you every step of the way. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"PricesNegotiable",
+    "examples": [
+      "Are the prices of Carro's used cars negotiable",
+      "Are the prices of used cars negotiable",
+      "Are the prices of Carro's cars negotiable",
+      "Are the prices negotiable",
+      "Are prices negotiable",
+      "can I negotiate the price"
+    ],
+    "metadata": [
+      "Unfortunately, our car prices are non-negotiable. Rest assured that all our cars are fairly and competitively priced, with no hidden fees for transparency. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"WillIKnowIfItHasBeenInAnAccident",
+    "examples": [
+      "Will I know if the second hand cars on Carro have been in an accident",
+      "what if the car has been in an accident",
+      "what if the car was in an accident",
+      "what if the car was in a car accident",
+      "what if the car has been in a car accident",
+      "how will I know if it has been in an accident",
+      "what if it has been in an accident",
+      "what if it was in an accident",
+      "what if it was in a car accident",
+      "what if it has been in a car accident",
+      "Will i know if the car has been in a accident",
+      "Will I know if the second hand cars have been in an accident",
+      "Will I know if the cars on Carro have been in an accident"
+    ],
+    "metadata": [
+      "All cars come with a thorough 160-point inspection report that documents any issues or repairs that were done on the cars in the previous ownership. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"HowWillPaperWorkBeCompleted",
+    "examples": [
+      "How will the paper work be completed?",
+      "Who will complete my paperwork",
+      "how will I complete my paperwork",
+      "what paperwork do I need to complete",
+      "what paperwork should I complete",
+      "what paperwork do I need to complete",
+      "will you help with the paperwork",
+      "will you help me with the paperwork",
+      "will you help me with my paperwork"
+    ],
+    "metadata": [
+      "Sit back and relax! We will handle all the paperwork for you. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"CanIReserve",
+    "examples": [
+      "Can I reserve a car",
+      "Am I able to reserve a car",
+      "can I reserve it",
+      "will the car be reserved for me"
+    ],
+    "metadata": [
+      "Yes, when you schedule a viewing for the car of your choice, the car will be reserved for you. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"FinancingAtCarro",
+    "examples": [
+      "How long does it take to get financing at Carro?",
+      "When can i get financing at Carro",
+      "How long does it take to get financing",
+      "When can i get financing",
+      "How long does it take to get financing at kara",
+      "When can i get financing at kara"
+    ],
+    "metadata": [
+      "Through our sister company, Genie Financial Services, you can get financing for your used car purchase within 1 day! What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"AfterAcceptOffer",
+    "examples": [
+      "What happens after I accept the offer to sell my car",
+      "What happens after I accept the offer",
+      "What happens after I accept to sell my car",
+      "What happens after I agree to the offer to sell my car",
+      "What happens after I agree to sell my car",
+      "what is the process after i accept an offer"
+    ],
+    "metadata": [
+      "A CARRO representative will contact you to either schedule an inspection for your car, or to assist you with proceeding with the sale transaction (if your vehicle has already gone through CARRO's inspection). The inspection will be done by the buyer and a third party to verify any issues that may arise. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"WhenDoIGetPayment",
+    "examples": [
+      "When will I get payment for my car",
+      "When can i expect payment",
+      "When will I get payment for my car",
+      "when do I get payed",
+      "how long does it take for payment to come through",
+      "how long before I get payed",
+      "when does payment come through after I sell",
+      "When does payment come through"
+    ],
+    "metadata": [
+      "Once you accept the offer, an inspection will be scheduled with the buyer. If there are no further issues, you will be paid almost instantly. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"HowLongIsOfferValid",
+    "examples": [
+      "How long is the offer valid for?",
+      "How long do I have to consider the offer",
+      "How long before I have to accept or reject the offer",
+      "How long before I have to accept the offer",
+      "How long before I have to make a decision",
+      "when does the offer expire"
+    ],
+    "metadata": [
+      "After receiving our offer, you will have 2 days to accept before it expires. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"OutstandingLoan",
+    "examples": [
+      "What happens if I have an outstanding loan on the car I'm trying to sell?",
+      "outstanding loan",
+      "do I have to settle outstanding loans",
+      "can you help me settle outstanding loans",
+      "can you assist me in settling my outstanding loans"
+    ],
+    "metadata": [
+      "You are required to settle any outstanding loans before selling your car. We will assist you if you are not sure how to do this or if you would like us to settle the outstanding loan for you. However, there will be an administrative fee of 214 charged for this. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"RejectOffer",
+    "examples": [
+      "Can I reject an offer?",
+      "am I allowed to reject an offer",
+      "am I able to reject an offer"
+    ],
+    "metadata": [
+      "A lower offer is only negotiated if any defects or issues that were not communicated beforehand are found upon inspection. Any adjustments of the offer are subject to CARRO's guidelines for the common cost of repairs. You can reject the offer with no obligations whatsoever. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"CarroDifferent",
+    "examples": [
+      "What makes Carro different",
+      "What makes Carro special",
+      "What makes Carro unique",
+      "what does carro do",
+      "What is great about Carro",
+      "What makes you different",
+      "What makes you special",
+      "What makes you unique",
+      "what do you do",
+      "What is great about you"
+    ],
+    "metadata": [
+      "Carro provides a full-stack service for all aspects of car ownership and uses AI-powered technology to transform the car buying and selling experience. By offering a trustworthy and transparent experience, Carro challenges the traditional way of buying and selling cars through proprietary pricing algorithm and AI-enabled capabilities. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"LocationSize",
+    "examples": [
+      "Where is your business based?",
+      "How large is the business?",
+      "Where is your business located?",
+      "Where are you based?",
+      "How large are you",
+      "Where are you located?",
+      "Where is Carro based?",
+      "How large is Carro",
+      "Where is Carro located?",
+      "How big is Carro",
+      "what countries are you in",
+      "how many employees do you have",
+      "how many employees does Carro have",
+      "How big is are you",
+      "How big is the business?"
+    ],
+    "metadata": [
+      "Headquartered in Singapore, CARRO has a strong presence in Asia Pacific supported by more than 2,000 employees across Indonesia, Thailand, Malaysia, and Vietnam. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"YearsOperating",
+    "examples": [
+      "How long have you been operating?",
+      "When was carro founded",
+      "when was kara founded",
+      "how long ago was carro founded",
+      "how many years have you been operating"
+    ],
+    "metadata": [
+      "Carro was founded in twenty fifteen. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"Careers",
+    "examples": [
+      "How can I get a job at Carro?",
+      "Can I get a job",
+      "What career opportunities are available",
+      "are there any job openings",
+      "do you have any job openings",
+      "career opportunities"
+    ],
+    "metadata": [
+      "We’re future-forward, firestarters that lead change for the industry. We are constantly looking for opportunities to relearn, evolve and empower people. Please visit our careers page on our website to see current openings. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"Founder",
+    "examples": [
+      "Who founded the business?",
+      "Who is Carro's founder",
+      "Who founded carro",
+      "Who founded kara",
+      "who is the CEO of carro"
+    ],
+    "metadata": [
+      "Aaron Tan is the Co-Founder & Chief Executive Officer at Carro. He has obtained a bachelor of science from the Singapore Management University School of Information Systems. That led to a scholarship from the Infocomm Development Authority of Singapore to study computer science at Carnegie Mellon University where he graduated with a master of science. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"Investors",
+    "examples": [
+      "Who's invested in the business?",
+      "Who's invested in this business?",
+      "Who are Carro's investors",
+      "who invested in carro",
+      "Who has invested in the business?",
+      "how much funding does carro have",
+      "how much funds have carro raised"
+    ],
+    "metadata": [
+      "CARRO last raised over $500 Million USD from Softbank Vision Fund and several sovereign funds.What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"MissionStatement",
+    "examples": [
+      "What is your mission statement",
+      "mission",
+      "mission statement",
+      "what is carro's mission"
+    ],
+    "metadata": [
+      "to be the marketplace of choice for all automotive needs, providing customers with trustworthy alternatives for improving mobility. We'll catalyse change in the automotive ecosystem by driving higher standards, reshaping the industry with our solutions and empowering everybody with the experience they deserve. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"Vision",
+    "examples": [
+      "What is your vision",
+      "vision",
+      "what is your vision",
+      "what is carro's vision"
+    ],
+    "metadata": [
+      "We aim to lead the automotive and mobility solutions market by providing a better experience, democratising information and advancing the automotive industry. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"Contact",
+    "examples": [
+      "How can I contact you",
+      "how do i contact you",
+      "what is your phone number",
+      "can I call you",
+      "can i email you",
+      "how do I email you",
+      "how do i get in contact",
+      "contact information",
+      "who do i contact",
+      "is there someone I can talk to"
+    ],
+    "metadata": [
+      "You can call us at 6 5 6 7 4 6 6 5 2 or email us help at carro dot co. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"OperatingHours",
+    "examples": [
+      "What are your operating hours?",
+      "when are you open",
+      "what time are you open",
+      "what are your opening hours",
+      "when are you open",
+      "what days are you open"
+    ],
+    "metadata": [
+      "We are open 7 days a week! Monday to Friday 9 AM to 6 PM and 10 AM to 6 PM on Saturday and Sunday. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
+    ]
+  },
+  {
+    "intent":"FormsOfPayment",
+    "examples": [
+      "What forms of payment do you accept",
+      "can i pay with cash",
+      "how do I pay",
+      "what forms of payment",
+      "how should I pay",
+      "can i use my credit card",
+      "can i pay with a cheque",
+      "can i pay with credit card",
+      "can i use a cheque"
+    ],
+    "metadata": [
+      "We prefer cashless payment at CARRO. For example, you can use PayNow, Credit Card, NETS or Cheque. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
     ]
   },
   {
@@ -299,7 +712,7 @@
       "viola what can a saw machine do"
     ],
     "metadata": [
-      "Soul Machines is the world leader in humanizing AI to create astonishing Digital People. A little secret, they actually created me."
+      "Soul Machines is the world leader in humanizing AI to create astonishing Digital People. A little secret, they actually created me.What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
     ]
   }
 ]
