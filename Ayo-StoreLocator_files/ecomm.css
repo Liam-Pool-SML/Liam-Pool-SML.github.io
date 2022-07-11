@@ -1,0 +1,710 @@
+/*
+Platform: Destini Lite
+Developer URI: https://destinilocators.com/
+Author: Destini Global Team
+Copyright: All Rights Reserved Forever
+Description: The main style sheet for all Lite eCommerce locator templates. Styles for alternative eCommerce layouts are defined in separate files.
+*/
+.ecomm_modal_retailer_tab_holder,
+.ecomm_modal_products_tab_holder,
+.ecomm_modal_list_buy_button_holder,
+.ecomm_modal_list_buy_button,
+.ecomm_modal_list_buy_button_outstock,
+#panel2ECommButton,
+.ecomm_cp_toggle,
+.panel_4_ecomm_button,
+.ecomm_more_button {
+  transition: color 0.3s ease-in-out 0s, border 0.3s ease-in-out 0s, background-color 0.3s ease-in-out 0s;
+}
+.ecomm_modal_retailer_count_holder,
+.ecomm_modal_list_count_holder {
+  font-size: 14px;
+}
+#eCommModalFront {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(51, 51, 51, 0.85);
+  min-height: 740px;
+  z-index: 999;
+}
+.ecomm_modal_holder {
+  background-color: #fff;
+  position: relative;
+}
+#eCommModalBack {
+  height: 0;
+}
+.top_search_ecomm {
+  position: relative;
+  box-sizing: border-box;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom: 1px solid #EEEEEE;
+}
+.ecomm_return_container {
+  position: absolute;
+  display: block;
+  vertical-align: top;
+  top: 10px;
+  right: 15px;
+  text-align: right;
+  white-space: nowrap;
+}
+.ecomm_header_detail {
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+  font-size: 14px;
+}
+.ecomm_header_detail_container {
+  display: table;
+  height: 40px;
+}
+.ecomm_header_detail_container {
+  display: table;
+  height: 40px;
+}
+.ecomm_header_detail_liner {
+  display: table-cell;
+  vertical-align: middle;
+}
+.ecomm_back_to_stores,
+.ecomm_back_to_stores_mobile {
+  display: inline-block;
+  position: relative;
+  float: right;
+  box-sizing: border-box;
+  vertical-align: top;
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 3px;
+  min-width: 75px;
+  max-width: 150px;
+  margin: 0px 0px 0px 30px;
+}
+.ecomm_modal_back_button {
+  position: relative;
+  height: 60px;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+.ecomm_modal_back_button_text {
+  display: table-cell;
+  vertical-align: middle;
+  height: 60px;
+}
+.ecomm_back_button_container {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.ecomm_modal_back_button_text:before {
+  font-family: "icomoon";
+  content: "\e96c";
+  position: relative;
+  font-size: 9px;
+  bottom: 1px;
+  right: 4px;
+}
+.ecomm-count {
+  display: block;
+  width: 100%;
+  padding: 15px 0px;
+  border-bottom: 1px solid #EEEEEE;
+  font-weight: bold;
+  font-size: 14px;
+}
+.ecomm_modal_retailer_count_holder {
+  display: table;
+  height: 60px;
+  width: 100%;
+  font-weight: bold;
+}
+.ecomm_modal_retailer_count_holder_liner {
+  display: table-cell;
+  vertical-align: middle;
+}
+.ecomm-buy-online {
+  padding-left: 15px;
+}
+.ecomm_modal_retailer_count {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 20px;
+}
+.ecomm_modal_retailer_text_before,
+.ecomm_modal_retailer_text {
+  display: inline-block;
+  vertical-align: top;
+}
+.ecomm_modal_retailer_tab_holder,
+.ecomm_modal_products_tab_holder {
+  height: 40px;
+  width: 100px;
+  box-sizing: border-box;
+  position: relative;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 3px;
+  display: none;
+}
+.ecomm_modal_list_title_button_top_holder {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+.ecomm_cp_toggle {
+  height: 40px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+}
+.selected_product_count {
+  font-weight: bold;
+  position: relative;
+  padding-left: 40px;
+  line-height: 40px;
+  padding-right: 11px;
+}
+.selected_product_count:before {
+  font-family: "icomoon";
+  content: "\ea65";
+  position: absolute;
+  left: 5px;
+  top: -12px;
+  font-size: 19px;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  font-weight: normal;
+}
+.ecomm_modal_list_title_button_top {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  padding: 0 5px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+}
+#eCommModalContent {
+  width: 100%;
+  border-top: 1px solid #EEEEEE;
+}
+#eCommModalRetailers {
+  margin: 0px auto 0px auto;
+  text-align: left;
+}
+.ecomm_copy {
+  background-color: #FDF2DF;
+  border-radius: 2px;
+  margin: 15px;
+  padding: 15px 15px 15px 25px;
+  font-weight: bold;
+}
+.eCommModalContent_holder {
+  background-color: #fff;
+}
+.ecomm_modal_retailer_sub_img_count_holder,
+.ecomm_modal_product_holder,
+.ecomm_modal_list_item_holder {
+  display: inline-block;
+  width: calc(100% / 6);
+  position: relative;
+  margin: -1px 0px 0px 0px;
+  text-align: center;
+  vertical-align: top;
+  height: 160px;
+  box-sizing: border-box;
+  border: 1px solid #EEEEEE;
+  border-left: 0px;
+  overflow: hidden;
+}
+.ecomm_modal_retailer_sub_img_count_holder {
+  height: auto;
+}
+.ecomm_modal_product_holder,
+.ecomm_modal_list_item_holder {
+  height: 270px;
+}
+.ecomm_modal_list_big_img_holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  height: 100px;
+  min-height: 70px;
+  padding-top: 15px;
+}
+.ecomm_modal_list_big_img,
+.ecomm_modal_list_sm_img {
+  display: block;
+  object-fit: cover;
+  width: auto;
+  max-height: 100px;
+  /* set to 'auto' in IE11 to avoid distortions */
+  height: auto;
+}
+.ecomm_modal_products_sub_big_img_holder {
+  cursor: pointer;
+}
+.ecomm_modal_retailer_sub_img_holder,
+.ecomm_modal_list_retailer_img_holder {
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.ecomm_modal_list_name_holder {
+  width: 90%;
+  margin: 10px auto 0px auto;
+  min-height: 62px;
+  max-height: 62px;
+  overflow: hidden;
+  text-align: center;
+}
+.ecomm_modal_retailer_sub_img,
+.ecomm_modal_list_retailer_img {
+  width: 100%;
+  max-height: 92px;
+  max-width: 190px;
+  padding-top: 4px;
+}
+.ecomm_modal_retailer_sub_count_holder {
+  height: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+.ecomm_modal_retailer_sub_count {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 20px 0px 35px 0px;
+}
+.ecomm_modal_products_name_holder {
+  font-weight: bold;
+  margin: 5px 0;
+  cursor: pointer;
+  min-height: 30px;
+}
+.ecomm_modal_products_sub_count_holder {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.ecomm_modal_list_stock {
+  position: relative;
+  text-transform: uppercase;
+  min-height: 14px;
+}
+.ecommlist_online_product_available_no {
+  color: #b9b9b9;
+}
+.ecommlist_online_product_available_yes {
+  position: relative;
+  display: block;
+  vertical-align: top;
+  color: #9ACE3F;
+  font-weight: bold;
+}
+.ecommlist_online_product_available_yes:before {
+  font-family: icomoon;
+  position: relative;
+  content: '\ec98';
+  font-size: 12px;
+  top: 1px;
+  right: 5px;
+  color: #9ACE3F;
+}
+.ecomm_modal_list_buy_button_holder,
+.ecomm_more_button {
+  position: relative;
+  box-sizing: border-box;
+  bottom: 0px;
+  width: 70%;
+  max-width: 187px;
+  margin: 8px auto 0px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.ecomm_modal_list_buy_button,
+.ecomm_more_button {
+  height: 30px;
+  line-height: 30px;
+  border-radius: 3px;
+}
+.ecomm_modal_list_buy_button_outstock {
+  height: 30px;
+  line-height: 26px;
+  background: transparent;
+  box-sizing: border-box;
+  border: 2px solid #b9b9b9;
+  border-radius: 3px;
+  color: #b9b9b9;
+}
+.ecomm_modal_list_buy_button_outstock:hover {
+  background: #f9f9f9;
+}
+.ecomm_modal_close_button1 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.ecomm_modal_close_button {
+  position: relative;
+  right: auto;
+  top: auto;
+  padding: 0px 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.ecomm_modal_close_button:hover {
+  opacity: 1;
+  filter: alpha(opacity=10);
+  transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+#panel2ECommButton {
+  width: calc(100% - 40px);
+  margin: 20px auto;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 15px 0;
+  font-weight: bold;
+}
+#panel2ECommButton:after {
+  font-family: "icomoon";
+  content: "\ea0f";
+  position: relative;
+  top: 1px;
+  left: 5px;
+  font-weight: normal;
+}
+#panel2ECommButNum {
+  display: none;
+}
+#panel2ECommButtonAlt {
+  width: calc(100% - 40px);
+  margin: 40px auto;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+}
+#panel2ECommButtonAlt {
+  display: none !important;
+}
+#panel2ECommAltText>span {
+  text-decoration: underline;
+}
+.ecomm_modal_list_title_button_holder {
+  display: none;
+}
+#eCommModalList {
+  width: 100%;
+  margin: 0px auto 0px auto;
+  text-align: left;
+}
+.ecomm_modal_list_header {
+  border-bottom: 1px solid #EEEEEE;
+  width: 100%;
+}
+.ecomm_modal_list_retailer_img_holder_header {
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+  text-align: left;
+}
+.ecomm_modal_list_retailer_img_holder_header>img {
+  margin: 0px;
+  max-width: 160px;
+  text-align: left;
+}
+.ecomm_modal_list_count_holder {
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+  min-height: 102px;
+  line-height: 100px;
+  text-align: right;
+  font-weight: bold;
+}
+.ecomm_modal_list_count {
+  padding-right: 20px;
+}
+.ecomm-button-p4 {
+  position: relative;
+  text-align: center;
+}
+.panel_4_ecomm_button:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20px;
+  content: "or";
+  top: -26px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #4B4B4B;
+  text-align: center;
+}
+.panel_4_ecomm_button {
+  width: 70%;
+  padding: 10px 0px;
+  margin: 35px auto 0 auto;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 3px;
+}
+#panel4ECommButNum {
+  display: none;
+}
+#eCommModalFilterSlice {
+  background-color: #fff;
+}
+#rteWriteDiv {
+  display: block;
+  width: 100%;
+  height: 31.7px;
+}
+.ecomm_filter_container {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+.ecomm_filter {
+  position: relative;
+  margin-top: 22px;
+  margin-left: auto;
+  margin-right: 20px;
+  max-width: 260px;
+}
+.ecomm_filter_field {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 35px;
+  border: 1px solid #CACACA;
+  border-radius: 3px;
+  height: 40px;
+  font-size: 14px;
+  text-indent: 15px;
+}
+.ecomm_filter:after {
+  font-family: icomoon;
+  position: absolute;
+  content: '\ea6b';
+  font-size: 12px;
+  top: 14px;
+  right: 12px;
+  color: #CACACA;
+}
+.ecomm_disclaimer {
+  position: relative;
+  top: -16px;
+  text-align: right;
+  padding: 0px 25px 0px 10px;
+  min-height: 13px;
+  display: none;
+}
+.ecomm_online_disclaimer {
+  font-size: 11px;
+  font-style: italic;
+}
+.ecomm_more_button {
+  margin: 20px auto 10px auto;
+  text-align: center;
+}
+.ecomm_more_text {
+  margin: 0px auto 10px auto;
+  text-align: center;
+}
+.ecomm_more_text_number {
+  font-weight: bold;
+}
+@media (max-width: 960px) {
+  .ecomm_modal_retailer_sub_img_count_holder,
+  .ecomm_modal_product_holder,
+  .ecomm_modal_list_item_holder {
+    width: calc(100% / 4);
+  }
+}
+@media (max-width: 913px) {
+  .cps_ecomm_button_holder {
+    margin-left: 0;
+    margin-top: 5px;
+    width: 100%;
+  }
+}
+@media (max-width: 840px) {
+  .ecomm_modal_back_button {
+    max-width: 100px;
+    float: none;
+  }
+  .ecomm_return_container_mobile {
+    padding: 20px 0px;
+  }
+  .ecomm_header_detail_container_mobile {
+    text-align: center;
+    padding: 0px 10px 15px 10px;
+  }
+  .ecomm_header_detail_liner_mobile {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .ecomm_back_to_stores_mobile {
+    display: block;
+    float: none;
+    margin: 0px auto;
+  }
+  .ecomm_modal_back_button:before {
+    top: 15px;
+  }
+}
+@media (min-width: 769px) {
+  #panel2ECommButtonAlt {
+    height: 28px;
+  }
+  .ecomm_modal {
+    margin: 50px 40px 0px 40px;
+  }
+  .ecomm_modal_holder {
+    max-width: 1120px;
+    margin: 0 auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    height: 650px;
+    overflow-y: hidden;
+  }
+  #eCommModalList {
+    height: 475px;
+    overflow-y: auto;
+  }
+  #eCommModalRetailers {
+    height: 585px;
+    overflow-y: auto;
+  }
+  .eCommModalContent_holder {
+    box-sizing: border-box;
+  }
+  .ecomm_return_container_mobile {
+    display: none;
+  }
+}
+@media (max-width: 769px) {
+  #eCommModalFront {
+    min-height: auto;
+    background-color: rgb(255, 255, 255);
+  }
+  #panel2ECommButton {
+    margin: 10px auto;
+    padding: 11px 0;
+  }
+  #panel2ECommButtonAlt {
+    margin: 5px auto;
+  }
+  .ecomm_button_holder {
+    width: calc(100% - 5px);
+    margin: 0 auto;
+  }
+  .ecomm_modal_list_title_button_top_holder {
+    display: none;
+  }
+  .top_search_ecomm,
+  .ecomm_back_button_container {
+    border-radius: 0;
+  }
+  .ecomm_modal_close_button {
+    right: 20px;
+    top: 20px;
+    z-index: 4;
+  }
+  .cps_ecomm_button_holder {
+    height: 30px;
+    line-height: 30px;
+    margin-left: 0;
+    width: 100%;
+    margin-top: 5px;
+  }
+  .ecomm_return_container {
+    display: none;
+    vertical-align: top;
+    width: auto;
+    float: none;
+    text-align: inherit;
+    white-space: normal;
+  }
+}
+@media (max-width: 680px) {
+  .ecomm_disclaimer {
+    top: 0px;
+    text-align: center;
+    padding: 0px 15px 20px 15px;
+    min-height: 0px;
+  }
+}
+@media (max-width: 550px) {
+  .ecomm_modal_retailer_sub_img_count_holder,
+  .ecomm_modal_product_holder,
+  .ecomm_modal_list_item_holder {
+    width: calc(100% / 2);
+  }
+  .ecomm_modal_list_retailer_img_holder_header {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .ecomm_modal_list_retailer_img_holder_header>img {
+    margin: 0px;
+    max-width: 200px;
+    text-align: left;
+  }
+  .ecomm_filter_container {
+    display: block;
+    width: 100%;
+  }
+  .ecomm_filter {
+    position: relative;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin: 0 auto;
+    max-width: 90%;
+    padding-bottom: 15px;
+  }
+}
+@media (max-width: 380px) {
+  .ecomm_modal_list_retailer_img {
+    padding-top: 10px;
+  }
+  .p4_text,
+  .p5_text {
+    margin: 30px 0px !important;
+  }
+}

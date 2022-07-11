@@ -1,0 +1,1990 @@
+@font-face {
+  font-family: 'icomoon-cs';
+  src:  url('https://d1azc1qln24ryf.cloudfront.net/65955/destinicountryandstatesicons/icomoon-cs.eot?fwsu7w');
+  src:  url('https://d1azc1qln24ryf.cloudfront.net/65955/destinicountryandstatesicons/icomoon-cs.eot?fwsu7w#iefix') format('embedded-opentype'),
+    url('https://d1azc1qln24ryf.cloudfront.net/65955/destinicountryandstatesicons/icomoon-cs.woff2?fwsu7w') format('woff2'),
+    url('https://d1azc1qln24ryf.cloudfront.net/65955/destinicountryandstatesicons/icomoon-cs.ttf?fwsu7w') format('truetype'),
+    url('https://d1azc1qln24ryf.cloudfront.net/65955/destinicountryandstatesicons/icomoon-cs.woff?fwsu7w') format('woff'),
+    url('https://d1azc1qln24ryf.cloudfront.net/65955/destinicountryandstatesicons/icomoon-cs.svg?fwsu7w#icomoon-cs') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-cs-"], [class*=" icon-cs-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon-cs' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cs-emptystateicon .path1:before {
+  content: "\ea95";
+  color: rgb(231, 231, 231);
+}
+.icon-cs-emptystateicon .path2:before {
+  content: "\ea96";
+  margin-left: -1em;
+  color: rgb(151, 151, 151);
+}
+.icon-cs-emptystateicon .path3:before {
+  content: "\ea97";
+  margin-left: -1em;
+  color: rgb(151, 151, 151);
+}
+.icon-cs-Argentina .path1:before {
+  content: "\e932";
+  color: rgb(116, 172, 223);
+}
+.icon-cs-Argentina .path2:before {
+  content: "\e933";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Argentina .path3:before {
+  content: "\e934";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-Argentina .path4:before {
+  content: "\e935";
+  margin-left: -1em;
+  color: rgb(255, 218, 68);
+}
+.icon-cs-Australia .path1:before {
+  content: "\e936";
+  color: rgb(0, 0, 102);
+}
+.icon-cs-Australia .path2:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Australia .path3:before {
+  content: "\e938";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Australia .path4:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(204, 0, 0);
+}
+.icon-cs-Australia .path5:before {
+  content: "\e93a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Australia .path6:before {
+  content: "\e93b";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-Austria .path1:before {
+  content: "\e93c";
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Austria .path2:before {
+  content: "\e93d";
+  margin-left: -1em;
+  color: rgb(223, 0, 0);
+}
+.icon-cs-Austria .path3:before {
+  content: "\e93e";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-Brazil .path1:before {
+  content: "\e93f";
+  color: rgb(34, 158, 69);
+}
+.icon-cs-Brazil .path2:before {
+  content: "\e940";
+  margin-left: -1em;
+  color: rgb(248, 229, 9);
+}
+.icon-cs-Brazil .path3:before {
+  content: "\e941";
+  margin-left: -1em;
+  color: rgb(43, 73, 163);
+}
+.icon-cs-Brazil .path4:before {
+  content: "\e942";
+  margin-left: -1em;
+  color: rgb(255, 255, 239);
+}
+.icon-cs-Brazil .path5:before {
+  content: "\e943";
+  margin-left: -1em;
+  color: rgb(255, 255, 239);
+}
+.icon-cs-Brazil .path6:before {
+  content: "\e944";
+  margin-left: -1em;
+  color: rgb(255, 255, 239);
+}
+.icon-cs-Brazil .path7:before {
+  content: "\e945";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Brazil .path8:before {
+  content: "\e946";
+  margin-left: -1em;
+  color: rgb(48, 158, 58);
+}
+.icon-cs-Brazil .path9:before {
+  content: "\e947";
+  margin-left: -1em;
+  color: rgb(48, 158, 58);
+}
+.icon-cs-Brazil .path10:before {
+  content: "\e948";
+  margin-left: -1em;
+  color: rgb(247, 255, 255);
+}
+.icon-cs-Brazil .path11:before {
+  content: "\e949";
+  margin-left: -1em;
+  color: rgb(48, 158, 58);
+}
+.icon-cs-Brazil .path12:before {
+  content: "\e94a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Brazil .path13:before {
+  content: "\e94b";
+  margin-left: -1em;
+  color: rgb(48, 158, 58);
+}
+.icon-cs-Brazil .path14:before {
+  content: "\e94c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Brazil .path15:before {
+  content: "\e94d";
+  margin-left: -1em;
+  color: rgb(48, 158, 58);
+}
+.icon-cs-Brazil .path16:before {
+  content: "\e94e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Brazil .path17:before {
+  content: "\e94f";
+  margin-left: -1em;
+  color: rgb(48, 158, 58);
+}
+.icon-cs-Brazil .path18:before {
+  content: "\e950";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Brazil .path19:before {
+  content: "\e951";
+  margin-left: -1em;
+  color: rgb(48, 158, 58);
+}
+.icon-cs-Brazil .path20:before {
+  content: "\e952";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Brazil .path21:before {
+  content: "\e953";
+  margin-left: -1em;
+  color: rgb(48, 158, 58);
+}
+.icon-cs-Brazil .path22:before {
+  content: "\e954";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Brazil .path23:before {
+  content: "\e955";
+  margin-left: -1em;
+  color: rgb(48, 158, 58);
+}
+.icon-cs-Brazil .path24:before {
+  content: "\e956";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Brazil .path25:before {
+  content: "\e957";
+  margin-left: -1em;
+  color: rgb(48, 158, 58);
+}
+.icon-cs-Brazil .path26:before {
+  content: "\e958";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-Canada .path1:before {
+  content: "\e959";
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Canada .path2:before {
+  content: "\e95a";
+  margin-left: -1em;
+  color: rgb(191, 10, 48);
+}
+.icon-cs-Canada .path3:before {
+  content: "\e95b";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-France .path1:before {
+  content: "\e95c";
+  color: rgb(255, 255, 255);
+}
+.icon-cs-France .path2:before {
+  content: "\e95d";
+  margin-left: -1em;
+  color: rgb(0, 38, 127);
+}
+.icon-cs-France .path3:before {
+  content: "\e95e";
+  margin-left: -1em;
+  color: rgb(243, 24, 48);
+}
+.icon-cs-France .path4:before {
+  content: "\e95f";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-Germany .path1:before {
+  content: "\e960";
+  color: rgb(255, 206, 0);
+}
+.icon-cs-Germany .path2:before {
+  content: "\e961";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-cs-Germany .path3:before {
+  content: "\e962";
+  margin-left: -1em;
+  color: rgb(221, 0, 0);
+}
+.icon-cs-Germany .path4:before {
+  content: "\e963";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-Hong-Kong .path1:before {
+  content: "\e964";
+  color: rgb(186, 0, 0);
+}
+.icon-cs-Hong-Kong .path2:before {
+  content: "\e965";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Hong-Kong .path3:before {
+  content: "\e966";
+  margin-left: -1em;
+  color: rgb(186, 0, 0);
+}
+.icon-cs-Hong-Kong .path4:before {
+  content: "\e967";
+  margin-left: -1em;
+  color: rgb(186, 0, 0);
+}
+.icon-cs-Hong-Kong .path5:before {
+  content: "\e968";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Hong-Kong .path6:before {
+  content: "\e969";
+  margin-left: -1em;
+  color: rgb(186, 0, 0);
+}
+.icon-cs-Hong-Kong .path7:before {
+  content: "\e96a";
+  margin-left: -1em;
+  color: rgb(186, 0, 0);
+}
+.icon-cs-Hong-Kong .path8:before {
+  content: "\e96b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Hong-Kong .path9:before {
+  content: "\e96c";
+  margin-left: -1em;
+  color: rgb(186, 0, 0);
+}
+.icon-cs-Hong-Kong .path10:before {
+  content: "\e96d";
+  margin-left: -1em;
+  color: rgb(186, 0, 0);
+}
+.icon-cs-Hong-Kong .path11:before {
+  content: "\e96e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Hong-Kong .path12:before {
+  content: "\e96f";
+  margin-left: -1em;
+  color: rgb(186, 0, 0);
+}
+.icon-cs-Hong-Kong .path13:before {
+  content: "\e970";
+  margin-left: -1em;
+  color: rgb(186, 0, 0);
+}
+.icon-cs-Hong-Kong .path14:before {
+  content: "\e971";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Hong-Kong .path15:before {
+  content: "\e972";
+  margin-left: -1em;
+  color: rgb(186, 0, 0);
+}
+.icon-cs-Hong-Kong .path16:before {
+  content: "\e973";
+  margin-left: -1em;
+  color: rgb(186, 0, 0);
+}
+.icon-cs-Hong-Kong .path17:before {
+  content: "\e974";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-India .path1:before {
+  content: "\e975";
+  color: rgb(255, 153, 51);
+}
+.icon-cs-India .path2:before {
+  content: "\e976";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-India .path3:before {
+  content: "\e977";
+  margin-left: -1em;
+  color: rgb(18, 136, 7);
+}
+.icon-cs-India .path4:before {
+  content: "\e978";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path5:before {
+  content: "\e979";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-India .path6:before {
+  content: "\e97a";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path7:before {
+  content: "\e97b";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path8:before {
+  content: "\e97c";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path9:before {
+  content: "\e97d";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path10:before {
+  content: "\e97e";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path11:before {
+  content: "\e97f";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path12:before {
+  content: "\e980";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path13:before {
+  content: "\e981";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path14:before {
+  content: "\e982";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path15:before {
+  content: "\e983";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path16:before {
+  content: "\e984";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path17:before {
+  content: "\e985";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path18:before {
+  content: "\e986";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path19:before {
+  content: "\e987";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path20:before {
+  content: "\e988";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path21:before {
+  content: "\e989";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path22:before {
+  content: "\e98a";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path23:before {
+  content: "\e98b";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path24:before {
+  content: "\e98c";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path25:before {
+  content: "\e98d";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path26:before {
+  content: "\e98e";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path27:before {
+  content: "\e98f";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path28:before {
+  content: "\e990";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path29:before {
+  content: "\e991";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path30:before {
+  content: "\e992";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path31:before {
+  content: "\e993";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path32:before {
+  content: "\e994";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path33:before {
+  content: "\e995";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path34:before {
+  content: "\e996";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path35:before {
+  content: "\e997";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path36:before {
+  content: "\e998";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path37:before {
+  content: "\e999";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path38:before {
+  content: "\e99a";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path39:before {
+  content: "\e99b";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path40:before {
+  content: "\e99c";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path41:before {
+  content: "\e99d";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path42:before {
+  content: "\e99e";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path43:before {
+  content: "\e99f";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path44:before {
+  content: "\e9a0";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path45:before {
+  content: "\e9a1";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path46:before {
+  content: "\e9a2";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path47:before {
+  content: "\e9a3";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path48:before {
+  content: "\e9a4";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path49:before {
+  content: "\e9a5";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path50:before {
+  content: "\e9a6";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path51:before {
+  content: "\e9a7";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path52:before {
+  content: "\e9a8";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path53:before {
+  content: "\e9a9";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path54:before {
+  content: "\e9aa";
+  margin-left: -1em;
+  color: rgb(0, 0, 136);
+}
+.icon-cs-India .path55:before {
+  content: "\e9ab";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-Indonesia .path1:before {
+  content: "\e9ac";
+  color: rgb(231, 0, 17);
+}
+.icon-cs-Indonesia .path2:before {
+  content: "\e9ad";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Indonesia .path3:before {
+  content: "\e9ae";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-Ireland .path1:before {
+  content: "\e9af";
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Ireland .path2:before {
+  content: "\e9b0";
+  margin-left: -1em;
+  color: rgb(0, 154, 73);
+}
+.icon-cs-Ireland .path3:before {
+  content: "\e9b1";
+  margin-left: -1em;
+  color: rgb(255, 121, 0);
+}
+.icon-cs-Ireland .path4:before {
+  content: "\e9b2";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-Israel .path1:before {
+  content: "\e9b3";
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Israel .path2:before {
+  content: "\e9b4";
+  margin-left: -1em;
+  color: rgb(0, 0, 204);
+}
+.icon-cs-Israel .path3:before {
+  content: "\e9b5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Israel .path4:before {
+  content: "\e9b6";
+  margin-left: -1em;
+  color: rgb(0, 0, 204);
+}
+.icon-cs-Israel .path5:before {
+  content: "\e9b7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Israel .path6:before {
+  content: "\e9b8";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-Italy .path1:before {
+  content: "\e9b9";
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Italy .path2:before {
+  content: "\e9ba";
+  margin-left: -1em;
+  color: rgb(0, 146, 70);
+}
+.icon-cs-Italy .path3:before {
+  content: "\e9bb";
+  margin-left: -1em;
+  color: rgb(206, 43, 55);
+}
+.icon-cs-Italy .path4:before {
+  content: "\e9bc";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-Japan .path1:before {
+  content: "\e9bd";
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Japan .path2:before {
+  content: "\e9be";
+  margin-left: -1em;
+  color: rgb(211, 0, 0);
+}
+.icon-cs-Japan .path3:before {
+  content: "\e9bf";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-Malaysia .path1:before {
+  content: "\e9c0";
+  color: rgb(204, 0, 1);
+}
+.icon-cs-Malaysia .path2:before {
+  content: "\e9c1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Malaysia .path3:before {
+  content: "\e9c2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Malaysia .path4:before {
+  content: "\e9c3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Malaysia .path5:before {
+  content: "\e9c4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Malaysia .path6:before {
+  content: "\e9c5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Malaysia .path7:before {
+  content: "\e9c6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Malaysia .path8:before {
+  content: "\e9c7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Malaysia .path9:before {
+  content: "\e9c8";
+  margin-left: -1em;
+  color: rgb(1, 0, 102);
+}
+.icon-cs-Malaysia .path10:before {
+  content: "\e9c9";
+  margin-left: -1em;
+  color: rgb(255, 204, 0);
+}
+.icon-cs-Malaysia .path11:before {
+  content: "\e9ca";
+  margin-left: -1em;
+  color: rgb(255, 204, 0);
+}
+.icon-cs-Malaysia .path12:before {
+  content: "\e9cb";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-Mexico .path1:before {
+  content: "\e9cc";
+  color: rgb(0, 104, 71);
+}
+.icon-cs-Mexico .path2:before {
+  content: "\e9cd";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-Mexico .path3:before {
+  content: "\e9ce";
+  margin-left: -1em;
+  color: rgb(206, 17, 38);
+}
+.icon-cs-Mexico .path4:before {
+  content: "\e9cf";
+  margin-left: -1em;
+  color: rgb(238, 238, 238);
+}
+.icon-cs-Mexico .path5:before {
+  content: "\e9d0";
+  margin-left: -1em;
+  color: rgb(166, 211, 136);
+}
+.icon-cs-Mexico .path6:before {
+  content: "\e9d1";
+  margin-left: -1em;
+  color: rgb(92, 145, 59);
+}
+.icon-cs-Mexico .path7:before {
+  content: "\e9d2";
+  margin-left: -1em;
+  color: rgb(92, 145, 59);
+}
+.icon-cs-Mexico .path8:before {
+  content: "\e9d3";
+  margin-left: -1em;
+  color: rgb(92, 145, 59);
+}
+.icon-cs-Mexico .path9:before {
+  content: "\e9d4";
+  margin-left: -1em;
+  color: rgb(92, 145, 59);
+}
+.icon-cs-Mexico .path10:before {
+  content: "\e9d5";
+  margin-left: -1em;
+  color: rgb(92, 145, 59);
+}
+.icon-cs-Mexico .path11:before {
+  content: "\e9d6";
+  margin-left: -1em;
+  color: rgb(92, 145, 59);
+}
+.icon-cs-Mexico .path12:before {
+  content: "\e9d7";
+  margin-left: -1em;
+  color: rgb(92, 145, 59);
+}
+.icon-cs-Mexico .path13:before {
+  content: "\e9d8";
+  margin-left: -1em;
+  color: rgb(85, 172, 238);
+}
+.icon-cs-Mexico .path14:before {
+  content: "\e9d9";
+  margin-left: -1em;
+  color: rgb(255, 204, 77);
+}
+.icon-cs-Mexico .path15:before {
+  content: "\e9da";
+  margin-left: -1em;
+  color: rgb(92, 145, 59);
+}
+.icon-cs-Mexico .path16:before {
+  content: "\e9db";
+  margin-left: -1em;
+  color: rgb(92, 145, 59);
+}
+.icon-cs-Mexico .path17:before {
+  content: "\e9dc";
+  margin-left: -1em;
+  color: rgb(255, 204, 77);
+}
+.icon-cs-Mexico .path18:before {
+  content: "\e9dd";
+  margin-left: -1em;
+  color: rgb(255, 204, 77);
+}
+.icon-cs-Mexico .path19:before {
+  content: "\e9de";
+  margin-left: -1em;
+  color: rgb(255, 204, 77);
+}
+.icon-cs-Mexico .path20:before {
+  content: "\e9df";
+  margin-left: -1em;
+  color: rgb(193, 105, 79);
+}
+.icon-cs-Netherlands .path1:before {
+  content: "\e9e0";
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Netherlands .path2:before {
+  content: "\e9e1";
+  margin-left: -1em;
+  color: rgb(33, 70, 139);
+}
+.icon-cs-Netherlands .path3:before {
+  content: "\e9e2";
+  margin-left: -1em;
+  color: rgb(174, 28, 40);
+}
+.icon-cs-Netherlands .path4:before {
+  content: "\e9e3";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-New-Zealand .path1:before {
+  content: "\e9e4";
+  color: rgb(0, 36, 125);
+}
+.icon-cs-New-Zealand .path2:before {
+  content: "\e9e5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path3:before {
+  content: "\e9e6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path4:before {
+  content: "\e9e7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path5:before {
+  content: "\e9e8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path6:before {
+  content: "\e9e9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path7:before {
+  content: "\e9ea";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path8:before {
+  content: "\e9eb";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path9:before {
+  content: "\e9ec";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path10:before {
+  content: "\e9ed";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path11:before {
+  content: "\e9ee";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path12:before {
+  content: "\e9ef";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path13:before {
+  content: "\e9f0";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path14:before {
+  content: "\e9f1";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path15:before {
+  content: "\e9f2";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path16:before {
+  content: "\e9f3";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path17:before {
+  content: "\e9f4";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path18:before {
+  content: "\e9f5";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path19:before {
+  content: "\e9f6";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path20:before {
+  content: "\e9f7";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path21:before {
+  content: "\e9f8";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path22:before {
+  content: "\e9f9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path23:before {
+  content: "\e9fa";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path24:before {
+  content: "\e9fb";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path25:before {
+  content: "\e9fc";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path26:before {
+  content: "\e9fd";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path27:before {
+  content: "\e9fe";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path28:before {
+  content: "\e9ff";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path29:before {
+  content: "\ea00";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path30:before {
+  content: "\ea01";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path31:before {
+  content: "\ea02";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path32:before {
+  content: "\ea03";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path33:before {
+  content: "\ea04";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path34:before {
+  content: "\ea05";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path35:before {
+  content: "\ea06";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path36:before {
+  content: "\ea07";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path37:before {
+  content: "\ea08";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path38:before {
+  content: "\ea09";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path39:before {
+  content: "\ea0a";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path40:before {
+  content: "\ea0b";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path41:before {
+  content: "\ea0c";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path42:before {
+  content: "\ea0d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path43:before {
+  content: "\ea0e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path44:before {
+  content: "\ea0f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path45:before {
+  content: "\ea10";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path46:before {
+  content: "\ea11";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path47:before {
+  content: "\ea12";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path48:before {
+  content: "\ea13";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path49:before {
+  content: "\ea14";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path50:before {
+  content: "\ea15";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path51:before {
+  content: "\ea16";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path52:before {
+  content: "\ea17";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path53:before {
+  content: "\ea18";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path54:before {
+  content: "\ea19";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path55:before {
+  content: "\ea1a";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path56:before {
+  content: "\ea1b";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path57:before {
+  content: "\ea1c";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path58:before {
+  content: "\ea1d";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path59:before {
+  content: "\ea1e";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path60:before {
+  content: "\ea1f";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path61:before {
+  content: "\ea20";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path62:before {
+  content: "\ea21";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path63:before {
+  content: "\ea22";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path64:before {
+  content: "\ea23";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path65:before {
+  content: "\ea24";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path66:before {
+  content: "\ea25";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path67:before {
+  content: "\ea26";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path68:before {
+  content: "\ea27";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path69:before {
+  content: "\ea28";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path70:before {
+  content: "\ea29";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path71:before {
+  content: "\ea2a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path72:before {
+  content: "\ea2b";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path73:before {
+  content: "\ea2c";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path74:before {
+  content: "\ea2d";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path75:before {
+  content: "\ea2e";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path76:before {
+  content: "\ea2f";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path77:before {
+  content: "\ea30";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path78:before {
+  content: "\ea31";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path79:before {
+  content: "\ea32";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path80:before {
+  content: "\ea33";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path81:before {
+  content: "\ea34";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path82:before {
+  content: "\ea35";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-cs-New-Zealand .path83:before {
+  content: "\ea36";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path84:before {
+  content: "\ea37";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-cs-New-Zealand .path85:before {
+  content: "\ea38";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path86:before {
+  content: "\ea39";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-New-Zealand .path87:before {
+  content: "\ea3a";
+  margin-left: -1em;
+  color: rgb(204, 20, 43);
+}
+.icon-cs-New-Zealand .path88:before {
+  content: "\ea3b";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-Philippines .path1:before {
+  content: "\ea3c";
+  color: rgb(0, 56, 168);
+}
+.icon-cs-Philippines .path2:before {
+  content: "\ea3d";
+  margin-left: -1em;
+  color: rgb(206, 17, 38);
+}
+.icon-cs-Philippines .path3:before {
+  content: "\ea3e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Philippines .path4:before {
+  content: "\ea3f";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path5:before {
+  content: "\ea40";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path6:before {
+  content: "\ea41";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path7:before {
+  content: "\ea42";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path8:before {
+  content: "\ea43";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path9:before {
+  content: "\ea44";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path10:before {
+  content: "\ea45";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path11:before {
+  content: "\ea46";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path12:before {
+  content: "\ea47";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path13:before {
+  content: "\ea48";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path14:before {
+  content: "\ea49";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path15:before {
+  content: "\ea4a";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path16:before {
+  content: "\ea4b";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path17:before {
+  content: "\ea4c";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path18:before {
+  content: "\ea4d";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path19:before {
+  content: "\ea4e";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path20:before {
+  content: "\ea4f";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path21:before {
+  content: "\ea50";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path22:before {
+  content: "\ea51";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path23:before {
+  content: "\ea52";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path24:before {
+  content: "\ea53";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path25:before {
+  content: "\ea54";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path26:before {
+  content: "\ea55";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path27:before {
+  content: "\ea56";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path28:before {
+  content: "\ea57";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path29:before {
+  content: "\ea58";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path30:before {
+  content: "\ea59";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path31:before {
+  content: "\ea5a";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path32:before {
+  content: "\ea5b";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path33:before {
+  content: "\ea5c";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path34:before {
+  content: "\ea5d";
+  margin-left: -1em;
+  color: rgb(252, 209, 22);
+}
+.icon-cs-Philippines .path35:before {
+  content: "\ea5e";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-Russia .path1:before {
+  content: "\ea5f";
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Russia .path2:before {
+  content: "\ea60";
+  margin-left: -1em;
+  color: rgb(0, 57, 166);
+}
+.icon-cs-Russia .path3:before {
+  content: "\ea61";
+  margin-left: -1em;
+  color: rgb(213, 43, 30);
+}
+.icon-cs-Russia .path4:before {
+  content: "\ea62";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-Saudi-Arabia .path1:before {
+  content: "\ea63";
+  color: rgb(25, 157, 0);
+}
+.icon-cs-Saudi-Arabia .path2:before {
+  content: "\ea64";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Saudi-Arabia .path3:before {
+  content: "\ea65";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Saudi-Arabia .path4:before {
+  content: "\ea66";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Saudi-Arabia .path5:before {
+  content: "\ea67";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Saudi-Arabia .path6:before {
+  content: "\ea68";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Saudi-Arabia .path7:before {
+  content: "\ea69";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Saudi-Arabia .path8:before {
+  content: "\ea6a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Saudi-Arabia .path9:before {
+  content: "\ea6b";
+  margin-left: -1em;
+  color: rgb(27, 164, 0);
+}
+.icon-cs-Saudi-Arabia .path10:before {
+  content: "\ea6c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Saudi-Arabia .path11:before {
+  content: "\ea6d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Saudi-Arabia .path12:before {
+  content: "\ea6e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Saudi-Arabia .path13:before {
+  content: "\ea6f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Saudi-Arabia .path14:before {
+  content: "\ea70";
+  margin-left: -1em;
+  color: rgb(27, 157, 0);
+}
+.icon-cs-Saudi-Arabia .path15:before {
+  content: "\ea71";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Saudi-Arabia .path16:before {
+  content: "\ea72";
+  margin-left: -1em;
+  color: rgb(37, 159, 0);
+}
+.icon-cs-Saudi-Arabia .path17:before {
+  content: "\ea73";
+  margin-left: -1em;
+  color: rgb(32, 144, 0);
+}
+.icon-cs-Saudi-Arabia .path18:before {
+  content: "\ea74";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-Singapore .path1:before {
+  content: "\ea75";
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Singapore .path2:before {
+  content: "\ea76";
+  margin-left: -1em;
+  color: rgb(223, 0, 0);
+}
+.icon-cs-Singapore .path3:before {
+  content: "\ea77";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Singapore .path4:before {
+  content: "\ea78";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Singapore .path5:before {
+  content: "\ea79";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-Sweden .path1:before {
+  content: "\ea7a";
+  color: rgb(0, 106, 167);
+}
+.icon-cs-Sweden .path2:before {
+  content: "\ea7b";
+  margin-left: -1em;
+  color: rgb(254, 204, 0);
+}
+.icon-cs-Sweden .path3:before {
+  content: "\ea7c";
+  margin-left: -1em;
+  color: rgb(254, 204, 0);
+}
+.icon-cs-Sweden .path4:before {
+  content: "\ea7d";
+  margin-left: -1em;
+  color: rgb(254, 204, 0);
+}
+.icon-cs-Sweden .path5:before {
+  content: "\ea7e";
+  margin-left: -1em;
+  color: rgb(0, 106, 167);
+}
+.icon-cs-Sweden .path6:before {
+  content: "\ea7f";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-Taiwan .path1:before {
+  content: "\ea80";
+  color: rgb(222, 33, 16);
+}
+.icon-cs-Taiwan .path2:before {
+  content: "\ea81";
+  margin-left: -1em;
+  color: rgb(8, 57, 156);
+}
+.icon-cs-Taiwan .path3:before {
+  content: "\ea82";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Taiwan .path4:before {
+  content: "\ea83";
+  margin-left: -1em;
+  color: rgb(0, 83, 135);
+}
+.icon-cs-Taiwan .path5:before {
+  content: "\ea84";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Taiwan .path6:before {
+  content: "\ea85";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-Turkey .path1:before {
+  content: "\ea86";
+  color: rgb(243, 25, 48);
+}
+.icon-cs-Turkey .path2:before {
+  content: "\ea87";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Turkey .path3:before {
+  content: "\ea88";
+  margin-left: -1em;
+  color: rgb(243, 24, 48);
+}
+.icon-cs-Turkey .path4:before {
+  content: "\ea89";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-Turkey .path5:before {
+  content: "\ea8a";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-UK .path1:before {
+  content: "\ea8b";
+  color: rgb(0, 0, 102);
+}
+.icon-cs-UK .path2:before {
+  content: "\ea8c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-UK .path3:before {
+  content: "\ea8d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-UK .path4:before {
+  content: "\ea8e";
+  margin-left: -1em;
+  color: rgb(204, 0, 0);
+}
+.icon-cs-UK .path5:before {
+  content: "\ea8f";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-USA .path1:before {
+  content: "\ea90";
+  color: rgb(189, 61, 68);
+}
+.icon-cs-USA .path2:before {
+  content: "\ea91";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-USA .path3:before {
+  content: "\ea92";
+  margin-left: -1em;
+  color: rgb(25, 47, 93);
+}
+.icon-cs-USA .path4:before {
+  content: "\ea93";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cs-USA .path5:before {
+  content: "\ea94";
+  margin-left: -1em;
+  color: rgb(215, 215, 215);
+}
+.icon-cs-Alabama:before {
+  content: "\e900";
+  color: #e7e7e7;
+}
+.icon-cs-Alaska:before {
+  content: "\e901";
+  color: #e7e7e7;
+}
+.icon-cs-Arizona:before {
+  content: "\e902";
+  color: #e7e7e7;
+}
+.icon-cs-Arkansas:before {
+  content: "\e903";
+  color: #e7e7e7;
+}
+.icon-cs-California:before {
+  content: "\e904";
+  color: #e7e7e7;
+}
+.icon-cs-Colorado:before {
+  content: "\e905";
+  color: #e7e7e7;
+}
+.icon-cs-Connecticut:before {
+  content: "\e906";
+  color: #e7e7e7;
+}
+.icon-cs-Delaware:before {
+  content: "\e907";
+  color: #e7e7e7;
+}
+.icon-cs-Florida:before {
+  content: "\e908";
+  color: #e7e7e7;
+}
+.icon-cs-Georgia:before {
+  content: "\e909";
+  color: #e7e7e7;
+}
+.icon-cs-Hawaii:before {
+  content: "\e90a";
+  color: #e7e7e7;
+}
+.icon-cs-Idaho:before {
+  content: "\e90b";
+  color: #e7e7e7;
+}
+.icon-cs-Illinois:before {
+  content: "\e90c";
+  color: #e7e7e7;
+}
+.icon-cs-Indiana:before {
+  content: "\e90d";
+  color: #e7e7e7;
+}
+.icon-cs-Iowa:before {
+  content: "\e90e";
+  color: #e7e7e7;
+}
+.icon-cs-Kansas:before {
+  content: "\e90f";
+  color: #e7e7e7;
+}
+.icon-cs-Kentucky:before {
+  content: "\e910";
+  color: #e7e7e7;
+}
+.icon-cs-Louisiana:before {
+  content: "\e911";
+  color: #e7e7e7;
+}
+.icon-cs-Maine:before {
+  content: "\e912";
+  color: #e7e7e7;
+}
+.icon-cs-Maryland:before {
+  content: "\e913";
+  color: #e7e7e7;
+}
+.icon-cs-Massachusetts:before {
+  content: "\e914";
+  color: #e7e7e7;
+}
+.icon-cs-Michigan:before {
+  content: "\e915";
+  color: #e7e7e7;
+}
+.icon-cs-Minnesota:before {
+  content: "\e916";
+  color: #e7e7e7;
+}
+.icon-cs-Mississippi:before {
+  content: "\e917";
+  color: #e7e7e7;
+}
+.icon-cs-Missouri:before {
+  content: "\e918";
+  color: #e7e7e7;
+}
+.icon-cs-Montana:before {
+  content: "\e919";
+  color: #e7e7e7;
+}
+.icon-cs-Nebraska:before {
+  content: "\e91a";
+  color: #e7e7e7;
+}
+.icon-cs-Nevada:before {
+  content: "\e91b";
+  color: #e7e7e7;
+}
+.icon-cs-New-Hampshire:before {
+  content: "\e91c";
+  color: #e7e7e7;
+}
+.icon-cs-New-Jersey:before {
+  content: "\e91d";
+  color: #e7e7e7;
+}
+.icon-cs-New-Mexico:before {
+  content: "\e91e";
+  color: #e7e7e7;
+}
+.icon-cs-New-York:before {
+  content: "\e91f";
+  color: #e7e7e7;
+}
+.icon-cs-North-Carolina:before {
+  content: "\e920";
+  color: #e7e7e7;
+}
+.icon-cs-North-Dakota:before {
+  content: "\e921";
+  color: #e7e7e7;
+}
+.icon-cs-Ohio:before {
+  content: "\e922";
+  color: #e7e7e7;
+}
+.icon-cs-Oklahoma:before {
+  content: "\e923";
+  color: #e7e7e7;
+}
+.icon-cs-Oregon:before {
+  content: "\e924";
+  color: #e7e7e7;
+}
+.icon-cs-Pennsylvania:before {
+  content: "\e925";
+  color: #e7e7e7;
+}
+.icon-cs-Rhode-Island:before {
+  content: "\e926";
+  color: #e7e7e7;
+}
+.icon-cs-South-Carolina:before {
+  content: "\e927";
+  color: #e7e7e7;
+}
+.icon-cs-South-Dakota:before {
+  content: "\e928";
+  color: #e7e7e7;
+}
+.icon-cs-Tennessee:before {
+  content: "\e929";
+  color: #e7e7e7;
+}
+.icon-cs-Texas:before {
+  content: "\e92a";
+  color: #e7e7e7;
+}
+.icon-cs-Utah:before {
+  content: "\e92b";
+  color: #e7e7e7;
+}
+.icon-cs-Vermont:before {
+  content: "\e92c";
+  color: #e7e7e7;
+}
+.icon-cs-Virginia:before {
+  content: "\e92d";
+  color: #e7e7e7;
+}
+.icon-cs-Washington:before {
+  content: "\e92e";
+  color: #e7e7e7;
+}
+.icon-cs-West-Virginia:before {
+  content: "\e92f";
+  color: #e7e7e7;
+}
+.icon-cs-Wisconsin:before {
+  content: "\e930";
+  color: #e7e7e7;
+}
+.icon-cs-Wyoming:before {
+  content: "\e931";
+  color: #e7e7e7;
+}

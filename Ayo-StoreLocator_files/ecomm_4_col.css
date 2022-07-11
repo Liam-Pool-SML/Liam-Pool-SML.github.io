@@ -1,0 +1,52 @@
+/*
+These are styles specific to the 4 column eComm templates only. The main style sheet for all Lite locators exists in /templates/lite-dependencies/ecomm.css. Styles from the main file can be overwritten here if needed.
+*/
+.ecomm_modal .ecomm_modal_retailer_sub_img_count_holder,
+.ecomm_modal .ecomm_modal_product_holder,
+.ecomm_modal .ecomm_modal_list_item_holder {
+  width: calc(100% / 4);
+  height: 250px;
+}
+.ecomm_modal .ecomm_modal_retailer_sub_img_count_holder {
+  height: auto;
+}
+.ecomm_modal .ecomm_modal_product_holder,
+.ecomm_modal .ecomm_modal_list_item_holder {
+  height: 325px;
+}
+.ecomm_modal .ecomm_modal_list_big_img_holder {
+  height: 150px;
+  min-height: 120px;
+}
+.ecomm_modal .ecomm_modal_list_sm_img {
+  max-height: 150px;
+}
+.ecomm_modal .ecomm_modal_retailer_sub_img,
+.ecomm_modal .ecomm_modal_list_retailer_img {
+  max-height: 192px;
+  max-width: 300px;
+}
+.ecomm_modal .ecomm_modal_retailer_sub_count {
+  padding: 20px 0px 35px 0px;
+}
+@media (max-width: 960px) {
+  .ecomm_modal .ecomm_modal_product_holder,
+  .ecomm_modal .ecomm_modal_list_item_holder {
+    width: calc(100% / 3);
+  }
+}
+@media (max-width: 680px) {
+  .ecomm_modal .ecomm_modal_retailer_sub_img_count_holder,
+  .ecomm_modal .ecomm_modal_product_holder,
+  .ecomm_modal .ecomm_modal_list_item_holder {
+    width: calc(100% / 2);
+  }
+}
+@media (max-width: 550px) {
+  .ecomm_modal .ecomm_modal_retailer_sub_img_count_holder {
+    width: calc(100% / 2);
+  }
+  .ecomm_modal .ecomm_modal_list_sm_img {
+    max-height: 100px;
+  }
+}

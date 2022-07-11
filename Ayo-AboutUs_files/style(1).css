@@ -1,0 +1,224 @@
+body,
+html {
+  -webkit-overflow-scrolling: touch;
+  -webkit-transform: translateZ(0);
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0
+}
+a,
+img {
+  outline: none;
+  border: 0;
+}
+.panel_1,
+.panel_2,
+.panel_3,
+.panel_4,
+.panel_5,
+.panel_0,
+#panel2LocListShell,
+.panel_2_loc_list_row {
+  -webkit-overflow-scrolling: touch;
+  -webkit-transform: translateZ(0);
+}
+/* Esri Global Styles */
+#panel2MultiMap_root,
+#panel3MultiMap_root,
+#panel4MultiMap_root {
+  width: auto !important
+}
+#panel2MultiMap_root.container div.esriPopup div.esriPopupWrapper div.sizer.content div.contentPane {
+  min-height: 115px;
+  border-radius: 5px 5px 0 0;
+}
+#panel2MultiMap_root.container div.esriPopup div.esriPopupWrapper div.sizer.content div.contentPane div {
+  padding: 0;
+}
+#panel2MultiMap_root>div.esriPopup>div.esriPopupWrapper {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+.esriPopup div.esriPopupWrapper div {
+  border: 0;
+  margin-left: 0;
+  margin-right: 0
+}
+.contentPane {
+  min-height: 95px;
+}
+.map .esriMapContainer {
+  width: 100% !important
+}
+#panel2MultiMap_root.container div.esriPopup div.esriPopupWrapper div.sizer.content {
+  border-radius: 5px 5px 0 0;
+}
+.esriPopupWrapper div.sizer div.actionsPane div.actionList,
+.esriControlsBR div.logo-med,
+.esriControlsBR span.esriAttribution,
+.esriControlsBR .logo-sm {
+  display: none;
+}
+.sizer.content {
+  width: 345px;
+}
+.new_miles .info_window_miles,
+.info_window_container .info_new_miles {
+  text-align: left;
+}
+.panel_one_puma {
+  height: 150px;
+}
+/* Loader Classes */
+#panel0 {
+  min-height: 350px;
+}
+.loader_link {
+  font-weight: 700;
+  text-decoration: none;
+  color: inherit
+}
+.loader-footer {
+  height: 16px;
+  width: 100%
+}
+.loadbar-container-v3,
+.loadbar-container-v3 * {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: none
+}
+.loadbar-container-v3 {
+  position: fixed;
+  z-index: 9999999999;
+  top: 150px;
+  left: 0;
+  right: 0;
+  width: 257px;
+  height: 186px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #eee;
+  background-color: #fff
+}
+.loadbar-container-v3 .loading-hint {
+  position: absolute;
+  bottom: 45px;
+  left: 0;
+  right: 0;
+  background: #eee;
+  height: 1px
+}
+.loadbar-container-v3 .loadbar-footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 13px;
+  font-size: 12px;
+  text-align: center;
+  color: #888
+}
+.loadbar-container-v3 .loadbar-footer a.loadbar-footer-link {
+  color: #333;
+  font-weight: 700
+}
+.loadbar-container-v3 .spinner {
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  left: 0;
+  top: 35px;
+  right: 0;
+  margin: auto;
+  animation: rotator 1.4s linear infinite
+}
+.loadbar-container-v3 .path {
+  stroke-dasharray: 187;
+  stroke-dashoffset: 0;
+  stroke: #666;
+  transform-origin: center;
+  animation: dash 1.4s ease-in-out infinite
+}
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 187
+  }
+  50% {
+    stroke-dashoffset: 46.75;
+    transform: rotate(135deg)
+  }
+  100% {
+    stroke-dashoffset: 187;
+    transform: rotate(450deg)
+  }
+}
+@keyframes rotator {
+  0% {
+    transform: rotate(0deg)
+  }
+  100% {
+    transform: rotate(270deg)
+  }
+}
+.loadbar-container-v3 .spinner-ie {
+  display: none;
+}
+/* MS IE 10-11 Support */
+@media all and (-ms-high-contrast:none) {
+  .loadbar-container-v3 .spinner {
+    display: none;
+  }
+  .loadbar-container-v3 .spinner-ie {
+    display: block;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0;
+    top: 35px;
+    right: 0;
+    margin: auto;
+    background-image: url('//cdn.destinilocators.com/cms/images/loading-bar-v3.gif');
+    background-position: center center;
+    background-size: contain;
+  }
+}
+/* MS EDGE Support */
+@supports (-ms-ime-align:auto) {
+  .loadbar-container-v3 .spinner {
+    display: none;
+  }
+  .loadbar-container-v3 .spinner-ie {
+    display: block;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0;
+    top: 35px;
+    right: 0;
+    margin: auto;
+    background-image: url('//cdn.destinilocators.com/cms/images/loading-bar-v3.gif');
+    background-position: center center;
+    background-size: contain;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .loadbar-container-v3 .spinner {
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    left: 0;
+    top: 35px;
+    right: 0;
+    margin: auto;
+    background: url(//cdn.destinilocators.com/cms/images/destini-loader-logo-v1.svg);
+    background-size: 65px 65px;
+    animation: none;
+  }
+  .loadbar-container-v3 .path {
+    display: none;
+  }
+}
