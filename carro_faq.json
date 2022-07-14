@@ -723,7 +723,11 @@
       "what is carro's phone number",
       "what is carro's phone",
       "what is carro's email",
-      "what is carro's email address"
+      "what is carro's email address",
+      "how do I get in touch with you",
+      "can I talk to human",
+      "how can I talk to a real person",
+      "I want to talk to a human agent"
     ],
     "metadata": [
       "You can call us at 6 5, 6 7 4, 6 6 5 2, or email us help at carro dot co. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
@@ -744,7 +748,8 @@
       "what time is carro open",
       "what are carro's opening hours",
       "what is carro's opening hours",
-      "what days is carro open"
+      "what days is carro open",
+      "what are your hours"
     ],
     "metadata": [
       "We are open 7 days a week! Monday to Friday 9 AM to 6 PM and 10 AM to 6 PM on Saturday and Sunday. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
@@ -762,7 +767,8 @@
       "can i use my credit card",
       "can i pay with a cheque",
       "can i pay with credit card",
-      "can i use a cheque"
+      "can i use a cheque",
+      "how can I pay"
     ],
     "metadata": [
       "We prefer cashless payment at CARRO. For example, you can use PayNow, Credit Card, NETS or Cheque. What {else |} {would you like {to know|help with} |can I {do to help you|help you with}}  ?"
