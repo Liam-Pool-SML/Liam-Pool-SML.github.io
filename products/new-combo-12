@@ -5,17 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
-    <link rel="canonical" href="new-combo-12">
+    <link rel="canonical" href="new-combo-12.html">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin><link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin><title>
       Zoe Adjoyoh - 6 pack
  &ndash; ayofoods</title>
 
     
-
+ <script
+ src="https://static.soulmachines.com/internal/widget-snippet.min.js"
+ data-sm-greeting="Welcome to Ayo Foods. Got any questions?"
+ data-sm-profile-picture="https://github.com/Liam-Pool-SML/Liam-Pool-SML.github.io/blob/main/TaiwoIcon.png?raw=true"
+ data-sm-api-key="eyJzb3VsSWQiOiJkZG5hLXNvdWxfbWFjaGluZXMtZ3JlZXRlcmF5b2FydG9mdGhlcG9zc2libGUiLCJhdXRoU2VydmVyIjoiaHR0cHM6Ly9kaC5zb3VsbWFjaGluZXMuY2xvdWQvYXBpL2p3dCIsImF1dGhUb2tlbiI6ImFwaWtleV92MV85YmE3MTZhNC02ZmE2LTRlMGUtOTQwMS03ZDY4MWQ4NGNkMTgifQ=="
+></script>
     
 
 <meta property="og:site_name" content="ayofoods">
-<meta property="og:url" content="https://shop.ayo-foods.com/products/new-combo-12">
+<meta property="og:url" content="https://shop.ayo-foods.com/products/new-combo-12.html">
 <meta property="og:title" content="Zoe Adjoyoh - 6 pack">
 <meta property="og:type" content="product">
 <meta property="og:description" content="ayofoods"><meta property="og:image" content="http://cdn.shopify.com/s/files/1/0557/0809/0505/products/ChefZoeBundle.png?v=1654784621">
@@ -68,7 +73,7 @@ window.ShopifyPay.apiHost = "shop.app\/pay";</script>
     window.addEventListener('load', asyncLoad, false);
   }
 })();</script>
-<script id="__st">var __st={"a":55708090505,"offset":-14400,"reqid":"178396e7-b634-4522-9c47-cd7f99374d75","pageurl":"shop.ayo-foods.com\/products\/new-combo-12","u":"99e33edcc42e","p":"product","rtyp":"product","rid":6842194526345};</script>
+<script id="__st">var __st={"a":55708090505,"offset":-14400,"reqid":"178396e7-b634-4522-9c47-cd7f99374d75","pageurl":"shop.ayo-foods.com\/products\/new-combo-12.html","u":"99e33edcc42e","p":"product","rtyp":"product","rid":6842194526345};</script>
 <script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
 <script>!function(o){o.addEventListener("DOMContentLoaded",function(){window.Shopify=window.Shopify||{},window.Shopify.recaptchaV3=window.Shopify.recaptchaV3||{siteKey:"6LcCR2cUAAAAANS1Gpq_mDIJ2pQuJphsSQaUEuc9"};var t=['form[action*="/contact"] input[name="form_type"][value="contact"]','form[action*="/comments"] input[name="form_type"][value="new_comment"]','form[action*="/account"] input[name="form_type"][value="customer_login"]','form[action*="/account"] input[name="form_type"][value="recover_customer_password"]','form[action*="/account"] input[name="form_type"][value="create_customer"]','form[action*="/contact"] input[name="form_type"][value="customer"]'].join(",");function n(e){e=e.target;null==e||null!=(e=function e(t,n){if(null==t.parentElement)return null;if("FORM"!=t.parentElement.tagName)return e(t.parentElement,n);for(var o=t.parentElement.action,r=0;r<n.length;r++)if(-1!==o.indexOf(n[r]))return t.parentElement;return null}(e,["/contact","/comments","/account"]))&&null!=e.querySelector(t)&&((e=o.createElement("script")).setAttribute("src","https://cdn.shopify.com/shopifycloud/storefront-recaptcha-v3/v0.6/index.js"),o.body.appendChild(e),o.removeEventListener("focus",n,!0),o.removeEventListener("change",n,!0),o.removeEventListener("click",n,!0))}o.addEventListener("click",n,!0),o.addEventListener("change",n,!0),o.addEventListener("focus",n,!0)})}(document);</script>
 <script integrity="sha256-N6F6ZjvOAMPhcD0kfZWNQQgx6eXaxFfh6aqfN0geLrU=" data-source-attribution="shopify.loadfeatures" defer="defer" src="https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-37a17a663bce00c3e1703d247d958d410831e9e5dac457e1e9aa9f37481e2eb5.js" crossorigin="anonymous"></script>
@@ -413,7 +418,7 @@ for (var attr in meta) {
     if (!hasLoggedConversion(token)) {
       setCookieIfConversion(token);
       window.ShopifyAnalytics.lib.track("Viewed Product",{"currency":"USD","variantId":40135056654473,"productId":6842194526345,"productGid":"gid:\/\/shopify\/Product\/6842194526345","name":"Zoe Adjoyoh - 6 pack","price":"67.50","sku":"","brand":"ayofoods","variant":null,"category":"","nonInteraction":true});
-      window.ShopifyAnalytics.lib.track("monorail:\/\/trekkie_storefront_viewed_product\/1.1",{"currency":"USD","variantId":40135056654473,"productId":6842194526345,"productGid":"gid:\/\/shopify\/Product\/6842194526345","name":"Zoe Adjoyoh - 6 pack","price":"67.50","sku":"","brand":"ayofoods","variant":null,"category":"","nonInteraction":true,"referer":"https:\/\/shop.ayo-foods.com\/products\/new-combo-12"});
+      window.ShopifyAnalytics.lib.track("monorail:\/\/trekkie_storefront_viewed_product\/1.1",{"currency":"USD","variantId":40135056654473,"productId":6842194526345,"productGid":"gid:\/\/shopify\/Product\/6842194526345","name":"Zoe Adjoyoh - 6 pack","price":"67.50","sku":"","brand":"ayofoods","variant":null,"category":"","nonInteraction":true,"referer":"https:\/\/shop.ayo-foods.com\/products\/new-combo-12.html"});
     }
   });
 
@@ -1100,7 +1105,7 @@ Item added to your cart</h2>
                     <input type="text"
                           class="field__input"
                           id="url"
-                          value="https://shop.ayo-foods.com/products/new-combo-12"
+                          value="https://shop.ayo-foods.com/products/new-combo-12.html"
                           placeholder="Link"
                           onclick="this.select();"
                           readonly
@@ -1181,7 +1186,7 @@ Item added to your cart</h2>
     "@context": "http://schema.org/",
     "@type": "Product",
     "name": "Zoe Adjoyoh - 6 pack",
-    "url": "https:\/\/shop.ayo-foods.com\/products\/new-combo-12",
+    "url": "https:\/\/shop.ayo-foods.com\/products\/new-combo-12.html",
     "image": [
         "https:\/\/cdn.shopify.com\/s\/files\/1\/0557\/0809\/0505\/products\/ChefZoeBundle_4096x.png?v=1654784621"
       ],
@@ -1303,7 +1308,7 @@ Item added to your cart</h2>
 
   window.mwApoInit = Object.assign({
     "version": "1.0",
-    "product": {"id":6842194526345,"title":"Zoe Adjoyoh - 6 pack","handle":"new-combo-12","description":"","published_at":"2022-03-24T23:32:34-04:00","created_at":"2022-03-24T23:32:34-04:00","vendor":"ayofoods","type":"","tags":[],"price":6750,"price_min":6750,"price_max":6750,"available":true,"price_varies":false,"compare_at_price":6750,"compare_at_price_min":6750,"compare_at_price_max":6750,"compare_at_price_varies":false,"variants":[{"id":40135056654473,"title":"Default Title","option1":"Default Title","option2":null,"option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":null,"available":true,"name":"Zoe Adjoyoh - 6 pack","public_title":null,"options":["Default Title"],"price":6750,"weight":0,"compare_at_price":6750,"inventory_management":null,"barcode":"","requires_selling_plan":false,"selling_plan_allocations":[]}],"images":["\/\/cdn.shopify.com\/s\/files\/1\/0557\/0809\/0505\/products\/ChefZoeBundle.png?v=1654784621"],"featured_image":"\/\/cdn.shopify.com\/s\/files\/1\/0557\/0809\/0505\/products\/ChefZoeBundle.png?v=1654784621","options":["Title"],"media":[{"alt":null,"id":21926466617481,"position":1,"preview_image":{"aspect_ratio":1.0,"height":4096,"width":4096,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0557\/0809\/0505\/products\/ChefZoeBundle.png?v=1654784621"},"aspect_ratio":1.0,"height":4096,"media_type":"image","src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0557\/0809\/0505\/products\/ChefZoeBundle.png?v=1654784621","width":4096}],"requires_selling_plan":false,"selling_plan_groups":[],"content":""},
+    "product": {"id":6842194526345,"title":"Zoe Adjoyoh - 6 pack","handle":"new-combo-12.html","description":"","published_at":"2022-03-24T23:32:34-04:00","created_at":"2022-03-24T23:32:34-04:00","vendor":"ayofoods","type":"","tags":[],"price":6750,"price_min":6750,"price_max":6750,"available":true,"price_varies":false,"compare_at_price":6750,"compare_at_price_min":6750,"compare_at_price_max":6750,"compare_at_price_varies":false,"variants":[{"id":40135056654473,"title":"Default Title","option1":"Default Title","option2":null,"option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":null,"available":true,"name":"Zoe Adjoyoh - 6 pack","public_title":null,"options":["Default Title"],"price":6750,"weight":0,"compare_at_price":6750,"inventory_management":null,"barcode":"","requires_selling_plan":false,"selling_plan_allocations":[]}],"images":["\/\/cdn.shopify.com\/s\/files\/1\/0557\/0809\/0505\/products\/ChefZoeBundle.png?v=1654784621"],"featured_image":"\/\/cdn.shopify.com\/s\/files\/1\/0557\/0809\/0505\/products\/ChefZoeBundle.png?v=1654784621","options":["Title"],"media":[{"alt":null,"id":21926466617481,"position":1,"preview_image":{"aspect_ratio":1.0,"height":4096,"width":4096,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0557\/0809\/0505\/products\/ChefZoeBundle.png?v=1654784621"},"aspect_ratio":1.0,"height":4096,"media_type":"image","src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0557\/0809\/0505\/products\/ChefZoeBundle.png?v=1654784621","width":4096}],"requires_selling_plan":false,"selling_plan_groups":[],"content":""},
     "cart": {"note":null,"attributes":{},"original_total_price":0,"total_price":0,"total_discount":0,"total_weight":0.0,"item_count":0,"items":[],"requires_shipping":false,"currency":"USD","items_subtotal_price":0,"cart_level_discount_applications":[],"checkout_charge_amount":0},
     "template_name": "product",
     "shop_domain": "ayofoods2021.myshopify.com",
@@ -1338,7 +1343,7 @@ Item added to your cart</h2>
   }
   const isProductPage = /^.*\/products\/[A-Za-z0-9-_%]+\/?$/i.test(window.location.pathname)
   const productHandle = isProductPage && pageProductHandle()
-  const compoundProducts = ["new-combo-2", "new-combo", "new-combo-1", "new-combo-3", "new-combo-4", "new-combo-5", "new-combo-6", "new-combo-7", "new-combo-8", "new-combo-9", "new-combo-10", "new-combo-11", "new-combo-12"]
+  const compoundProducts = ["new-combo-2.html", "new-combo.html", "new-combo-1.html", "new-combo-3.html", "new-combo-4.html", "new-combo-5.html", "new-combo-6.html", "new-combo-7.html", "new-combo-8.html", "new-combo-9.html", "new-combo-10.html", "new-combo-11.html", "new-combo-12.html"]
   if (!compoundProducts.includes(productHandle)) return
   // Override cart URL inside the selector with a localized version if necessary
   const selector = 'form[action="/cart/add"]'.replace('"/cart/add"', '"/cart/add"')
