@@ -1,0 +1,1253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><style>img.lazy{min-height:1px}</style><link rel="preload" href="wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js" as="script">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />		<title>About AYO &#8211; AYO Foods</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='https://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='https://s.w.org/' />
+<link rel="alternate" type="application/rss+xml" title="AYO Foods &raquo; Feed" href="feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="AYO Foods &raquo; Comments Feed" href="comments/feed/index.html" />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.6.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="https://www.googletagmanager.com/gtag/js?id=UA-159878347-2"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var mi_version = '8.6.0';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+				
+								var disableStrs = [
+															'ga-disable-UA-159878347-2',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for ( var index = 0; index < disableStrs.length; index++ ) {
+						if ( document.cookie.indexOf( disableStrs[ index ] + '=true' ) > -1 ) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if ( __gtagTrackerIsOptedOut() ) {
+					for ( var index = 0; index < disableStrs.length; index++ ) {
+						window[ disableStrs[ index ] ] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for ( var index = 0; index < disableStrs.length; index++ ) {
+						document.cookie = disableStrs[ index ] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[ disableStrs[ index ] ] = true;
+					}
+				}
+
+				if ( 'undefined' === typeof gaOptout ) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if ( mi_track_user ) {
+					function __gtagDataLayer() {
+						dataLayer.push( arguments );
+					}
+
+					function __gtagTracker( type, name, parameters ) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply( null, arguments );
+							return;
+						}
+
+						if ( type === 'event' ) {
+							
+															parameters.send_to = monsterinsights_frontend.ua;
+								__gtagDataLayer( type, name, parameters );
+													} else {
+							__gtagDataLayer.apply( null, arguments );
+						}
+					}
+					__gtagTracker( 'js', new Date() );
+					__gtagTracker( 'set', {
+						'developer_id.dZGIzZG' : true,
+											} );
+															__gtagTracker( 'config', 'UA-159878347-2', {"forceSSL":"true","link_attribution":"true"} );
+										window.gtag = __gtagTracker;											(function () {
+							/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+							/* ga and __gaTracker compatibility shim. */
+							var noopfn = function () {
+								return null;
+							};
+							var newtracker = function () {
+								return new Tracker();
+							};
+							var Tracker = function () {
+								return null;
+							};
+							var p = Tracker.prototype;
+							p.get = noopfn;
+							p.set = noopfn;
+							p.send = function (){
+								var args = Array.prototype.slice.call(arguments);
+								args.unshift( 'send' );
+								__gaTracker.apply(null, args);
+							};
+							var __gaTracker = function () {
+								var len = arguments.length;
+								if ( len === 0 ) {
+									return;
+								}
+								var f = arguments[len - 1];
+								if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+									if ( 'send' === arguments[0] ) {
+										var hitConverted, hitObject = false, action;
+										if ( 'event' === arguments[1] ) {
+											if ( 'undefined' !== typeof arguments[3] ) {
+												hitObject = {
+													'eventAction': arguments[3],
+													'eventCategory': arguments[2],
+													'eventLabel': arguments[4],
+													'value': arguments[5] ? arguments[5] : 1,
+												}
+											}
+										}
+										if ( 'pageview' === arguments[1] ) {
+											if ( 'undefined' !== typeof arguments[2] ) {
+												hitObject = {
+													'eventAction': 'page_view',
+													'page_path' : arguments[2],
+												}
+											}
+										}
+										if ( typeof arguments[2] === 'object' ) {
+											hitObject = arguments[2];
+										}
+										if ( typeof arguments[5] === 'object' ) {
+											Object.assign( hitObject, arguments[5] );
+										}
+										if ( 'undefined' !== typeof arguments[1].hitType ) {
+											hitObject = arguments[1];
+											if ( 'pageview' === hitObject.hitType ) {
+												hitObject.eventAction = 'page_view';
+											}
+										}
+										if ( hitObject ) {
+											action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+											hitConverted = mapArgs( hitObject );
+											__gtagTracker( 'event', action, hitConverted );
+										}
+									}
+									return;
+								}
+
+								function mapArgs( args ) {
+									var arg, hit = {};
+									var gaMap = {
+										'eventCategory': 'event_category',
+										'eventAction': 'event_action',
+										'eventLabel': 'event_label',
+										'eventValue': 'event_value',
+										'nonInteraction': 'non_interaction',
+										'timingCategory': 'event_category',
+										'timingVar': 'name',
+										'timingValue': 'value',
+										'timingLabel': 'event_label',
+										'page' : 'page_path',
+										'location' : 'page_location',
+										'title' : 'page_title',
+									};
+									for ( arg in args ) {
+																				if ( ! ( ! args.hasOwnProperty(arg) || ! gaMap.hasOwnProperty(arg) ) ) {
+											hit[gaMap[arg]] = args[arg];
+										} else {
+											hit[arg] = args[arg];
+										}
+									}
+									return hit;
+								}
+
+								try {
+									f.hitCallback();
+								} catch ( ex ) {
+								}
+							};
+							__gaTracker.create = newtracker;
+							__gaTracker.getByName = newtracker;
+							__gaTracker.getAll = function () {
+								return [];
+							};
+							__gaTracker.remove = noopfn;
+							__gaTracker.loaded = true;
+							window['__gaTracker'] = __gaTracker;
+						})();
+									} else {
+										console.log( "" );
+					( function () {
+							function __gtagTracker() {
+								return null;
+							}
+							window['__gtagTracker'] = __gtagTracker;
+							window['gtag'] = __gtagTracker;
+					} )();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+				<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/ayo-foods.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.4"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='wp-includes/css/dist/block-library/style.min.css?ver=5.8.4' type='text/css' media='all' />
+<style id='wp-block-library-theme-inline-css' type='text/css'>
+#start-resizable-editor-section{display:none}.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-code{font-family:Menlo,Consolas,monaco,monospace;color:#1e1e1e;padding:.8em 1em;border:1px solid #ddd;border-radius:4px}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-group.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto;opacity:.4}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{padding:.5em;border:1px solid;word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}#end-resizable-editor-section{display:none}
+</style>
+<link rel='stylesheet' id='font-awesome-css'  href='wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='uaf_client_css-css'  href='wp-content/uploads/useanyfont/uaf.css?ver=1655861592' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.15.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.6.6' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-1383-css'  href='wp-content/uploads/elementor/css/post-1383.css?ver=1655861551' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-pro-css'  href='wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-global-css'  href='wp-content/uploads/elementor/css/global.css?ver=1655861570' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-1646-css'  href='wp-content/uploads/elementor/css/post-1646.css?ver=1655866438' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-1962-css'  href='wp-content/uploads/elementor/css/post-1962.css?ver=1655861571' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-1890-css'  href='wp-content/uploads/elementor/css/post-1890.css?ver=1655861571' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-1624-css'  href='wp-content/uploads/elementor/css/post-1624.css?ver=1655861572' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-1636-css'  href='wp-content/uploads/elementor/css/post-1636.css?ver=1655861572' type='text/css' media='all' />
+<link rel='stylesheet' id='wpcw-css'  href='wp-content/plugins/contact-widgets/assets/css/style.min.css?ver=1.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='hook_main_style-css'  href='wp-content/themes/hook/css/main-lt.css?ver=1626938550' type='text/css' media='all' />
+<style id='hook_main_style-inline-css' type='text/css'>
+html {font-size:18px;}body,.regular_font,input,textarea {font-family:'Lato', sans-serif;}#calendar_wrap caption,.header_font,.sod_select,.vc_tta-tabs-list,.vc_tta-accordion .vc_tta-panel-heading {font-family:'Lato', sans-serif;}.hook_blog_uppercased {text-transform:uppercase;}.colored_theme_button,.theme_button,.colored_theme_button input,.theme_button input,.ghost_theme_button,.vc_btn,.prk_button_like {
+                font-family:'Lato', sans-serif;}.hook_drop_cap>div>p:first-child::first-letter {font-size:52px;}#hook_comments,.prk_inner_block,.woocommerce-notices-wrapper
+         {max-width: 1352px;}.blog_limited_width {max-width: 1080px;}#hook_header_background,#hook_header_inner,#hook_header_inner>div,#hook_main_menu .hook-mn>li,#hook_main_menu,#hook_side_menu,#hook_mm_inner {height:92px;}#hook_main_menu .hook-mn>li>a {height:92px;line-height:92px;}.prk_menu_sized,.hook-mn {font-style:normal;letter-spacing:1px;}.prk_menu_sized>li>a,.hook-mn>li>a {font-weight:600;font-size:14px;}.mobile-menu-ul {font-weight:600;}#hook_main_menu .hook-mn>li>a .hook_menu_main {margin-top:0px;}.hook-mn>li>a,#prk_menu_loupe,#menu_social_nets>a,#hook_extra_bar,#hook_extra_bar ul>li a,#hook_extra_bar ul>li a:hover {color:#FFFFFF;}.hook-mn>li>a:hover,#prk_menu_loupe:hover,#menu_social_nets>a:hover,.hook-mn>li.active>a {color:#ffffff;}.hook-mn .sub-menu {border: 1px solid #212121;}.hook-mn .sub-menu li {border-bottom: 1px solid #212121;}.hook-mn .sub-menu li a {font-weight:400;font-size:12px;height:40px;line-height:40px;color:#FFFFFF;background-color:#141414}.hook-mn>li.hook_actionized>a:hover:after {background-color:#FFFFFF;}#hook_main_menu .hook_hover_sub.menu-item-has-children>a:before {background-color: #12b2cb;}.hook-mn .sub-menu li>a:hover {color:#12b2cb;}.hook_menu_sub {font-style:italic;font-weight:400;font-size:10px;top:36px;color:#a8a8a8;}.hook_forced_menu #hook_ajax_container {margin-top:92px;}#hook_header_background {background-color: #141414;background-color:rgba(20, 20, 20 ,0);}#hook_logos_wrapper {margin-top:39px;}.prk_menu_block {background-color: #FFFFFF;}#prk_sidebar_trigger.hover_trigger .prk_menu_block {background-color: #12b2cb;}.hook_forced_menu #hook_logos_wrapper {margin-top:26px;}.hook_hide_nav #hook_header_section,.hook_hide_nav #hook_header_background {margin-top:-92px;}#hook_content.hook_error404 {padding-top: 128px;}#menu_social_nets {margin-top: -14px;}#prk_blocks_wrapper {top:46px;}.hook-mn a {padding-left:14px;padding-right:14px;}.hook-mn .sub-menu a {padding-right:42px;}.hook_actionized {padding-left:14px;}.st_logo_on_left #hook_logos_wrapper {margin-right:28px;}.st_logo_on_right #hook_logos_wrapper {margin-left:28px;}.st_menu_on_right .hook-mn>li.menu-item-has-children:last-child>a {margin-right:-14px;}.st_menu_on_left .hook-mn>li.menu-item-has-children:first-child>a {margin-left:-14px;}.st_menu_on_right .hook-mn>li:last-child>a:before {right:-14px;};.st_menu_on_left .hook-mn>li:first-child>a:before {left:-14px;}.hook_forced_menu #hook_main_menu .hook-mn>li>a,.hook_collapsed_menu#hook_main_menu .hook-mn>li>a,.hook_collapsed_menu#prk_menu_loupe,.hook_forced_menu #prk_menu_loupe,.hook_collapsed_menu#menu_social_nets>a,.hook_forced_menu #menu_social_nets>a {color:#FFFFFF;}.hook_forced_menu #hook_main_menu .hook-mn>li>a:hover,.hook_collapsed_menu #hook_main_menu .hook-mn>li>a:hover,.hook_collapsed_menu #prk_menu_loupe:hover,.hook_forced_menu #prk_menu_loupe:hover,.hook_collapsed_menu #menu_social_nets>a:hover,.hook_forced_menu #menu_social_nets>a:hover,.hook_collapsed_menu #hook_main_menu .hook-mn>li.active>a,.hook_forced_menu #hook_main_menu .hook-mn>li.active>a {color:#12b2cb;}.hook_collapsed_menu#hook_header_background,#hook_header_inner.hook_collapsed_menu,.hook_collapsed_menu#hook_header_inner>div,.hook_collapsed_menu#hook_main_menu .hook-mn>li,.hook_collapsed_menu#nav-main,.hook_collapsed_menu#hook_main_menu,.hook_collapsed_menu#hook_side_menu,.menu_at_top #hook_header_background,.menu_at_top #hook_header_inner,.menu_at_top #hook_header_inner>div,.hook_collapsed_menu #hook_mm_inner,.menu_at_top .hook_collapsed_menu#hook_header_background {height:72px;}.menu_at_top #hook_logos_wrapper {max-height:72px;}.menu_at_top #hook_logo_after img {max-height:52px;}.menu_at_top #hook_ajax_container {margin-top: 72px;}.hook_collapsed_menu#hook_main_menu .hook-mn>li>a {height:72px;line-height:72px;}.hook_forced_menu #hook_header_background, .hook_collapsed_menu#hook_header_background,.menu_at_top #hook_header_background {background-color: #141414;background-color:rgba(20, 20, 20 ,1);}.hook_collapsed_menu .prk_menu_block, .hook_forced_menu .prk_menu_block,.menu_at_top .prk_menu_block,.hook_forced_menu #hook_main_menu .hook-mn>li.hook_actionized>a:hover:after,.hook_collapsed_menu #hook_main_menu .hook-mn>li.pls_actionized>a:hover:after {background-color: #FFFFFF;}.hook_collapsed_menu #hook_logos_wrapper,.hook_collapsed_menu.hook_forced_menu #hook_logos_wrapper,.menu_at_top #hook_logos_wrapper {margin-top:16px;}.hook_collapsed_menu #prk_sidebar_trigger.hover_trigger .prk_menu_block,.hook_forced_menu #prk_sidebar_trigger.hover_trigger .prk_menu_block {background-color:#12b2cb}.hook_collapsed_menu #prk_blocks_wrapper,.menu_at_top #prk_blocks_wrapper {top:36px;}.prk_menu_block:after,.hook-mn>li>a .hook_menu_main:before,.hook-mn>li>a .hook_menu_main:after {background-color: #ffffff;}.hook_collapsed_menu .prk_menu_block:after, .hook_forced_menu .prk_menu_block:after,.hook_collapsed_menu .hook-mn>li>a .hook_menu_main:before,.hook_collapsed_menu .hook-mn>li>a .hook_menu_main:after, .hook_forced_menu .hook-mn>li>a .hook_menu_main:before,.hook_forced_menu .hook-mn>li>a .hook_menu_main:after, .menu_at_top .prk_menu_block:after {background-color: #12b2cb;}#hook_header_background {border-bottom:1px solid rgba(20, 20, 20 ,0);}#hook_side_menu {border-color: rgba(20, 20, 20 ,0);}.st_menu_on_right #hook_side_menu {padding-left: 28px;}.st_menu_on_left #hook_side_menu {padding-right: 28px;}.hook_forced_menu #hook_header_background, #hook_header_background.hook_collapsed_menu,.menu_at_top #hook_header_background {border-bottom:1px solid rgba(20, 20, 20 ,1);}.hook_forced_menu #hook_side_menu, .hook_collapsed_menu #hook_side_menu {border-color: rgba(20, 20, 20 ,1);}#prk_mobile_bar {border-left: 1px solid rgba(20, 20, 20 ,1);}#prk_hidden_menu a,#prk_hidden_menu {color:#000000;}.hook_showing_menu #prk_hidden_menu a:hover {color:#000000;}.hook_showing_menu .prk_menu_block, .hook_showing_menu .prk_menu_block:after {background-color:#000000;}.hook_theme.hook_showing_menu #hook_header_background,.hook_theme.hook_showing_menu #hook_header_inner,.hook_theme.hook_showing_menu #hook_header_inner>div,.hook_theme.hook_showing_menu #hook_main_menu .hook-mn>li,.hook_theme.hook_showing_menu #hook_main_menu {height:92px;}.hook_theme.hook_showing_menu #hook_main_menu .hook-mn>li>a {height:92px;line-height:92px;}.hook_theme.hook_showing_menu #hook_logos_wrapper {margin-top:39px;}.hook_showing_menu #body_hider {background-color:rgba(51, 48, 56 ,0.95);}#hook_loader_block {background-color:#f7f7f7;}#hook_hidden_portfolio {background-color:#FFFFFF;}#prk_footer_wrapper {background-color:#1b1b1b;}#prk_footer_sidebar,#prk_after_widgets {font-size:13px;}#prk_footer_sidebar .simple_line {border-bottom-color: rgba(255, 255, 255 ,0.2);}#prk_footer_sidebar table {border-top-color: rgba(255, 255, 255 ,0.2);}#prk_footer_sidebar table {border-left-color: rgba(255, 255, 255 ,0.2);}#prk_footer_sidebar .pirenko_highlighted,#hook_main_wrapper #prk_footer_sidebar .tagcloud a, #hook_main_wrapper #prk_footer_sidebar #wp-calendar th, #hook_main_wrapper #prk_footer_sidebar #wp-calendar td {border-color: rgba(255, 255, 255 ,0.2);}#prk_footer_sidebar ::-webkit-input-placeholder {color: #ffffff;}#prk_footer_sidebar :-moz-placeholder {color: #ffffff;}#prk_footer_sidebar ::-moz-placeholder {color: #ffffff;}#prk_footer_sidebar :-ms-input-placeholder {color: #ffffff;}#prk_footer_sidebar .zero_color,#prk_footer_sidebar a.zero_color,#prk_footer_sidebar .zero_color a,#hook_main_wrapper #prk_footer .prk_twt_body .twt_in a.body_colored,#prk_footer_sidebar a.twitter_time,#prk_footer_sidebar .prk_recent_tweets .prk_twt_author {color:#ffffff;}#prk_footer_sidebar,#prk_footer_sidebar button i,#prk_footer_sidebar a,#prk_after_widgets,#prk_footer_sidebar #prk_after_widgets a,#prk_footer_sidebar .pirenko_highlighted,#prk_footer_wrapper .small_headings_color,#hook_main_wrapper #prk_footer_sidebar .tagcloud a,#hook_main_wrapper #prk_footer_sidebar a.body_colored {color:#ffffff;}#prk_after_widgets {background-color:#141414;}#search_hider {background-color:#111111;}#searchform_top .pirenko_highlighted {color:#ffffff;}#top_form_close .mfp-close_inner:before, #top_form_close .mfp-close_inner:after {background-color:#ffffff;}#searchform_top ::-webkit-input-placeholder {color: #ffffff;}#searchform_top :-moz-placeholder {color: #ffffff;}#searchform_top ::-moz-placeholder {color: #ffffff;}#searchform_top :-ms-input-placeholder {color: #ffffff;}#hook_main_wrapper #searchform_top .pirenko_highlighted:focus {color:#ffffff;}#prk_hidden_menu a:hover,#top_form_close:hover {color:#fec45e;}.sticky_hook #hook_sticky_menu {top:72px;}#hook_sticky_menu {background-color: #000000;color:#ffffff;}#hook_sticky_menu a {color:#ffffff;}#hook_sticky_menu .prk_lf {border-right: 1px solid rgba(255, 255, 255 ,0.3)}#hook_sticky_menu .sharrre {border-left: 1px solid rgba(255, 255, 255 ,0.3)}#dotted_navigation li:before {background-color: #FFFFFF}#dotted_navigation li>a {color: #fec45e}#dotted_navigation li:hover:before {background-color: #fec45e}.blog_info_wrapper, .blog_info_wrapper .zero_color, .blog_info_wrapper .zero_color a, .blog_info_wrapper a.zero_color, .hook_featured_header #single_blog_info,.hook_featured_header #single_blog_info .zero_color, .hook_featured_header #single_blog_info .small_headings_color,.hook_featured_header #single_blog_info .small_headings_color a {color:#000000;}.topped_content.vertical_forced_row>.columns>div {padding-top:92px;}.hook_featured_header #single_blog_info .theme_button a {border-color:#000000;}.page-prk-blog-masonry .blog_entry_li .masonry_inner, .page-prk-blog-full .blog_entry_li {background-color:#FFFFFF;}.body_bk_color,.hook_thumb_tag,.folio_always_title_and_skills.hk_ins .prk_ttl .body_bk_color, .folio_always_title_only.hk_ins .prk_ttl .body_bk_color,.body_bk_color a,.body_bk_color a:hover {color:#ffffff;}.hook_vertical_folio .ghost_theme_button>span {color:#ffffff !important;border-color:#ffffff !important;}.hook_vertical_folio .ghost_theme_button:hover>span {background-color:#000000 !important;color:#ffffff !important;}.hook_panels_bk {background-color:#ffffff;}.grid_colored_block,.hk_ins .centerized_child .grid_single_title {background-color: rgba(17, 17, 17 ,0.6);}.prk_grid-button .prk_grid {background: #ffffff;color: #ffffff;}.hook_thumb_tag,.hook-globe .bg_shifter {background-color:#fec45e;}.colored_theme_button input,.colored_theme_button a,.theme_button input,.theme_button a,.ghost_theme_button a,.ghost_theme_button>span {text-transform:uppercase;}.colored_theme_button input,.colored_theme_button a,.theme_button input,.theme_button a,.ghost_theme_button a,.ghost_theme_button>span {-webkit-border-radius: 20px;border-radius: 20px;border-width: 1px;color:#FFFFFF;letter-spacing:1px;}.theme_button input,.theme_button a,.theme_button.hook_button_off a:hover {background-color:#f2664a;border-color:#f2664a;}.theme_button input:before,.theme_button a:before,#single_blog_info .theme_button a:before,.ghost_theme_button a:before,.ghost_theme_button>span:before {background-color:#fec45e;border-color:#fec45e;}.colored_theme_button input,.colored_theme_button a,.prk_minimal_button span.current,.theme_button .wpcf7-submit:hover {background-color:#fec45e;border-color:#fec45e;}.colored_theme_button input:before,.colored_theme_button a:before {background-color:#f2664a;border-color:#f2664a;}.prk_buttons_list .theme_button a,.tagcloud a {background-color:transparent;border-color:#efefef;color:#808080}.prk_buttons_list .theme_button a:hover,.tagcloud a:hover {border-color:#fec45e;color:#fec45e}.ghost_theme_button a,.ghost_theme_button>span {border-color:#f2664a;color:#f2664a}.ghost_theme_button a:hover,.ghost_theme_button>span:hover {color:#ffffff;border-color:#fec45e;}.ghost_theme_button.colored a,.social_img_wrp.hook_envelope-o {border-color:#fec45e;color:#fec45e}.ghost_theme_button.colored a:hover {color:#FFFFFF;background-color:#fec45e;}.theme_button a:hover,.colored_theme_button a:hover,#prk_footer_sidebar .tagcloud a:hover {color:#FFFFFF}body,#hook_ajax_container,.hook_bk_site,.hook_theme .mfp-bg,.featured_owl,.sod_select:after,.sod_select,.sod_select .sod_list_wrapper,.folio_always_title_only .centerized_father, .folio_always_title_and_skills .centerized_father,.single_comment,#hook_sidebar .hook_swrapper .pirenko_highlighted {background-color:#ffffff;}body,.body_colored,.body_colored a,a.body_colored {color:#808080;}.zero_color,a.zero_color,.zero_color a,.vc_tta-accordion a,.vc_tta-accordion a:hover,.hook_folio_filter ul li a:hover, .hook_blog_filter ul li a:hover,.hook_folio_filter ul li.active a, .hook_blog_filter ul li.active a,.folio_always_title_and_skills .prk_ttl .body_bk_color,.folio_always_title_only .prk_ttl .body_bk_color {color:#000000;}a,a:hover, #prk_hidden_bar a:hover,a.small_headings_color:hover,.small_headings_color a:hover,a.zero_color:hover,.zero_color a:hover,.small_headings_color a.not_zero_color,.not_zero_color,#prk_footer_sidebar a:hover,#prk_after_widgets a:hover,#hook_main_wrapper #prk_footer .prk_twt_body .twt_in a.body_colored:hover,#hook_main_wrapper .prk_twt_ul i:hover,.high_search .hook_lback i,.hook_page_twt .zero_color,.hook_page_twt a.zero_color,.elementor-widget-container .prk_recent_tweets .zero_color,.elementor-widget-container .prk_recent_tweets a.zero_color {color:#fec45e;}.prk_caption,.prk_button_like,.hook_envelope-o .bg_shifter {background-color:#fec45e;color:#ffffff}#prk_spinner {border-top-color:#111111;}#prk_spinner:before {border-top-color:#12b2cb;}#prk_spinner:after {border-top-color:#686868;}#prk_spinner,.rectangle-bounce,.ball-triangle-path>div {filter: alpha(opacity=70);opacity:0.7;}.site_background_colored a,a.site_background_colored,.site_background_colored,.owl-numbers,.prk_minimal_button span.current,.wp-block-cover-image .wp-block-subhead:not(.has-text-color), .wp-block-cover-image h1:not(.has-text-color), .wp-block-cover-image h2:not(.has-text-color), .wp-block-cover-image h3:not(.has-text-color), .wp-block-cover-image h4:not(.has-text-color), .wp-block-cover-image h5:not(.has-text-color), .wp-block-cover-image h6:not(.has-text-color), .wp-block-cover-image p:not(.has-text-color), .wp-block-cover .wp-block-subhead:not(.has-text-color), .wp-block-cover h1:not(.has-text-color), .wp-block-cover h2:not(.has-text-color), .wp-block-cover h3:not(.has-text-color), .wp-block-cover h4:not(.has-text-color), .wp-block-cover h5:not(.has-text-color), .wp-block-cover h6:not(.has-text-color), .wp-block-cover p:not(.has-text-color) {color:#ffffff}a.small_headings_color,.small_headings_color a,.small_headings_color,.sod_select.open:before,.sod_select .sod_option.selected:before,.sod_select.open,.folio_always_title_and_skills .inner_skills.body_bk_color {color:#3e3e3e;}.sod_select .sod_option.active {background-color:rgba(62, 62, 62 ,0.15);}.blog_fader_grid {background-color:rgba(17, 17, 17 ,0.6)}.hook_theme .prk_sharrre_wrapper .prk_sharrre_email a {background-color:#fec45e;}#wp-calendar th,#wp-calendar td,.simple_line,.hook_theme .testimonials_stack .item,.prk_bordered_bottom,.prk_vc_title:before,.prk_vc_title:after,th,td {border-bottom: 1px solid #efefef;}ol.commentlist .single_comment,.prk_bordered_top,table {border-top: 1px solid #efefef;}.prk_bordered_right,th,td,.prk_lefty #hook_sidebar {border-right: 1px solid #efefef;}.prk_lefty .prk_bordered_right {border-left: 1px solid #efefef;}.prk_bordered_left,table {border-left: 1px solid #efefef;}.prk_bordered,.prk_minimal_button a, .prk_minimal_button span, .prk_minimal_button input {border: 1px solid #efefef;}#in_touch:before {background-color: #efefef;}.hook_vd_thumb {border-color: #808080;}.sod_select,.sod_select:hover,.sod_select.open,.sod_select .sod_list_wrapper {border: 1px solid #efefef;}.pirenko_highlighted {border: 1px solid #efefef;background-color:#f2f2f2;color:#808080;}#top_form_close,#searchform_top .pirenko_highlighted,.elementor-widget-container .prk_recent_tweets .owl-carousel .owl-nav i, .hook_page_twt .prk_recent_tweets .owl-carousel .owl-nav i {color:#ffffff;}.pirenko_highlighted::-webkit-input-placeholder {color: #808080;}.pirenko_highlighted:-moz-placeholder {color: #808080;}.pirenko_highlighted::-moz-placeholder {color: #808080;}.pirenko_highlighted:-ms-input-placeholder {color: #808080;}#hook_main_wrapper .pirenko_highlighted:focus::-webkit-input-placeholder {color: #fec45e;}#hook_main_wrapper .pirenko_highlighted:focus:-moz-placeholder {color: #fec45e;}#hook_main_wrapper .pirenko_highlighted:focus::-moz-placeholder {color: #fec45e;}#hook_main_wrapper .pirenko_highlighted:focus:-ms-input-placeholder {color: #fec45e;}#hook_main_wrapper .hook_swrapper .pirenko_highlighted:focus::-webkit-input-placeholder {color: #000000;}#hook_main_wrapper .hook_swrapper .pirenko_highlighted:focus:-moz-placeholder {color: #000000;}#hook_main_wrapper .hook_swrapper .pirenko_highlighted:focus::-moz-placeholder {color: #000000;}#hook_main_wrapper .hook_swrapper .pirenko_highlighted:focus:-ms-input-placeholder {color: #000000;}.hook_button_in .pirenko_highlighted {color:#efefef;}.hook_button_in .pirenko_highlighted::-webkit-input-placeholder {color: #efefef;}.hook_button_in .pirenko_highlighted:-moz-placeholder {color: #efefef;}.hook_button_in .pirenko_highlighted::-moz-placeholder {color: #efefef;}.hook_button_in .pirenko_highlighted:-ms-input-placeholder {color: #efefef;}.prk_blockquote.plain {border-left-color: #fec45e;}#hook_sidebar .hook_titled.simple_line {border-bottom-color: #fec45e;}#hook_main_wrapper .pirenko_highlighted:focus {border-color:rgba(254, 196, 94 ,0.65);background-color:rgba(242, 242, 242 ,0.95);color:#fec45e;}#hook_main_wrapper .pirenko_highlighted.hook_plain:focus {border: 1px solid #efefef;background-color:#f2f2f2;color:#808080;}.hook_theme .vc_progress_bar .vc_single_bar {background-color:#f2f2f2;}.archive.author .prk_author_avatar img {border:6px solid #ffffff;}.hook_theme .prk_sharrre_wrapper .prk_sharrre_email,#hook_heading_line,.hook-globe {border-color: #fec45e;}.prk_blockquote.hook_active_colored .in_quote:after {border-color: rgba(0,0,0,0) rgba(0,0,0,0) #ffffff rgba(0,0,0,0);}.vc_tta-tabs .vc_tta-tabs-list li {background-color:rgba(239, 239, 239 ,0.4);}.vc_tta-tabs .vc_tta-tabs-list li a{color:#808080;}.hook_numbered .vc_tta-panels .vc_tta-panel .vc_tta-panel-heading:before{color:#fec45e;}.vc_tta-tabs .vc_tta-tabs-list li.vc_active a,.hook_theme .vc_tta-tabs .vc_tta-tabs-list li:hover a, .vc_tta-accordion .vc_tta-panel.vc_active .vc_tta-panel-heading a {color:#fec45e;}.vc_tta-tabs-container .vc_tta-tabs-list li, .vc_tta-panels .vc_tta-panel-body {border:1px solid #efefef;}.vc_tta-accordion .vc_tta-panels .vc_tta-panel-body {border-left:1px solid #efefef;border-right:1px solid #efefef;}.vc_tta-panels-container .vc_tta-panel:last-child .vc_tta-panel-body,.vc_tta-accordion .vc_tta-panel-heading,.hook_el_style .elementor-toggle .elementor-tab-content,.hook_el_style .elementor-toggle .elementor-tab-title {border-bottom:1px solid #efefef;}.vc_tta-accordion .vc_tta-panels .vc_tta-panel:first-child .vc_tta-panel-heading,.hook_el_style .elementor-toggle .elementor-toggle-item:first-child .elementor-tab-title {border-top:1px solid #efefef;}.vc_tta-container .vc_tta-tabs-list .vc_tta-tab.vc_active,.vc_tta-container .vc_tta-tabs-list .vc_tta-tab:hover,.vc_tta-panels .vc_tta-panel {background-color:#f2f2f2;}.vc_tta-tabs.vc_tta-tabs-position-top .vc_tta-tabs-container .vc_tta-tabs-list li.vc_active {border-bottom:1px solid #f2f2f2;}.vc_tta-tabs.vc_tta-tabs-position-bottom .vc_tta-tabs-container .vc_tta-tabs-list li.vc_active {border-top:1px solid #f2f2f2;}.vc_tta-tabs.vc_tta-tabs-position-left .vc_tta-tabs-container .vc_tta-tabs-list li.vc_active {border-right:1px solid #f2f2f2;}.vc_tta-tabs.vc_tta-tabs-position-right .vc_tta-tabs-container .vc_tta-tabs-list li.vc_active {border-left:1px solid #f2f2f2;}@media(max-width:600px) {.vc_tta-tabs.vc_tta-tabs-position-left .vc_tta-tabs-container .vc_tta-tabs-list li.vc_active {border-right:1px solid #efefef;}.vc_tta-tabs.vc_tta-tabs-position-right .vc_tta-tabs-container .vc_tta-tabs-list li.vc_active {border-left:1px solid #efefef;}}#hook_main_wrapper .owl-stage .ghost_theme_button a,#hook_main_wrapper .owl-stage .ghost_theme_button>span{border-color:#FFFFFF;color: #FFFFFF;}#hook_main_wrapper .owl-stage .ghost_theme_button>span:hover,.simple_line.hook_colored {border-color:#fec45e;}#hook_main_wrapper .owl-stage .ghost_theme_button>span span {background-color: #fec45e;}.owl-dot:before {background-color:#ffffff; border:1px solid #ffffff;}.hook_btn_like .owl-dot:before {background-color:#f2664a; border:1px solid #f2664a;}.hook_btn_like.hook_texty .owl-dot:before {background-color:#FFFFFF; border:1px solid #FFFFFF;}.hook_multi_spinner {border: 3px solid rgba(0, 0, 0 ,0.3);border-right-color:#000000;border-left-color:#000000;}.owl-prev,.owl-next,.member_colored_block_in,.owl-nav div {background-color:#fec45e;}.hook_featured_line,.owl-controls .site_background_colored,.member_colored_block, .member_colored_block .hook_member_links a,#hook_arrow,#hook_main_wrapper .owl-stage .grid_single_title .body_bk_color,#hook_panels_vol {color:#FFFFFF;}.hk_inline {background-color:#FFFFFF;}#hook_main_wrapper .layout-panels .owl-stage .ghost_theme_button>span:hover {color:#fec45e;}.testimonials_slider.owl-carousel.hook_squared .owl-dot.active:before {background-color:#fec45e;border-color:#fec45e;}.error404 #hook_main_wrapper #hook_content {background-image: url(wp-content/uploads/2019/08/AYO-logo.png);}#hook_content.hook_error404 p,.error404 #hook_main_wrapper #hook_404_title .zero_color, .error404 #hook_main_wrapper #hook_404_title .not_zero_color {color:#ffffff;}.hook_error404 .columns.simple_line {margin-top: -16px;visibility:hidden;}#hook_404_title h1 {margin-top: 32px;}#hook_content.hook_error404 p {font-size:1.4rem;}#hook_overlayer {background-color:#FFFFFF;}#hook_ajax_portfolio .simple_line {border-bottom-color:#e2e2e2;}#hook_ajax_portfolio .prk_bordered_top {border-top-color:#e2e2e2;}#hook_ajax_portfolio .prk_bordered_left {border-left-color: #e2e2e2;}#hook_ajax_portfolio .prk_bordered_right {border-right-color: #e2e2e2;}#hook_ajax_portfolio .prk_bordered_bottom {border-bottom-color: #e2e2e2;}#hook_ajax_portfolio .prk_grid-button .prk_grid {color:#000000;background:#000000;}#hook_ajax_portfolio {color:#808080;}#hook_ajax_portfolio .hook_info_block a,#hook_ajax_portfolio .hook_info_block a:hover {color:#d92f3a;}#hook_ajax_portfolio .zero_color, #hook_ajax_portfolio a.zero_color,#hook_ajax_portfolio .zero_color a {color:#000000;}#hook_ajax_portfolio .small_headings_color, #hook_ajax_portfolio a.small_headings_color,#hook_ajax_portfolio .small_headings_color a {color:#3e3e3e;}#hook_ajax_portfolio .hook_multi_spinner {border: 3px solid rgba(0, 0, 0 ,0.3);border-right-color:#000000;border-left-color:#000000;}.hook_theme .mfp-arrow-left,.hook_theme .mfp-arrow-right,.hook_theme .mfp-counter,.hook_theme .mfp-title {color:#808080;
+        }.mfp-close_inner:before,.mfp-close_inner:after{background-color:#808080;}#prk_mobile_bar .body_colored a,#prk_mobile_bar a.body_colored,#prk_mobile_bar .body_colored,#prk_mobile_bar,#prk_mobile_bar a {color: #bbbbbb; }#prk_mobile_bar a:hover,#prk_mobile_bar .active>a,#prk_mobile_bar .zero_color,#prk_mobile_bar .zero_color a,#prk_mobile_bar .mobile-menu-ul .hook_actionized a {color: #12b2cb;}#prk_mobile_bar #mirror_social_nets,#prk_mobile_bar_inner>.header_stack {border-bottom: 1px solid rgba(187, 187, 187 ,0.12);}#prk_mobile_bar .pirenko_highlighted {border: 1px solid rgba(187, 187, 187 ,0.12);}#prk_mobile_bar .mCSB_scrollTools .mCSB_draggerRail {background-color: rgba(187, 187, 187 ,0.12);}#prk_mobile_bar .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background-color: #12b2cb}#prk_mobile_bar {background-color: #141414;}#prk_blocks_wrapper:before {content: 'MENU';color:#FFFFFF}#prk_blocks_wrapper.hover_trigger:before {color: #ffffff;}.menu_at_top #prk_blocks_wrapper:before,.hook_collapsed_menu #prk_blocks_wrapper:before,.hook_forced_menu #prk_blocks_wrapper:before {color:#FFFFFF}.menu_at_top #prk_blocks_wrapper.hover_trigger:before {color: #12b2cb;}.hook_showing_menu #prk_blocks_wrapper:before {color:#000000;}#prk_sidebar_trigger:before {content: 'MENU';color:#FFFFFF}#prk_sidebar_trigger.hover_trigger:before {color: #ffffff;}.menu_at_top #prk_sidebar_trigger:before {color:#FFFFFF}.menu_at_top #prk_sidebar_trigger.hover_trigger:before {color: #12b2cb;}.hook_showing_menu #prk_sidebar_trigger:before {color:#000000;}#body_hider {background-color:rgba(17, 17, 17 ,0.75);}.prk_menu_sized .sub-menu li a {font-weight:400;font-size:12px;}#hook_to_top {color: #FFFFFF; background-color: #fec45e;}.hook_active_colored,.hook_actionized a:after {background-color: #fec45e;}.hook_tmmarker{background-color: #808080;}.prk_sharrre_wrapper .sharrre a,.prk_sharrre_wrapper .sharrre a:hover {color:#FFFFFF;}.hook_info_board .hook_board_entry:hover {background-color:rgba(239, 239, 239 ,0.3);}.hook_el_style.elementor-widget-toggle .elementor-toggle-title>span {color:#fec45e;}@media only screen and (max-width: 767px) {.hook_theme .hook_featured_header #single_blog_info.unforced_row .zero_color {color:#000000;}.hook_theme .hook_featured_header #single_blog_info.unforced_row .small_headings_color, .hook_theme .hook_featured_header #single_blog_info.unforced_row .small_headings_color a {color:#3e3e3e;}}h3 {
+    line-height: 1.2em;
+}
+</style>
+<link rel='stylesheet' id='pulse_fa-css'  href='wp-content/themes/hook/inc/fonts/font-awesome/css/all.min.css?ver=1626938557' type='text/css' media='all' />
+<link rel='stylesheet' id='pulse_fa_brands-css'  href='wp-content/themes/hook/inc/fonts/font-awesome/css/v4-shims.min.css?ver=1626938557' type='text/css' media='all' />
+<link rel='stylesheet' id='hook_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Lato%3A100%2C300%2C400%2C700%2C400italic%7CLato%3A100%2C300%2C400%2C700%2C400italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPrompt%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css'  href='wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-regular-css'  href='wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css'  href='wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-brands-css'  href='wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3' type='text/css' media='all' />
+<script type='text/javascript' src='wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=8.6.0' id='monsterinsights-frontend-script-js'></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='monsterinsights-frontend-script-js-extra'>/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/ayo-foods.com","hash_tracking":"false","ua":"UA-159878347-2","v4_id":""};/* ]]> */
+</script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<link rel="https://api.w.org/" href="wp-json/index.html" /><link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/1646" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8.4" />
+<link rel="canonical" href="index.html?p=1646" />
+<link rel='shortlink' href='index.html?p=1646' />
+<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed?url=https:%252F%252Fayo-foods.com%252Fabout-ayo%252F" />
+<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed?url=https:%252F%252Fayo-foods.com%252Fabout-ayo%252F&amp;format=xml" />
+<!-- HFCM by 99 Robots - Snippet # 1: Facebook Pixel -->
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2035557453244214');
+fbq('track', 'PageView');
+</script>
+<noscript><img class="lazy" height="1" width="1" style="display:none"
+src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="https://www.facebook.com/tr?id=2035557453244214&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+<!-- /end HFCM by 99 Robots -->
+
+<!-- Facebook Pixel Code -->
+<script type='text/javascript'>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+</script>
+<!-- End Facebook Pixel Code -->
+<script type='text/javascript'>
+  fbq('init', '3911811762292841', {}, {
+    "agent": "wordpress-5.8.4-3.0.6"
+});
+</script><script type='text/javascript'>
+  fbq('track', 'PageView', []);
+</script>
+<!-- Facebook Pixel Code -->
+<noscript>
+<img class="lazy" height="1" width="1" style="display:none" alt="fbpx"
+src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="https://www.facebook.com/tr?id=3911811762292841&ev=PageView&noscript=1" />
+</noscript>
+<!-- End Facebook Pixel Code -->
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><meta name="generator" content="Powered by Slider Revolution 6.5.25 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="wp-content/uploads/2021/07/Image-17@2x-100x100.png" sizes="32x32" />
+<link rel="icon" href="wp-content/uploads/2021/07/Image-17@2x-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="wp-content/uploads/2021/07/Image-17@2x-300x300.png" />
+<meta name="msapplication-TileImage" content="https://ayo-foods.com/wp-content/uploads/2021/07/Image-17@2x-300x300.png" />
+<script>function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+				try {
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+					if(e.layout==="fullscreen" || e.l==="fullscreen")
+						newh = Math.max(e.mh,window.RSIH);
+					else{
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,
+							sl;
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}
+					var el = document.getElementById(e.c);
+					if (el!==null && el) el.style.height = newh+"px";
+					el = document.getElementById(e.c+"_wrapper");
+					if (el!==null && el) {
+						el.style.height = newh+"px";
+						el.style.display = "block";
+					}
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}
+			//});
+		  };</script>
+		<style type="text/css" id="wp-custom-css">
+			.wpb_wrapper .vc_custom_1619447541314{
+	padding-left: 0!important;
+	padding-right: 0!important;
+}		</style>
+		</head>
+<body data-rsssl=1 class="page-template page-template-elementor_header_footer page page-id-1646 hook_theme elementor-default elementor-template-full-width elementor-kit-1383 elementor-page elementor-page-1646">
+
+		<div data-elementor-type="header" data-elementor-id="1624" class="elementor elementor-1624 elementor-location-header">
+								<header class="elementor-section elementor-top-section elementor-element elementor-element-7f5358f5 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7f5358f5" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-73240cc9" data-id="73240cc9" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-884110b elementor-widget elementor-widget-image" data-id="884110b" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.6.6 - 08-06-2022 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>													<a href="index.html">
+							<img width="900" height="900" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20900%20900'%3E%3C/svg%3E" data-src="https://ayo-foods.com/wp-content/uploads/2019/08/AYO-logo_900.png" class="attachment-large size-large lazy" alt="" loading="lazy" data-srcset="https://ayo-foods.com/wp-content/uploads/2019/08/AYO-logo_900.png 900w, https://ayo-foods.com/wp-content/uploads/2019/08/AYO-logo_900-300x300.png 300w, https://ayo-foods.com/wp-content/uploads/2019/08/AYO-logo_900-100x100.png 100w, https://ayo-foods.com/wp-content/uploads/2019/08/AYO-logo_900-600x600.png 600w, https://ayo-foods.com/wp-content/uploads/2019/08/AYO-logo_900-150x150.png 150w, https://ayo-foods.com/wp-content/uploads/2019/08/AYO-logo_900-768x768.png 768w" data-sizes="(max-width: 900px) 100vw, 900px" />								</a>
+															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-583e7f58" data-id="583e7f58" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-42ef1e8 elementor-mobile-align-right elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-button" data-id="42ef1e8" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="index.html?p=1646#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjE3NDUiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+							<span class="elementor-button-icon elementor-align-icon-left">
+				<i aria-hidden="true" class="fas fa-bars"></i>			</span>
+						<span class="elementor-button-text"></span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-5b35f92 elementor-icon-list--layout-inline elementor-align-right elementor-hidden-phone elementor-widget__width-auto elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="5b35f92" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="wp-content/plugins/elementor/assets/css/widget-icon-list.min.css">		<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="index.html#products">
+
+											<span class="elementor-icon-list-text">Products</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="index.html?page_id=1646">
+
+											<span class="elementor-icon-list-text">About Us</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="index.html?p=1646#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjE3NDAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D">
+
+											<span class="elementor-icon-list-text">Contact Us</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-11f23ee elementor-align-left elementor-tablet-align-right elementor-hidden-phone elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="11f23ee" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://shop.ayo-foods.com" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Shop Now</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</header>
+						</div>
+				<div data-elementor-type="wp-page" data-elementor-id="1646" class="elementor elementor-1646">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-95aafca elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="95aafca" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8e86ca5" data-id="8e86ca5" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-6581cc8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6581cc8" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-e81c8e3" data-id="e81c8e3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c6ef624 elementor-widget elementor-widget-image" data-id="c6ef624" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="982" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20982%201024'%3E%3C/svg%3E" data-src="https://ayo-foods.com/wp-content/uploads/2021/07/AYO-family@2x-982x1024.png" class="attachment-large size-large lazy" alt="" loading="lazy" data-srcset="https://ayo-foods.com/wp-content/uploads/2021/07/AYO-family@2x-982x1024.png 982w, https://ayo-foods.com/wp-content/uploads/2021/07/AYO-family@2x-600x626.png 600w, https://ayo-foods.com/wp-content/uploads/2021/07/AYO-family@2x-288x300.png 288w, https://ayo-foods.com/wp-content/uploads/2021/07/AYO-family@2x-768x801.png 768w, https://ayo-foods.com/wp-content/uploads/2021/07/AYO-family@2x.png 1018w" data-sizes="(max-width: 982px) 100vw, 982px" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-bd5b8cc" data-id="bd5b8cc" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2d4c6d7 elementor-widget elementor-widget-heading" data-id="2d4c6d7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.6.6 - 08-06-2022 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class="elementor-heading-title elementor-size-default">Welcome!</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-2f3c5b0 elementor-widget elementor-widget-text-editor" data-id="2f3c5b0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.6.6 - 08-06-2022 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#818a91;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#818a91;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>In West Africa, Ayo means joy. So it was fitting that when a natural products industry vet and a serial entrepreneur combined their talents it would be a labor of love that inspired lots of joy along the way.</p><p>Anyone who knows us will tell you that nothing brings us more joy than sharing a meal with friends and family. So sit down, dig in, and join us as we celebrate the culture, the people, and the food that inspires us.</p><p> </p><p>Peace, Love, &amp; Ayo!</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-85166f0 elementor-widget elementor-widget-image" data-id="85166f0" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="300" height="252" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20252'%3E%3C/svg%3E" data-src="https://ayo-foods.com/wp-content/uploads/2019/08/signature_sm.png" class="attachment-large size-large lazy" alt="" loading="lazy" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-ffd8ac7 elementor-widget elementor-widget-text-editor" data-id="ffd8ac7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Perteet &amp; Fred</p><p>Co-Founders</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-01e6d72 elementor-section-full_width elementor-section-height-min-height elementor-section-items-stretch elementor-section-content-middle elementor-section-height-default" data-id="01e6d72" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a0cf0d6" data-id="a0cf0d6" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-054cbf5 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-spacer" data-id="054cbf5" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.6.6 - 08-06-2022 */
+.e-container.e-container--row .elementor-spacer-inner{width:var(--spacer-size)}.e-container.e-container--column .elementor-spacer-inner,.elementor-column .elementor-spacer-inner{height:var(--spacer-size)}</style>		<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9e801b5" data-id="9e801b5" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6045f6f elementor-widget elementor-widget-image" data-id="6045f6f" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="900" height="900" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20900%20900'%3E%3C/svg%3E" data-src="https://ayo-foods.com/wp-content/uploads/2019/08/AYO-logo_900.png" class="attachment-large size-large lazy" alt="" loading="lazy" data-srcset="https://ayo-foods.com/wp-content/uploads/2019/08/AYO-logo_900.png 900w, https://ayo-foods.com/wp-content/uploads/2019/08/AYO-logo_900-300x300.png 300w, https://ayo-foods.com/wp-content/uploads/2019/08/AYO-logo_900-100x100.png 100w, https://ayo-foods.com/wp-content/uploads/2019/08/AYO-logo_900-600x600.png 600w, https://ayo-foods.com/wp-content/uploads/2019/08/AYO-logo_900-150x150.png 150w, https://ayo-foods.com/wp-content/uploads/2019/08/AYO-logo_900-768x768.png 768w" data-sizes="(max-width: 900px) 100vw, 900px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-78d7a8e elementor-widget elementor-widget-heading" data-id="78d7a8e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Our Story</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5ac5edd elementor-widget elementor-widget-heading" data-id="5ac5edd" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Learn more about the inspiration behind AYO</h2>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-4c39b82 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default" data-id="4c39b82" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;https:\/\/ayo-foods.com\/wp-content\/uploads\/2021\/07\/AYO-Foods-Founder-Story.mp4&quot;,&quot;background_play_on_mobile&quot;:&quot;yes&quot;}">
+								<div class="elementor-background-video-container">
+													<video class="elementor-background-video-hosted elementor-html5-video" autoplay muted playsinline loop></video>
+											</div>
+								<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-9c12bcd" data-id="9c12bcd" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-71b306d elementor-view-default elementor-widget elementor-widget-icon" data-id="71b306d" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<a class="elementor-icon" href="index.html?p=1646#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJ0eXBlIjoidmlkZW8iLCJ2aWRlb1R5cGUiOiJob3N0ZWQiLCJ1cmwiOiJodHRwczpcL1wvYXlvLWZvb2RzLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMDdcL0FZTy1Gb29kcy1Gb3VuZGVyLVN0b3J5Lm1wNCJ9">
+			<i aria-hidden="true" class="far fa-play-circle"></i>			</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-7ac79e3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7ac79e3" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-88d892e" data-id="88d892e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-696979e elementor-widget elementor-widget-image" data-id="696979e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="791" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20791%201024'%3E%3C/svg%3E" data-src="https://ayo-foods.com/wp-content/uploads/2021/07/Puff-Puff-image@2x-791x1024.png" class="attachment-large size-large lazy" alt="" loading="lazy" data-srcset="https://ayo-foods.com/wp-content/uploads/2021/07/Puff-Puff-image@2x-791x1024.png 791w, https://ayo-foods.com/wp-content/uploads/2021/07/Puff-Puff-image@2x-600x777.png 600w, https://ayo-foods.com/wp-content/uploads/2021/07/Puff-Puff-image@2x-232x300.png 232w, https://ayo-foods.com/wp-content/uploads/2021/07/Puff-Puff-image@2x-768x995.png 768w, https://ayo-foods.com/wp-content/uploads/2021/07/Puff-Puff-image@2x.png 908w" data-sizes="(max-width: 791px) 100vw, 791px" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ef5e235" data-id="ef5e235" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-b8df5d7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b8df5d7" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5e23e0f" data-id="5e23e0f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2932fd9 elementor-widget elementor-widget-image" data-id="2932fd9" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://www.goodmorningamerica.com/news/video/expanding-choices-local-grocery-store-83747004%20">
+							<img width="176" height="176" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20176%20176'%3E%3C/svg%3E" data-src="https://ayo-foods.com/wp-content/uploads/2022/06/GMA-Logo.png" class="attachment-large size-large lazy" alt="" loading="lazy" data-srcset="https://ayo-foods.com/wp-content/uploads/2022/06/GMA-Logo.png 176w, https://ayo-foods.com/wp-content/uploads/2022/06/GMA-Logo-150x150.png 150w" data-sizes="(max-width: 176px) 100vw, 176px" />								</a>
+															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-de0a2eb" data-id="de0a2eb" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-ea076b5 elementor-widget elementor-widget-heading" data-id="ea076b5" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="https://www.goodmorningamerica.com/news/video/expanding-choices-local-grocery-store-83747004%20" target="_blank">Expanding the choices at your local grocery store</a></h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-5c3c956 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5c3c956" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9752026" data-id="9752026" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c95dec2 elementor-widget elementor-widget-image" data-id="c95dec2" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="418" height="118" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20418%20118'%3E%3C/svg%3E" data-src="https://ayo-foods.com/wp-content/uploads/2021/07/header.png" class="attachment-large size-large lazy" alt="" loading="lazy" data-srcset="https://ayo-foods.com/wp-content/uploads/2021/07/header.png 418w, https://ayo-foods.com/wp-content/uploads/2021/07/header-300x85.png 300w" data-sizes="(max-width: 418px) 100vw, 418px" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6870e0e" data-id="6870e0e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-77571b9 elementor-widget elementor-widget-heading" data-id="77571b9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="https://www.newhope.com/food-and-beverage/unboxed-4-trends-inspiring-innovation-frozen-aisle" target="_blank">Unboxed: 4 trends inspiring innovation in the frozen aisle</a></h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-0a9de60 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0a9de60" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5532b98" data-id="5532b98" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c9bce83 elementor-widget elementor-widget-image" data-id="c9bce83" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="300" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" data-src="https://ayo-foods.com/wp-content/uploads/2021/01/forbes-logo.png" class="attachment-large size-large lazy" alt="Forbes logo" loading="lazy" data-srcset="https://ayo-foods.com/wp-content/uploads/2021/01/forbes-logo.png 300w, https://ayo-foods.com/wp-content/uploads/2021/01/forbes-logo-100x100.png 100w, https://ayo-foods.com/wp-content/uploads/2021/01/forbes-logo-150x150.png 150w" data-sizes="(max-width: 300px) 100vw, 300px" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3072272" data-id="3072272" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-dc8ee75 elementor-widget elementor-widget-heading" data-id="dc8ee75" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="https://www.forbes.com/state-of-black-entrepreneurship/#4b382a7676dc" target="_blank">The State of Black Entrepreneurship
+
+</a></h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-8dceb88 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8dceb88" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-54d6005" data-id="54d6005" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2e4a52b elementor-widget elementor-widget-image" data-id="2e4a52b" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://www.chicagotribune.com/people/ct-viz-ayo-foods-photos-20220601-6g5h4n5awjf4vfeu7upvjao3qu-photogallery.html">
+							<img width="176" height="118" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20176%20118'%3E%3C/svg%3E" data-src="https://ayo-foods.com/wp-content/uploads/2022/06/Chicago-Tribune.png" class="attachment-large size-large lazy" alt="" loading="lazy" />								</a>
+															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-09b99e6" data-id="09b99e6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-79b3a24 elementor-widget elementor-widget-heading" data-id="79b3a24" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="https://www.chicagotribune.com/people/ct-viz-ayo-foods-photos-20220601-6g5h4n5awjf4vfeu7upvjao3qu-photogallery.html" target="_blank">AYO Foods brings West African cuisine to the grocery aisle</a></h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-d469c95 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d469c95" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6da5392" data-id="6da5392" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b056eb7 elementor-widget elementor-widget-image" data-id="b056eb7" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://www.cuisinenoirmag.com/ayo-foods-delivers-west-african-flavors/">
+							<img width="176" height="40" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20176%2040'%3E%3C/svg%3E" data-src="https://ayo-foods.com/wp-content/uploads/2022/06/Cuisine-Noir.png" class="attachment-large size-large lazy" alt="" loading="lazy" />								</a>
+															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-34fe708" data-id="34fe708" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-4347b0e elementor-widget elementor-widget-heading" data-id="4347b0e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="https://www.cuisinenoirmag.com/ayo-foods-delivers-west-african-flavors/" target="_blank">AYO Foods Combines Vision and Expertise to Deliver West African Flavors Nationwide</a></h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-0fbca99 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="0fbca99" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2f75f39" data-id="2f75f39" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2e04b56 elementor-widget elementor-widget-image" data-id="2e04b56" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="853" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20853'%3E%3C/svg%3E" data-src="https://ayo-foods.com/wp-content/uploads/2021/02/moonboi-sm-1-1024x853.png" class="attachment-large size-large lazy" alt="moonboi project logo" loading="lazy" data-srcset="https://ayo-foods.com/wp-content/uploads/2021/02/moonboi-sm-1-1024x853.png 1024w, https://ayo-foods.com/wp-content/uploads/2021/02/moonboi-sm-1-600x500.png 600w, https://ayo-foods.com/wp-content/uploads/2021/02/moonboi-sm-1-300x250.png 300w, https://ayo-foods.com/wp-content/uploads/2021/02/moonboi-sm-1-768x640.png 768w, https://ayo-foods.com/wp-content/uploads/2021/02/moonboi-sm-1.png 1200w" data-sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-0384a85 elementor-widget elementor-widget-image" data-id="0384a85" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="376" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20376'%3E%3C/svg%3E" data-src="https://ayo-foods.com/wp-content/uploads/2021/07/207102922_4096853240383806_2810084221140687689_n@2x-1024x376.png" class="attachment-large size-large lazy" alt="" loading="lazy" data-srcset="https://ayo-foods.com/wp-content/uploads/2021/07/207102922_4096853240383806_2810084221140687689_n@2x-1024x376.png 1024w, https://ayo-foods.com/wp-content/uploads/2021/07/207102922_4096853240383806_2810084221140687689_n@2x-600x220.png 600w, https://ayo-foods.com/wp-content/uploads/2021/07/207102922_4096853240383806_2810084221140687689_n@2x-300x110.png 300w, https://ayo-foods.com/wp-content/uploads/2021/07/207102922_4096853240383806_2810084221140687689_n@2x-768x282.png 768w, https://ayo-foods.com/wp-content/uploads/2021/07/207102922_4096853240383806_2810084221140687689_n@2x-1536x564.png 1536w, https://ayo-foods.com/wp-content/uploads/2021/07/207102922_4096853240383806_2810084221140687689_n@2x.png 1726w" data-sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-262ecf0 elementor-widget elementor-widget-text-editor" data-id="262ecf0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>In Kpelle, “Moonboi” means prosperity. At AYO Foods, we believe that we have a personal responsibility to enrich the communities that inspired our products, so we are thrilled to launch the Moonboi Project.</p><p>Our inaugural partner in this work is Girl Power Africa, a non-profit committed to empowering women and children whose circumstances have been impacted by Civil War and Ebola in Liberia to rise above economic and social conditions through entrepreneurship.</p><p>Through our partnership with Girl Power Africa and the power of food, AYO is supporting the cultivation of 15 acres of Liberian farmland. These outputs will be used to create new income opportunities for the women of Girl Power Africa.</p><p>To learn more about Girl Power Africa, visit www.girlpowerafrica.org</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-22fefa1 elementor-widget elementor-widget-gallery" data-id="22fefa1" data-element_type="widget" data-settings="{&quot;gallery_layout&quot;:&quot;masonry&quot;,&quot;lazyload&quot;:&quot;yes&quot;,&quot;columns&quot;:4,&quot;columns_tablet&quot;:2,&quot;columns_mobile&quot;:1,&quot;gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;link_to&quot;:&quot;file&quot;,&quot;overlay_background&quot;:&quot;yes&quot;,&quot;content_hover_animation&quot;:&quot;fade-in&quot;}" data-widget_type="gallery.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor-pro - v3.7.2 - 15-06-2022 */
+.elementor-gallery__container{min-height:1px}.elementor-gallery-item{position:relative;overflow:hidden;display:block;text-decoration:none;border:solid var(--image-border-width) var(--image-border-color);border-radius:var(--image-border-radius)}.elementor-gallery-item__content,.elementor-gallery-item__overlay{height:100%;width:100%;position:absolute;top:0;left:0}.elementor-gallery-item__overlay{mix-blend-mode:var(--overlay-mix-blend-mode);-webkit-transition-duration:var(--overlay-transition-duration);-o-transition-duration:var(--overlay-transition-duration);transition-duration:var(--overlay-transition-duration);-webkit-transition-property:mix-blend-mode,opacity,background-color,-webkit-transform;transition-property:mix-blend-mode,opacity,background-color,-webkit-transform;-o-transition-property:mix-blend-mode,transform,opacity,background-color;transition-property:mix-blend-mode,transform,opacity,background-color;transition-property:mix-blend-mode,transform,opacity,background-color,-webkit-transform}.elementor-gallery-item__image.e-gallery-image{-webkit-transition-duration:var(--image-transition-duration);-o-transition-duration:var(--image-transition-duration);transition-duration:var(--image-transition-duration);-webkit-transition-property:-webkit-filter,-webkit-transform;transition-property:-webkit-filter,-webkit-transform;-o-transition-property:filter,transform;transition-property:filter,transform;transition-property:filter,transform,-webkit-filter,-webkit-transform}.elementor-gallery-item__content{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:var(--content-justify-content,center);-ms-flex-pack:var(--content-justify-content,center);justify-content:var(--content-justify-content,center);-webkit-box-align:center;-ms-flex-align:center;align-items:center;text-align:var(--content-text-align);padding:var(--content-padding)}.elementor-gallery-item__content>div{-webkit-transition-duration:var(--content-transition-duration);-o-transition-duration:var(--content-transition-duration);transition-duration:var(--content-transition-duration)}.elementor-gallery-item__content.elementor-gallery--sequenced-animation>div:nth-child(2){-webkit-transition-delay:calc((var(--content-transition-delay) / 3));-o-transition-delay:calc((var(--content-transition-delay) / 3));transition-delay:calc((var(--content-transition-delay) / 3))}.elementor-gallery-item__content.elementor-gallery--sequenced-animation>div:nth-child(3){-webkit-transition-delay:calc((var(--content-transition-delay) / 3) * 2);-o-transition-delay:calc((var(--content-transition-delay) / 3) * 2);transition-delay:calc((var(--content-transition-delay) / 3) * 2)}.elementor-gallery-item__content.elementor-gallery--sequenced-animation>div:nth-child(4){-webkit-transition-delay:calc((var(--content-transition-delay) / 3) * 3);-o-transition-delay:calc((var(--content-transition-delay) / 3) * 3);transition-delay:calc((var(--content-transition-delay) / 3) * 3)}.elementor-gallery-item__description{color:var(--description-text-color,#fff);width:100%}.elementor-gallery-item__title{color:var(--title-text-color,#fff);font-weight:700;width:100%}.elementor-gallery__titles-container{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:var(--titles-container-justify-content,center);-ms-flex-pack:var(--titles-container-justify-content,center);justify-content:var(--titles-container-justify-content,center);margin-bottom:20px}.elementor-gallery__titles-container:not(.e--pointer-framed) .elementor-item:after,.elementor-gallery__titles-container:not(.e--pointer-framed) .elementor-item:before{background-color:var(--galleries-pointer-bg-color-hover)}.elementor-gallery__titles-container:not(.e--pointer-framed) .elementor-item.elementor-item-active:after,.elementor-gallery__titles-container:not(.e--pointer-framed) .elementor-item.elementor-item-active:before{background-color:var(--galleries-pointer-bg-color-active)}.elementor-gallery__titles-container.e--pointer-framed .elementor-item:before{border-color:var(--galleries-pointer-bg-color-hover);border-width:var(--galleries-pointer-border-width)}.elementor-gallery__titles-container.e--pointer-framed .elementor-item:after{border-color:var(--galleries-pointer-bg-color-hover)}.elementor-gallery__titles-container.e--pointer-framed .elementor-item.elementor-item-active:after,.elementor-gallery__titles-container.e--pointer-framed .elementor-item.elementor-item-active:before{border-color:var(--galleries-pointer-bg-color-active)}.elementor-gallery__titles-container.e--pointer-framed.e--animation-draw .elementor-item:before{border-left-width:var(--galleries-pointer-border-width);border-bottom-width:var(--galleries-pointer-border-width);border-right-width:0;border-top-width:0}.elementor-gallery__titles-container.e--pointer-framed.e--animation-draw .elementor-item:after{border-left-width:0;border-bottom-width:0;border-right-width:var(--galleries-pointer-border-width);border-top-width:var(--galleries-pointer-border-width)}.elementor-gallery__titles-container.e--pointer-framed.e--animation-corners .elementor-item:before{border-left-width:var(--galleries-pointer-border-width);border-bottom-width:0;border-right-width:0;border-top-width:var(--galleries-pointer-border-width)}.elementor-gallery__titles-container.e--pointer-framed.e--animation-corners .elementor-item:after{border-left-width:0;border-bottom-width:var(--galleries-pointer-border-width);border-right-width:var(--galleries-pointer-border-width);border-top-width:0}.elementor-gallery__titles-container .e--pointer-double-line .elementor-item:after,.elementor-gallery__titles-container .e--pointer-double-line .elementor-item:before,.elementor-gallery__titles-container .e--pointer-overline .elementor-item:before,.elementor-gallery__titles-container .e--pointer-underline .elementor-item:after{height:var(--galleries-pointer-border-width)}.elementor-gallery-title{--space-between:10px;cursor:pointer;color:#6d7882;font-weight:500;position:relative;padding:7px 14px;-webkit-transition:all .3s;-o-transition:all .3s;transition:all .3s}.elementor-gallery-title--active{color:#495157}.elementor-gallery-title:not(:last-child){margin-right:var(--space-between)}.elementor-gallery-item__title+.elementor-gallery-item__description{margin-top:var(--description-margin-top)}.e-gallery-item.elementor-gallery-item{-webkit-transition-property:all;-o-transition-property:all;transition-property:all}.e-gallery-item.elementor-animated-content .elementor-animated-item--enter-from-bottom,.e-gallery-item.elementor-animated-content .elementor-animated-item--enter-from-left,.e-gallery-item.elementor-animated-content .elementor-animated-item--enter-from-right,.e-gallery-item.elementor-animated-content .elementor-animated-item--enter-from-top,.e-gallery-item:hover .elementor-gallery__item-overlay-bg,.e-gallery-item:hover .elementor-gallery__item-overlay-content,.e-gallery-item:hover .elementor-gallery__item-overlay-content__description,.e-gallery-item:hover .elementor-gallery__item-overlay-content__title{opacity:1}a.elementor-item.elementor-gallery-title{color:var(--galleries-title-color-normal)}a.elementor-item.elementor-gallery-title.elementor-item-active,a.elementor-item.elementor-gallery-title.highlighted,a.elementor-item.elementor-gallery-title:focus,a.elementor-item.elementor-gallery-title:hover{color:var(--galleries-title-color-hover)}a.elementor-item.elementor-gallery-title.elementor-item-active{color:var(--gallery-title-color-active)}.e-container .elementor-widget-gallery{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}</style>		<div class="elementor-gallery__container">
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="wp-content/uploads/2021/07/image-15.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-22fefa1" data-elementor-lightbox-title="image" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTczMiwidXJsIjoiaHR0cHM6XC9cL2F5by1mb29kcy5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA3XC9pbWFnZS0xNS5qcGVnIiwic2xpZGVzaG93IjoiYWxsLTIyZmVmYTEifQ%3D%3D">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://ayo-foods.com/wp-content/uploads/2021/07/image-15-300x225.jpeg" data-width="300" data-height="225" alt="" ></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="wp-content/uploads/2021/07/image-14.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-22fefa1" data-elementor-lightbox-title="image" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTczMSwidXJsIjoiaHR0cHM6XC9cL2F5by1mb29kcy5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA3XC9pbWFnZS0xNC5qcGVnIiwic2xpZGVzaG93IjoiYWxsLTIyZmVmYTEifQ%3D%3D">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://ayo-foods.com/wp-content/uploads/2021/07/image-14-300x225.jpeg" data-width="300" data-height="225" alt="" ></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="wp-content/uploads/2021/07/image-13.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-22fefa1" data-elementor-lightbox-title="image" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTczMCwidXJsIjoiaHR0cHM6XC9cL2F5by1mb29kcy5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA3XC9pbWFnZS0xMy5qcGVnIiwic2xpZGVzaG93IjoiYWxsLTIyZmVmYTEifQ%3D%3D">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://ayo-foods.com/wp-content/uploads/2021/07/image-13-300x225.jpeg" data-width="300" data-height="225" alt="" ></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="wp-content/uploads/2021/07/image-12.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-22fefa1" data-elementor-lightbox-title="image" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTcyOSwidXJsIjoiaHR0cHM6XC9cL2F5by1mb29kcy5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA3XC9pbWFnZS0xMi5qcGVnIiwic2xpZGVzaG93IjoiYWxsLTIyZmVmYTEifQ%3D%3D">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://ayo-foods.com/wp-content/uploads/2021/07/image-12-300x225.jpeg" data-width="300" data-height="225" alt="" ></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="wp-content/uploads/2021/07/image-11.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-22fefa1" data-elementor-lightbox-title="image" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTcyOCwidXJsIjoiaHR0cHM6XC9cL2F5by1mb29kcy5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA3XC9pbWFnZS0xMS5qcGVnIiwic2xpZGVzaG93IjoiYWxsLTIyZmVmYTEifQ%3D%3D">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://ayo-foods.com/wp-content/uploads/2021/07/image-11-225x300.jpeg" data-width="225" data-height="300" alt="" ></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="wp-content/uploads/2021/07/image-10.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-22fefa1" data-elementor-lightbox-title="image" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTcyNywidXJsIjoiaHR0cHM6XC9cL2F5by1mb29kcy5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA3XC9pbWFnZS0xMC5qcGVnIiwic2xpZGVzaG93IjoiYWxsLTIyZmVmYTEifQ%3D%3D">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://ayo-foods.com/wp-content/uploads/2021/07/image-10-300x225.jpeg" data-width="300" data-height="225" alt="" ></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="wp-content/uploads/2021/07/image-9.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-22fefa1" data-elementor-lightbox-title="image" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTcyNiwidXJsIjoiaHR0cHM6XC9cL2F5by1mb29kcy5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA3XC9pbWFnZS05LmpwZWciLCJzbGlkZXNob3ciOiJhbGwtMjJmZWZhMSJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://ayo-foods.com/wp-content/uploads/2021/07/image-9-300x225.jpeg" data-width="300" data-height="225" alt="" ></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="wp-content/uploads/2021/07/image-8.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-22fefa1" data-elementor-lightbox-title="image" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTcyNSwidXJsIjoiaHR0cHM6XC9cL2F5by1mb29kcy5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA3XC9pbWFnZS04LmpwZWciLCJzbGlkZXNob3ciOiJhbGwtMjJmZWZhMSJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://ayo-foods.com/wp-content/uploads/2021/07/image-8-300x225.jpeg" data-width="300" data-height="225" alt="" ></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="wp-content/uploads/2021/07/image-7.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-22fefa1" data-elementor-lightbox-title="image" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTcyNCwidXJsIjoiaHR0cHM6XC9cL2F5by1mb29kcy5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA3XC9pbWFnZS03LmpwZWciLCJzbGlkZXNob3ciOiJhbGwtMjJmZWZhMSJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://ayo-foods.com/wp-content/uploads/2021/07/image-7-300x225.jpeg" data-width="300" data-height="225" alt="" ></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="wp-content/uploads/2021/07/image-6.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-22fefa1" data-elementor-lightbox-title="image" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTcyMywidXJsIjoiaHR0cHM6XC9cL2F5by1mb29kcy5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA3XC9pbWFnZS02LmpwZWciLCJzbGlkZXNob3ciOiJhbGwtMjJmZWZhMSJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://ayo-foods.com/wp-content/uploads/2021/07/image-6-300x225.jpeg" data-width="300" data-height="225" alt="" ></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="wp-content/uploads/2021/07/image-5.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-22fefa1" data-elementor-lightbox-title="image" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTcyMiwidXJsIjoiaHR0cHM6XC9cL2F5by1mb29kcy5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA3XC9pbWFnZS01LmpwZWciLCJzbGlkZXNob3ciOiJhbGwtMjJmZWZhMSJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://ayo-foods.com/wp-content/uploads/2021/07/image-5-300x225.jpeg" data-width="300" data-height="225" alt="" ></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="wp-content/uploads/2021/07/image-4.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-22fefa1" data-elementor-lightbox-title="image" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTcyMSwidXJsIjoiaHR0cHM6XC9cL2F5by1mb29kcy5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA3XC9pbWFnZS00LmpwZWciLCJzbGlkZXNob3ciOiJhbGwtMjJmZWZhMSJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://ayo-foods.com/wp-content/uploads/2021/07/image-4-300x225.jpeg" data-width="300" data-height="225" alt="" ></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="wp-content/uploads/2021/07/image-3.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-22fefa1" data-elementor-lightbox-title="image" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTcyMCwidXJsIjoiaHR0cHM6XC9cL2F5by1mb29kcy5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA3XC9pbWFnZS0zLmpwZWciLCJzbGlkZXNob3ciOiJhbGwtMjJmZWZhMSJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://ayo-foods.com/wp-content/uploads/2021/07/image-3-300x225.jpeg" data-width="300" data-height="225" alt="" ></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="wp-content/uploads/2021/07/image-2.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-22fefa1" data-elementor-lightbox-title="image" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTcxOSwidXJsIjoiaHR0cHM6XC9cL2F5by1mb29kcy5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA3XC9pbWFnZS0yLmpwZWciLCJzbGlkZXNob3ciOiJhbGwtMjJmZWZhMSJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://ayo-foods.com/wp-content/uploads/2021/07/image-2-300x225.jpeg" data-width="300" data-height="225" alt="" ></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="wp-content/uploads/2021/07/image-1.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-22fefa1" data-elementor-lightbox-title="image" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTcxOCwidXJsIjoiaHR0cHM6XC9cL2F5by1mb29kcy5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA3XC9pbWFnZS0xLmpwZWciLCJzbGlkZXNob3ciOiJhbGwtMjJmZWZhMSJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://ayo-foods.com/wp-content/uploads/2021/07/image-1-300x225.jpeg" data-width="300" data-height="225" alt="" ></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="wp-content/uploads/2021/07/image.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-22fefa1" data-elementor-lightbox-title="image" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTcxNywidXJsIjoiaHR0cHM6XC9cL2F5by1mb29kcy5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA3XC9pbWFnZS5qcGVnIiwic2xpZGVzaG93IjoiYWxsLTIyZmVmYTEifQ%3D%3D">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://ayo-foods.com/wp-content/uploads/2021/07/image-300x225.jpeg" data-width="300" data-height="225" alt="" ></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+					</div>
+			</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-64d66f3 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="64d66f3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cc559c5" data-id="cc559c5" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-0605d4c elementor-widget elementor-widget-menu-anchor" data-id="0605d4c" data-element_type="widget" data-widget_type="menu-anchor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.6.6 - 08-06-2022 */
+body.elementor-page .elementor-widget-menu-anchor{margin-bottom:0}</style>		<div id="store-locator" class="elementor-menu-anchor"></div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-d9e979e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d9e979e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-2f360bd" data-id="2f360bd" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-ee7b570 elementor-widget elementor-widget-html" data-id="ee7b570" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<script src="https://destinilocators.com/ayofoods/site/install/?MM=panel2"></script>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+				<footer data-elementor-type="footer" data-elementor-id="1636" class="elementor elementor-1636 elementor-location-footer">
+								<section class="elementor-section elementor-top-section elementor-element elementor-element-32f5b2a4 elementor-section-full_width elementor-section-height-min-height elementor-section-items-stretch elementor-section-content-middle elementor-section-height-default" data-id="32f5b2a4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9453bbe" data-id="9453bbe" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-483927d elementor-absolute elementor-widget elementor-widget-image" data-id="483927d" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="271" height="260" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20271%20260'%3E%3C/svg%3E" data-src="https://ayo-foods.com/wp-content/uploads/2021/07/Accent-Rays@2x.png" class="attachment-large size-large lazy" alt="" loading="lazy" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-e4cfceb elementor-widget elementor-widget-image" data-id="e4cfceb" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="792" height="792" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20792%20792'%3E%3C/svg%3E" data-src="https://ayo-foods.com/wp-content/uploads/2021/07/Joy_logo_2c_process@2x.png" class="attachment-large size-large lazy" alt="" loading="lazy" data-srcset="https://ayo-foods.com/wp-content/uploads/2021/07/Joy_logo_2c_process@2x.png 792w, https://ayo-foods.com/wp-content/uploads/2021/07/Joy_logo_2c_process@2x-300x300.png 300w, https://ayo-foods.com/wp-content/uploads/2021/07/Joy_logo_2c_process@2x-100x100.png 100w, https://ayo-foods.com/wp-content/uploads/2021/07/Joy_logo_2c_process@2x-600x600.png 600w, https://ayo-foods.com/wp-content/uploads/2021/07/Joy_logo_2c_process@2x-150x150.png 150w, https://ayo-foods.com/wp-content/uploads/2021/07/Joy_logo_2c_process@2x-768x768.png 768w" data-sizes="(max-width: 792px) 100vw, 792px" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a654fbc" data-id="a654fbc" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-58ee92ca elementor-widget elementor-widget-heading" data-id="58ee92ca" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Join Our Family</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4e3bff02 elementor-widget elementor-widget-text-editor" data-id="4e3bff02" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: center;">227 West Monroe St, Ste 2100</p><p style="text-align: center;">Chicago, IL 60606</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-e7ad632 elementor-widget elementor-widget-text-editor" data-id="e7ad632" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: center;">info@ayo-foods.com</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-a3fb03c elementor-widget elementor-widget-text-editor" data-id="a3fb03c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: center;">872.529.6622</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-dd35ff5 elementor-widget elementor-widget-text-editor" data-id="dd35ff5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: center;"><strong>Sign up to receive occasional announcements and updates.</strong></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-2509ba6 elementor-button-align-end elementor-widget elementor-widget-form" data-id="2509ba6" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor-pro - v3.7.2 - 15-06-2022 */
+.elementor-button.elementor-hidden,.elementor-hidden{display:none}.e-form__step{width:100%}.e-form__step:not(.elementor-hidden){display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}.e-form__buttons{-ms-flex-wrap:wrap;flex-wrap:wrap}.e-form__buttons,.e-form__buttons__wrapper{display:-webkit-box;display:-ms-flexbox;display:flex}.e-form__indicators{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-wrap:nowrap;flex-wrap:nowrap;font-size:13px;margin-bottom:var(--e-form-steps-indicators-spacing)}.e-form__indicators,.e-form__indicators__indicator{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.e-form__indicators__indicator{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-preferred-size:0;flex-basis:0;padding:0 var(--e-form-steps-divider-gap)}.e-form__indicators__indicator__progress{width:100%;position:relative;background-color:var(--e-form-steps-indicator-progress-background-color);border-radius:var(--e-form-steps-indicator-progress-border-radius);overflow:hidden}.e-form__indicators__indicator__progress__meter{width:var(--e-form-steps-indicator-progress-meter-width,0);height:var(--e-form-steps-indicator-progress-height);line-height:var(--e-form-steps-indicator-progress-height);padding-right:15px;border-radius:var(--e-form-steps-indicator-progress-border-radius);background-color:var(--e-form-steps-indicator-progress-color);color:var(--e-form-steps-indicator-progress-meter-color);text-align:right;-webkit-transition:width .1s linear;-o-transition:width .1s linear;transition:width .1s linear}.e-form__indicators__indicator:first-child{padding-left:0}.e-form__indicators__indicator:last-child{padding-right:0}.e-form__indicators__indicator--state-inactive{color:var(--e-form-steps-indicator-inactive-primary-color,#c2cbd2)}.e-form__indicators__indicator--state-inactive [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none){background-color:var(--e-form-steps-indicator-inactive-secondary-color,#fff)}.e-form__indicators__indicator--state-inactive object,.e-form__indicators__indicator--state-inactive svg{fill:var(--e-form-steps-indicator-inactive-primary-color,#c2cbd2)}.e-form__indicators__indicator--state-active{color:var(--e-form-steps-indicator-active-primary-color,#39b54a);border-color:var(--e-form-steps-indicator-active-secondary-color,#fff)}.e-form__indicators__indicator--state-active [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none){background-color:var(--e-form-steps-indicator-active-secondary-color,#fff)}.e-form__indicators__indicator--state-active object,.e-form__indicators__indicator--state-active svg{fill:var(--e-form-steps-indicator-active-primary-color,#39b54a)}.e-form__indicators__indicator--state-completed{color:var(--e-form-steps-indicator-completed-secondary-color,#fff)}.e-form__indicators__indicator--state-completed [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none){background-color:var(--e-form-steps-indicator-completed-primary-color,#39b54a)}.e-form__indicators__indicator--state-completed .e-form__indicators__indicator__label{color:var(--e-form-steps-indicator-completed-primary-color,#39b54a)}.e-form__indicators__indicator--state-completed .e-form__indicators__indicator--shape-none{color:var(--e-form-steps-indicator-completed-primary-color,#39b54a);background-color:initial}.e-form__indicators__indicator--state-completed object,.e-form__indicators__indicator--state-completed svg{fill:var(--e-form-steps-indicator-completed-secondary-color,#fff)}.e-form__indicators__indicator__icon{width:var(--e-form-steps-indicator-padding,30px);height:var(--e-form-steps-indicator-padding,30px);font-size:var(--e-form-steps-indicator-icon-size);border-width:1px;border-style:solid;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;overflow:hidden;margin-bottom:10px}.e-form__indicators__indicator__icon img,.e-form__indicators__indicator__icon object,.e-form__indicators__indicator__icon svg{width:var(--e-form-steps-indicator-icon-size);height:auto}.e-form__indicators__indicator__icon .e-font-icon-svg{height:1em}.e-form__indicators__indicator__number{width:var(--e-form-steps-indicator-padding,30px);height:var(--e-form-steps-indicator-padding,30px);border-width:1px;border-style:solid;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom:10px}.e-form__indicators__indicator--shape-circle{border-radius:50%}.e-form__indicators__indicator--shape-square{border-radius:0}.e-form__indicators__indicator--shape-rounded{border-radius:5px}.e-form__indicators__indicator--shape-none{border:0}.e-form__indicators__indicator__label{text-align:center}.e-form__indicators__indicator__separator{width:100%;height:var(--e-form-steps-divider-width);background-color:#c2cbd2}.e-form__indicators--type-icon,.e-form__indicators--type-icon_text,.e-form__indicators--type-number,.e-form__indicators--type-number_text{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.e-form__indicators--type-icon .e-form__indicators__indicator__separator,.e-form__indicators--type-icon_text .e-form__indicators__indicator__separator,.e-form__indicators--type-number .e-form__indicators__indicator__separator,.e-form__indicators--type-number_text .e-form__indicators__indicator__separator{margin-top:calc(var(--e-form-steps-indicator-padding, 30px) / 2 - var(--e-form-steps-divider-width, 1px) / 2)}.elementor-field-type-hidden{display:none}.elementor-field-type-html{display:inline-block}.elementor-login .elementor-lost-password,.elementor-login .elementor-remember-me{font-size:.85em}.elementor-field-type-recaptcha_v3 .elementor-field-label{display:none}.elementor-field-type-recaptcha_v3 .grecaptcha-badge{z-index:1}.elementor-button .elementor-form-spinner{-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3}.elementor-form .elementor-button>span{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.elementor-form .elementor-button .elementor-button-text{white-space:normal;-webkit-box-flex:0;-ms-flex-positive:0;flex-grow:0}.elementor-form .elementor-button svg{height:auto}.elementor-form .elementor-button .e-font-icon-svg{height:1em}</style>		<form class="elementor-form" method="post" name="Footer Newsletter">
+			<input type="hidden" name="post_id" value="1636"/>
+			<input type="hidden" name="form_id" value="2509ba6"/>
+			<input type="hidden" name="referer_title" value="About AYO | AYO Foods" />
+
+							<input type="hidden" name="queried_id" value="1646"/>
+			
+			<div class="elementor-form-fields-wrapper elementor-labels-">
+								<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required">
+												<label for="form-field-email" class="elementor-field-label elementor-screen-only">
+								Email							</label>
+														<input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Email" required="required" aria-required="true">
+											</div>
+								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+					<button type="submit" class="elementor-button elementor-size-sm">
+						<span >
+															<span class=" elementor-button-icon">
+																										</span>
+																						<span class="elementor-button-text">Submit</span>
+													</span>
+					</button>
+				</div>
+			</div>
+		</form>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-b5f971d elementor-widget elementor-widget-text-editor" data-id="b5f971d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+													</div>
+				</div>
+				<div class="elementor-element elementor-element-bf92381 elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="bf92381" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.6.6 - 08-06-2022 */
+.elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,.elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,.elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container{line-height:1;font-size:0}.elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid{display:inline-grid}.elementor-widget-social-icons .elementor-grid{grid-column-gap:var(--grid-column-gap,5px);grid-row-gap:var(--grid-row-gap,5px);grid-template-columns:var(--grid-template-columns);-webkit-box-pack:var(--justify-content,center);-ms-flex-pack:var(--justify-content,center);justify-content:var(--justify-content,center);justify-items:var(--justify-content,center)}.elementor-icon.elementor-social-icon{font-size:var(--icon-size,25px);line-height:var(--icon-size,25px);width:calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)));height:calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)))}.elementor-social-icon{--e-social-icon-icon-color:#fff;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;background-color:#818a91;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center;cursor:pointer}.elementor-social-icon i{color:var(--e-social-icon-icon-color)}.elementor-social-icon svg{fill:var(--e-social-icon-icon-color)}.elementor-social-icon:last-child{margin:0}.elementor-social-icon:hover{opacity:.9;color:#fff}.elementor-social-icon-android{background-color:#a4c639}.elementor-social-icon-apple{background-color:#999}.elementor-social-icon-behance{background-color:#1769ff}.elementor-social-icon-bitbucket{background-color:#205081}.elementor-social-icon-codepen{background-color:#000}.elementor-social-icon-delicious{background-color:#39f}.elementor-social-icon-deviantart{background-color:#05cc47}.elementor-social-icon-digg{background-color:#005be2}.elementor-social-icon-dribbble{background-color:#ea4c89}.elementor-social-icon-elementor{background-color:#d30c5c}.elementor-social-icon-envelope{background-color:#ea4335}.elementor-social-icon-facebook,.elementor-social-icon-facebook-f{background-color:#3b5998}.elementor-social-icon-flickr{background-color:#0063dc}.elementor-social-icon-foursquare{background-color:#2d5be3}.elementor-social-icon-free-code-camp,.elementor-social-icon-freecodecamp{background-color:#006400}.elementor-social-icon-github{background-color:#333}.elementor-social-icon-gitlab{background-color:#e24329}.elementor-social-icon-globe{background-color:#818a91}.elementor-social-icon-google-plus,.elementor-social-icon-google-plus-g{background-color:#dd4b39}.elementor-social-icon-houzz{background-color:#7ac142}.elementor-social-icon-instagram{background-color:#262626}.elementor-social-icon-jsfiddle{background-color:#487aa2}.elementor-social-icon-link{background-color:#818a91}.elementor-social-icon-linkedin,.elementor-social-icon-linkedin-in{background-color:#0077b5}.elementor-social-icon-medium{background-color:#00ab6b}.elementor-social-icon-meetup{background-color:#ec1c40}.elementor-social-icon-mixcloud{background-color:#273a4b}.elementor-social-icon-odnoklassniki{background-color:#f4731c}.elementor-social-icon-pinterest{background-color:#bd081c}.elementor-social-icon-product-hunt{background-color:#da552f}.elementor-social-icon-reddit{background-color:#ff4500}.elementor-social-icon-rss{background-color:#f26522}.elementor-social-icon-shopping-cart{background-color:#4caf50}.elementor-social-icon-skype{background-color:#00aff0}.elementor-social-icon-slideshare{background-color:#0077b5}.elementor-social-icon-snapchat{background-color:#fffc00}.elementor-social-icon-soundcloud{background-color:#f80}.elementor-social-icon-spotify{background-color:#2ebd59}.elementor-social-icon-stack-overflow{background-color:#fe7a15}.elementor-social-icon-steam{background-color:#00adee}.elementor-social-icon-stumbleupon{background-color:#eb4924}.elementor-social-icon-telegram{background-color:#2ca5e0}.elementor-social-icon-thumb-tack{background-color:#1aa1d8}.elementor-social-icon-tripadvisor{background-color:#589442}.elementor-social-icon-tumblr{background-color:#35465c}.elementor-social-icon-twitch{background-color:#6441a5}.elementor-social-icon-twitter{background-color:#1da1f2}.elementor-social-icon-viber{background-color:#665cac}.elementor-social-icon-vimeo{background-color:#1ab7ea}.elementor-social-icon-vk{background-color:#45668e}.elementor-social-icon-weibo{background-color:#dd2430}.elementor-social-icon-weixin{background-color:#31a918}.elementor-social-icon-whatsapp{background-color:#25d366}.elementor-social-icon-wordpress{background-color:#21759b}.elementor-social-icon-xing{background-color:#026466}.elementor-social-icon-yelp{background-color:#af0606}.elementor-social-icon-youtube{background-color:#cd201f}.elementor-social-icon-500px{background-color:#0099e5}.elementor-shape-rounded .elementor-icon.elementor-social-icon{border-radius:10%}.elementor-shape-circle .elementor-icon.elementor-social-icon{border-radius:50%}</style>		<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-22b7339" href="https://www.facebook.com/ayofoods" target="_blank">
+						<span class="elementor-screen-only">Facebook</span>
+						<i class="fab fa-facebook"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-b48cfa1" href="https://www.instagram.com/ayofoods" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<i class="fab fa-instagram"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-e764dd3" href="https://twitter.com/ayofoods" target="_blank">
+						<span class="elementor-screen-only">Twitter</span>
+						<i class="fab fa-twitter"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-envelope elementor-repeater-item-f4ba765" target="_blank">
+						<span class="elementor-screen-only">Envelope</span>
+						<i class="fas fa-envelope"></i>					</a>
+				</span>
+					</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<footer class="elementor-section elementor-top-section elementor-element elementor-element-2641dfbe elementor-section-full_width elementor-section-height-min-height elementor-section-items-stretch elementor-section-content-middle elementor-section-height-default" data-id="2641dfbe" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-523a41dc" data-id="523a41dc" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-e37168b elementor-widget elementor-widget-text-editor" data-id="e37168b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: center;">©2021 AYO Foods &#8211; All rights reserved</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</footer>
+						</footer>
+		
+
+		<script>
+			window.RS_MODULES = window.RS_MODULES || {};
+			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+			window.RS_MODULES.defered = true;
+			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+			window.RS_MODULES.type = 'compiled';
+		</script>
+				<div data-elementor-type="popup" data-elementor-id="1745" class="elementor elementor-1745 elementor-location-popup" data-elementor-settings="{&quot;entrance_animation_mobile&quot;:&quot;slideInRight&quot;,&quot;exit_animation_mobile&quot;:&quot;slideInRight&quot;,&quot;timing&quot;:[]}">
+								<section class="elementor-section elementor-top-section elementor-element elementor-element-fde0dd6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fde0dd6" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-39d0495" data-id="39d0495" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-81d20e8 elementor-widget elementor-widget-image" data-id="81d20e8" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="900" height="900" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20900%20900'%3E%3C/svg%3E" data-src="https://ayo-foods.com/wp-content/uploads/2019/08/AYO-logo_900.png" class="attachment-large size-large lazy" alt="" loading="lazy" data-srcset="https://ayo-foods.com/wp-content/uploads/2019/08/AYO-logo_900.png 900w, https://ayo-foods.com/wp-content/uploads/2019/08/AYO-logo_900-300x300.png 300w, https://ayo-foods.com/wp-content/uploads/2019/08/AYO-logo_900-100x100.png 100w, https://ayo-foods.com/wp-content/uploads/2019/08/AYO-logo_900-600x600.png 600w, https://ayo-foods.com/wp-content/uploads/2019/08/AYO-logo_900-150x150.png 150w, https://ayo-foods.com/wp-content/uploads/2019/08/AYO-logo_900-768x768.png 768w" data-sizes="(max-width: 900px) 100vw, 900px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-e8e3ebe elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="e8e3ebe" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="index.html#products">
+
+											<span class="elementor-icon-list-text">Products</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="index.html?page_id=1646">
+
+											<span class="elementor-icon-list-text">About Us</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="index.html?p=1646#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjE3NDAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D">
+
+											<span class="elementor-icon-list-text">Contact Us</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-ab748ab elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="ab748ab" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="index.html?p=1831" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Where To Buy</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+				<div data-elementor-type="popup" data-elementor-id="1740" class="elementor elementor-1740 elementor-location-popup" data-elementor-settings="{&quot;entrance_animation&quot;:&quot;fadeIn&quot;,&quot;exit_animation&quot;:&quot;fadeIn&quot;,&quot;entrance_animation_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;1.4&quot;,&quot;sizes&quot;:[]},&quot;timing&quot;:[]}">
+								<section class="elementor-section elementor-top-section elementor-element elementor-element-2d5dbfc5 elementor-section-height-min-height elementor-section-items-stretch ignore-toc elementor-section-boxed elementor-section-height-default" data-id="2d5dbfc5" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2faeec96" data-id="2faeec96" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2e55767c elementor-widget elementor-widget-spacer" data-id="2e55767c" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3948679b" data-id="3948679b" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6c0c9c90 elementor-widget elementor-widget-heading" data-id="6c0c9c90" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Contact Us</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-479f5fdf elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="479f5fdf" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
+				<div class="elementor-widget-container">
+					<form class="elementor-form" method="post" id="popup_contact" name="Contact Form">
+			<input type="hidden" name="post_id" value="1740"/>
+			<input type="hidden" name="form_id" value="479f5fdf"/>
+			<input type="hidden" name="referer_title" value="About AYO | AYO Foods" />
+
+							<input type="hidden" name="queried_id" value="1646"/>
+			
+			<div class="elementor-form-fields-wrapper elementor-labels-">
+								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_e29516d elementor-col-100 elementor-field-required">
+												<label for="form-field-field_e29516d" class="elementor-field-label elementor-screen-only">
+								Name							</label>
+														<input size="1" type="text" name="form_fields[field_e29516d]" id="form-field-field_e29516d" class="elementor-field elementor-size-md  elementor-field-textual" placeholder="Name" required="required" aria-required="true">
+											</div>
+								<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email_subscribe elementor-col-100 elementor-field-required">
+												<label for="form-field-email_subscribe" class="elementor-field-label elementor-screen-only">
+								Email Address							</label>
+														<input size="1" type="email" name="form_fields[email_subscribe]" id="form-field-email_subscribe" class="elementor-field elementor-size-md  elementor-field-textual" placeholder="Email Address" required="required" aria-required="true">
+											</div>
+								<div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-field_c223953 elementor-col-100 elementor-field-required">
+												<label for="form-field-field_c223953" class="elementor-field-label elementor-screen-only">
+								Message							</label>
+						<textarea class="elementor-field-textual elementor-field  elementor-size-md" name="form_fields[field_c223953]" id="form-field-field_c223953" rows="4" placeholder="Message" required="required" aria-required="true"></textarea>				</div>
+								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+					<button type="submit" class="elementor-button elementor-size-sm">
+						<span >
+															<span class=" elementor-button-icon">
+																										</span>
+																						<span class="elementor-button-text">subscribe</span>
+													</span>
+					</button>
+				</div>
+			</div>
+		</form>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+				<div data-elementor-type="popup" data-elementor-id="1962" class="elementor elementor-1962 elementor-location-popup" data-elementor-settings="{&quot;triggers&quot;:[],&quot;timing&quot;:[]}">
+								<section class="elementor-section elementor-top-section elementor-element elementor-element-a76cefa elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a76cefa" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6995658" data-id="6995658" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-a83c838 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default" data-id="a83c838" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-09e2e1f" data-id="09e2e1f" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-4d58ac5 elementor-widget elementor-widget-heading" data-id="4d58ac5" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Choose your combo size</h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-1d6d10b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1d6d10b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-cf4d61c" data-id="cf4d61c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+								<div class="elementor-element elementor-element-4c6962a elementor-widget elementor-widget-heading" data-id="4c6962a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Single Pack </h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-47a4391 elementor-align-center elementor-widget elementor-widget-button" data-id="47a4391" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://shop.ayo-foods.com/pages/single-sauce" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Start Order</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-61949e7" data-id="61949e7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+								<div class="elementor-element elementor-element-7280a53 elementor-widget elementor-widget-heading" data-id="7280a53" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">2 Pack Mix &amp; Match</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-fd9bef2 elementor-align-center elementor-widget elementor-widget-button" data-id="fd9bef2" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://shop.ayo-foods.com/pages/2-pack-mix-match-sauce" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Start Combo</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+				<div data-elementor-type="popup" data-elementor-id="1890" class="elementor elementor-1890 elementor-location-popup" data-elementor-settings="{&quot;entrance_animation&quot;:&quot;fadeIn&quot;,&quot;exit_animation&quot;:&quot;fadeIn&quot;,&quot;entrance_animation_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.5,&quot;sizes&quot;:[]},&quot;triggers&quot;:[],&quot;timing&quot;:[]}">
+								<section class="elementor-section elementor-top-section elementor-element elementor-element-7fe2be5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7fe2be5" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6626b64" data-id="6626b64" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-1b7937d elementor-section-height-min-height elementor-section-boxed elementor-section-height-default" data-id="1b7937d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-db2424a" data-id="db2424a" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7cab8c5 elementor-widget elementor-widget-heading" data-id="7cab8c5" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Choose your combo size</h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-39af5ed elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="39af5ed" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-7b4eb01" data-id="7b4eb01" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+								<div class="elementor-element elementor-element-8d62382 elementor-widget elementor-widget-heading" data-id="8d62382" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">6 Pack Mix &amp; Match</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-012a60e elementor-align-center elementor-widget elementor-widget-button" data-id="012a60e" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://shop.ayo-foods.com/pages/6-pack-mix-and-match" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Start Combo</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e6208b2" data-id="e6208b2" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+								<div class="elementor-element elementor-element-b7383cb elementor-widget elementor-widget-heading" data-id="b7383cb" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">8 Pack Mix &amp; Match</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4852194 elementor-align-center elementor-widget elementor-widget-button" data-id="4852194" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://shop.ayo-foods.com/pages/8-pack-mix-match" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Start Combo</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-538a7a3" data-id="538a7a3" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+								<div class="elementor-element elementor-element-32eeb2f elementor-widget elementor-widget-heading" data-id="32eeb2f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">12 Pack Mix &amp; Match</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-53ac8f9 elementor-align-center elementor-widget elementor-widget-button" data-id="53ac8f9" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://shop.ayo-foods.com/pages/12-pack-mix-match" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Start Combo</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+		    <!-- Facebook Pixel Event Code -->
+    <script type='text/javascript'>
+        document.addEventListener( 'wpcf7mailsent', function( event ) {
+        if( "fb_pxl_code" in event.detail.apiResponse){
+          eval(event.detail.apiResponse.fb_pxl_code);
+        }
+      }, false );
+    </script>
+    <!-- End Facebook Pixel Event Code -->
+    <div id='fb-pxl-ajax-code'></div><link rel='stylesheet' id='elementor-gallery-css'  href='wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css?ver=1.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-1745-css'  href='wp-content/uploads/elementor/css/post-1745.css?ver=1655861579' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-1740-css'  href='wp-content/uploads/elementor/css/post-1740.css?ver=1655861579' type='text/css' media='all' />
+<link rel='stylesheet' id='e-animations-css'  href='wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.6.6' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-2-css'  href='https://fonts.googleapis.com/css?family=Rubik%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.5.25' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<script type='text/javascript' src='wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.5.18' defer async id='tp-tools-js'></script>
+<script type='text/javascript' src='wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.5.25' defer async id='revmin-js'></script>
+<script type='text/javascript' id='hook_main-js-extra'>
+/* <![CDATA[ */
+var ajax_var = {"url":"https:\/\/ayo-foods.com\/wp-admin\/admin-ajax.php","nonce":"aa55cb79b7"};
+var theme_options = {"last_tab":"","hook_responsive":"1","custom_width":"1280","show_sooner":"","hook_detect_retina":"1","page_transition":"hk_trans_fade","page_transition_bk":"#f7f7f7","ajax_calls":"0","smooth_scroll":"0","font_size":"18","header_font":"Lato:100,300,400,700,400italic","uppercase_headings":"1","body_font":"Lato:100,300,400,700,400italic","custom_font":"","custom_font_style":"italic","titles_font":"header_font","main_subheadings_font":"body_font","subheadings_style":"italic","headings_align":"hook_center_align","drop_caps_size":"52","use_custom_colors":"1","site_background_color":"#ffffff","active_color":"#fec45e","bd_headings_color":"#000000","bd_smallers_color":"#3e3e3e","inactive_color":"#808080","lines_color":"#efefef","background_color":"#f2f2f2","inputs_bordercolor":"#efefef","inputs_radius":"0","shadow_color":"#1b1b1b","custom_shadow":"0","buttons_font":"headings_f","buttons_spacing":"1","uppercase_buttons":"1","buttons_border":"1","buttons_radius":"20","buttons_text_color":"#FFFFFF","theme_buttons_color":"#f2664a","buttons_inner_shadow":"0","slider_text_color":"#FFFFFF","buttons_color":"#fec45e","back_to_top_bk":"#fec45e","back_to_top_color":"#FFFFFF","preloader_style":"theme_spinner","preloader_color_1":"#111111","preloader_color_2":"#12b2cb","preloader_color_3":"#686868","preloader_color":"#49B6B2","preloader_opacity":"70","preloader_image":{"url":"","id":"","height":"","width":"","thumbnail":""},"preloader_image_retina":{"url":"","id":"","height":"","width":"","thumbnail":""},"background_color_dots":"#FFFFFF","featured_header_color":"#000000","bk_color_sidebar_overlay":"#111111","right_sidebar":"1","logo_align":"st_logo_on_left","logo":{"url":"","id":"","height":"","width":"","thumbnail":""},"logo_retina":{"url":"","id":"","height":"","width":"","thumbnail":""},"logo_top_margin":"39","logo_collapsed":{"url":"https:\/\/ayo-foods.com\/wp-content\/uploads\/2019\/08\/AYO-logo_sm.png","id":"322","height":"163","width":"159","thumbnail":"https:\/\/ayo-foods.com\/wp-content\/uploads\/2019\/08\/AYO-logo_sm-150x150.png"},"logo_collapsed_retina":{"url":"","id":"","height":"","width":"","thumbnail":""},"logo_collapsed_top_margin":"16","favicon":{"url":"https:\/\/ayo-foods.com\/wp-content\/uploads\/2020\/01\/favicon.ico","id":"680","height":"48","width":"48","thumbnail":"https:\/\/ayo-foods.com\/wp-content\/uploads\/2020\/01\/favicon-150x150.ico"},"show_top_bar":"0","top_bar_height":"36","top_bar_font_size":"11","active_color_header_bar":"#303030","body_color_header_bar":"#a8a8a8","background_color_header_bar":"#FFFFFF","border_color_header_bar":"","top_bar_limited_width":"0","menu_vertical":"92","background_color_menu_bar":"#141414","header_default_opacity":"0","border_menu_bar":"#141414","border_default_opacity":"0","menu_spacing":"1","menu_align":"st_menu_on_right","menu_position":"hook_absolute_mn","menu_display":"st_regular_menu","menu_hide_flag":"0","menu_hide_pixels":"110","bk_color_menu_overlay":"#333038","opacity_menu_overlay":"95","active_color_menu_overlay":"#000000","color_menu_overlay":"#000000","overlay_align":"hook_center_align","overlay_page_id":"","overlay_footer_text":"","top_search":"0","menu_parent_rollover":"with_lines","menu_font":"header_font","menu_font_size":"14","menu_line_height":"40","menu_parent_style":"normal","menu_font_weight":"600","labels_offset":"0","menu_padding":"14","menu_active_color":"#ffffff","menu_up_color":"#FFFFFF","active_subheadings":"0","menu_subheadings_style":"italic","subheadings_color":"#a8a8a8","subheadings_font_size":"10","subheadings_font_weight":"400","subheadings_offset":"36","subheadings_font":"custom_font","menu_collapse_flag":"1","menu_collapse_pixels":"380","collapsed_menu_vertical":"72","background_color_menu_bar_after":"#141414","header_opacity_after":"100","border_menu_bar_after":"#141414","border_opacity_after":"100","menu_active_color_after":"#12b2cb","menu_up_color_after":"#FFFFFF","submenu_font_size":"12","submenu_font_weight":"400","menu_sub_padding":"40","submenu_active_color":"#12b2cb","submenu_text_color":"#FFFFFF","submenu_lines_color":"#212121","submenu_background_color":"#141414","network_icon_1":"","network_link_1":"","network_icon_2":"","network_link_2":"","network_icon_3":"","network_link_3":"","network_icon_4":"","network_link_4":"","network_icon_5":"","network_link_5":"","network_icon_6":"","network_link_6":"","nets_offset":"-14","resp_break":"900","css_enable":"0","menu_text":"MENU","menu_text_only":"only_text","append_mobile_logo":"mobile_logo_aft","right_bar_align":"hook_left_align","background_image_right_bar":{"url":"","id":"","height":"","width":"","thumbnail":""},"background_color_right_bar":"#141414","active_color_right_bar":"#12b2cb","body_color_right_bar":"#bbbbbb","opacity_mobile_overlay":"75","show_hidden_sidebar":"0","sidebar_position":"st_sidebar_on_right","sidebar_text":"MENU","menu_text_only_sb":"only_text","sidebar_width":"380","sidebar_align":"hook_center_align","background_image_sidebar":{"url":"","id":"","height":"","width":"","thumbnail":""},"background_color_sidebar":"#C0C0C0","active_color_sidebar":"#ffffff","body_color_sidebar":"#AFAFAF","sidebar_footer_id":"","opacity_sidebar_overlay":"25","persistent_blog":"1","persistent_folio":"1","background_color_prst":"#000000","body_color_prst":"#ffffff","use_footer":"1","footer_reveal":"0","footer_font_size":"13","titles_color_footer":"#ffffff","body_color_footer":"#ffffff","footer_border_color":"","background_color_footer":"#1b1b1b","bk_image_footer":{"url":"","id":"","height":"","width":"","thumbnail":""},"footer_image_align":"center","bottom_page":"1","bottom_page_id":"1287","bottom_page_after":"0","bottom_page_after_id":"","bottom_sidebar":"0","widgets_nr":"small-4","footer_text_background_color":"#141414","footer_text":"<p style=\"text-align: center;\">\u00a92020 AYO Foods\u00a0 -\u00a0 All rights reserved<\/p>","footer_text_extra":"","archives_type":"masonry","posts_bk_color":"#FFFFFF","thumbs_text_color_blog":"#ffffff","background_color_btns_blog":"#111111","custom_opacity":"60","custom_width_blog":"1080","header_align_blog":"bottomed_content","autoplay_blog":"1","delay_blog":"6500","uppercase_blog_headings":"1","show_date_blog":"1","postedby_blog":"1","show_min_read":"1","categoriesby_blog":"1","show_blog_nav":"1","related_posts":"1","related_author":"0","comments_bk_color":"","share_blog":"1","share_blog_fb":"1","share_blog_goo":"1","share_blog_pin":"1","share_blog_twt":"1","share_blog_email":"0","archives_ptype":"grid","thumbs_text_color":"#ffffff","thumbs_text_position":"ct_ct","background_color_btns":"#111111","custom_opacity_folio":"60","thumbs_bg_size":"full_ths","portfolio_layout":"half","autoplay_portfolio":"1","delay_portfolio":"6500","uppercase_folio_headings":"0","dateby_port":"1","categoriesby_port":"1","load_all":"0","port_with_description":"0","show_port_nav":"1","port_nav_logic":"1","related_port":"0","related_info":"folio_always_title_and_skills hk_ins","port_resp_order":"0","footer_port":"0","background_color_overlayer":"#FFFFFF","active_color_overlayer":"#d92f3a","headings_color_overlayer":"#000000","smallers_color_overlayer":"#3e3e3e","body_color_overlayer":"#808080","lines_color_overlayer":"#e2e2e2","share_portfolio":"1","share_portfolio_fb":"1","share_portfolio_goo":"1","share_portfolio_pin":"1","share_portfolio_twt":"1","share_portfolio_email":"0","background_color_overf":"#FFFFFF","overf_layout":"grid","overf_columns":"3","overf_margin":"0","overf_click":"classiqued","overf_colored":"0","overf_info":"folio_title_and_skills","search_image":{"url":"","id":"","height":"","width":"","thumbnail":""},"search_layout":"masonry","search_right_sidebar":"0","error_image":{"url":"https:\/\/ayo-foods.com\/wp-content\/uploads\/2019\/08\/AYO-logo.png","id":"320","height":"625","width":"625","thumbnail":"https:\/\/ayo-foods.com\/wp-content\/uploads\/2019\/08\/AYO-logo-150x150.png"},"search_color":"","404_search":"back_button","google_maps_key":"","theme_translation":"0","theme_divider":"-","search_tip_text":"Type and hit ENTER","submit_search_res_title":"Search Results for","submit_search_no_results":"No Results Found for","previous_text":"Previous","next_text":"Next","lightbox_text":"of","required_text":" (required)","profile_text":"View Profile","in_touch_text":"Get In touch","twitter_text":"Tweet","facebook_text":"Share","google_text":"+1","pinterest_text":"Pin It","404_title_text":"PAGE NOT FOUND","404_body_text":"Ooops... Something went terribly wrong!","404_button_text":"BACK TO HOMEPAGE","read_more":"Read More","sticky_text":"Sticky Post","min_read_text":"MIN READ","posted_by_text":"Posted by","on_text":"on","about_author_text":"About","to_blog":"BACK TO BLOG","older":"Older posts","newer":"Newer posts","related_posts_text":"Related News","related_posts_teaser_text":"Other posts that you should not miss.","older_single":"\u2190 PREVIOUS POST","newer_single":"NEXT POST \u2192","all_the_posts":"All the posts published.","prj_desc_text":"About this project","date_text":"Date","client_text":"Client","extra_fld1":"My Custom Field 1","extra_fld2":"My Custom Field 2","extra_fld3":"My Custom Field 3","skills_text":"Skills","tags_text":"Tags","project_text":"Project URL","launch_text":"Launch Project","all_text":"Show All","load_more":"LOAD MORE POSTS","no_more":"NO MORE POSTS TO SHOW","related_prj_text":"Related Projects","related_prj_teaser_text":"Simply delivering amazing stuff. Period.","to_portfolio":"BACK TO PORTFOLIO","prj_prev_text":"PREVIOUS PROJECT","prj_next_text":"NEXT PROJECT","all_the_portfolios":"All the work completed.","comments_label":"Comments","comments_no_response":"No comments","comments_one_response":"1 Comment","comments_oneplus_response":"Comments","reply_text":"Reply","comments_leave_reply":"Leave a Comment","comments_under_reply":"Your feedback is valuable for us. Your email will not be published.","comments_author_text":"Name","comments_email_text":"Email","comments_url_text":"Website","comments_comment_text":"Your comment","comments_submit":"Submit Comment","empty_text_error":"Error! This field is required.","invalid_email_error":"Error! Invalid email.","comment_ok_message":"Thank you for your feedback!","contact_subject_text":"Subject","contact_message_text":"Your message","contact_submit":"Send Message","contact_error_text":"Error! This field is required.","contact_error_email_text":"Error! This email is not valid.","contact_wait_text":"Please wait...","contact_ok_text":"Thank you for contacting us. We will reply soon!","css_text":"h3 {\r\n    line-height: 1.2em;\r\n}","js_text":"","portfolio_slug":"portfolios","skills_slug":"skills","folio_tags_slug":"tagged","slides_slug":"slides","groups_slug":"group","members_slug":"member","team_slug":"team","testimonials_slug":"testimonials","testimonials_groups_slug":"testimonials_group","overf_skills":"","single_folio_lightbox":"0","folio_page_id":"","read_more_folio":"Read More","comments_cookie_text":"Save my name, email, and website in this browser for the next time I comment.","woo_subheading":"A stunning place to get your stuff the easy way.","woo_prods_nr":"8","woo_col_nr":"4","woo_sidebar_display":"1","woo_cart_display":"1","woo_cart_always_display":"0","woo_cart_info":{"price":"Price"},"REDUX_last_saved":"1627560152","REDUX_LAST_SAVE":"1627560152","REDUX_COMPILER":"1612286105","REDUX_LAST_COMPILER":"1612286105","active_visual_composer":"","sharrre_dir_prk":"https:\/\/ayo-foods.com\/wp-content\/plugins\/hook_framework","active_skin":""};
+/* ]]> */
+</script>
+<script type='text/javascript' async="async" src='wp-content/themes/hook/js/main-min.js?ver=1626938558' id='hook_main-js'></script>
+<script type='text/javascript' src='wp-includes/js/wp-embed.min.js?ver=5.8.4' id='wp-embed-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js?ver=1.2.0' id='elementor-gallery-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.7.2' id='elementor-pro-webpack-runtime-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.6.6' id='elementor-webpack-runtime-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.6.6' id='elementor-frontend-modules-js'></script>
+<script type='text/javascript' src='wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.7' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' src='wp-includes/js/dist/hooks.min.js?ver=a7edae857aab69d69fa10d5aef23a5de' id='wp-hooks-js'></script>
+<script type='text/javascript' src='wp-includes/js/dist/i18n.min.js?ver=5f1269854226b4dd90450db411a12b79' id='wp-i18n-js'></script>
+<script type='text/javascript' id='wp-i18n-js-after'>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type='text/javascript' id='elementor-pro-frontend-js-translations'>
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "elementor-pro", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script type='text/javascript' id='elementor-pro-frontend-js-before'>
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/ayo-foods.com\/wp-admin\/admin-ajax.php","nonce":"206164bada","urls":{"assets":"https:\/\/ayo-foods.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/ayo-foods.com\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/ayo-foods.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.7.2' id='elementor-pro-frontend-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/core.min.js?ver=1.12.1' id='jquery-ui-core-js'></script>
+<script type='text/javascript' id='elementor-frontend-js-before'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.6.6","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"e_import_export":true,"e_hidden_wordpress_widgets":true,"theme_builder_v2":true,"landing-pages":true,"elements-color-picker":true,"favorite-widgets":true,"admin-top-bar":true,"page-transitions":true,"notes":true,"form-submissions":true,"e_scroll_snap":true},"urls":{"assets":"https:\/\/ayo-foods.com\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":1646,"title":"About%20AYO%20%E2%80%93%20AYO%20Foods","excerpt":"","featuredImage":false}};
+</script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.6.6' id='elementor-frontend-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.7.2' id='pro-elements-handlers-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.7.2' id='e-sticky-js'></script>
+<script type="text/javascript">
+
+  jQuery(document).ready(function() {
+
+    jQuery(document).on("submit","#popup_contact", function(){
+      gtag('event', 'Submit', {'event_category': 'Form','event_label': 'Contact Us'});
+    });
+
+    jQuery("div[data-id='11f23ee'] > div > div > a[href='https://ayo-foods.com/store-locator/']").click(function(){
+      gtag('event', 'Click', {'event_category': 'Button','event_label': 'Where to Buy'});
+    });
+
+  });
+
+</script>
+
+<script>window.w3tc_lazyload=1,window.lazyLoadOptions={elements_selector:".lazy",callback_loaded:function(t){var e;try{e=new CustomEvent("w3tc_lazyload_loaded",{detail:{e:t}})}catch(a){(e=document.createEvent("CustomEvent")).initCustomEvent("w3tc_lazyload_loaded",!1,!1,{e:t})}window.dispatchEvent(e)}}</script><script async src="wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js"></script></body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Object Caching 47/183 objects using disk
+Page Caching using disk: enhanced 
+Lazy Loading
+Database Caching 28/94 queries in 0.049 seconds using disk
+
+Served from: ayo-foods.com @ 2022-06-22 11:51:28 by W3 Total Cache
+-->
