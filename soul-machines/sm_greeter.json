@@ -773,6 +773,15 @@
     ]
   },
   {
+    "intent":"PageNavigated",
+    "examples": [
+      "PAGE_LOADED"
+    ],
+    "metadata": [
+      ""
+    ]
+  },
+  {
     "intent":"WhatIsSoulMachines",
     "examples": [
       "what is soul machines",
