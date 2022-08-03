@@ -452,7 +452,9 @@
       "What can you do",
       "What is your job",
       "tell me about your job",
-      "what exactly is your job"
+      "what exactly is your job",
+      "what do you do",
+      "what can you help me with"
     ],
     "metadata": [
       "xx"
@@ -779,6 +781,262 @@
     ],
     "metadata": [
       ""
+    ]
+  },
+  {
+    "intent":"Finance",
+    "examples": [
+      "How can a digital person help in finance",
+      "how can a dp help in finance",
+      "finance",
+      "tell me about finance",
+      "finance sector",
+      "banking",
+      "financial use case"
+    ],
+    "metadata": [{
+      "text": "From answering questions to explaining financial concepts and opportunities, Digital People can help you stay connected and engaged with your clients in a whole new way. @ShowCards(externalLink) Take a look here for more information.",
+      "variables": {
+        "public": {
+          "externalLink": {
+             "type": "externalLink",
+             "data": {
+                "url": "https://liam-pool-sml.github.io/soul-machines/use-cases/financial-services",
+                "title": "More on Finance",
+                "imageUrl": "",
+                "description":""
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "intent":"Healthcare",
+    "examples": [
+      "How can a digital person help in health care",
+      "how can a dp help in health care",
+      "How can a digital person help in healthcare",
+      "how can a dp help in healthcare",
+      "How can a digital person help in health",
+      "how can a dp help in health",
+      "How can a digital person help in health services",
+      "how can a dp help in health services",
+      "health care",
+      "tell me about healthcare",
+      "digital doctor",
+      "health services",
+      "health",
+      "health care space",
+      "healthcare"
+    ],
+    "metadata": [{
+      "text": "From answering patient questions to helping with the intake process, Digital People can support doctors and patients in all new ways. @ShowCards(externalLink) Look here for more information on how digital people can help in the healthcare space.",
+      "variables": {
+        "public": {
+          "externalLink": {
+             "type": "externalLink",
+             "data": {
+                "url": "https://liam-pool-sml.github.io/soul-machines/use-cases/healthcare",
+                "title": "More on Healthcare",
+                "imageUrl": "",
+                "description":""
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "intent":"Retail",
+    "examples": [
+      "How can a digital person help in retail",
+      "how can a dp help in retail",
+      "shop assistant",
+      "tell me about retail",
+      "retail sector",
+      "retail assistant",
+      "retail use case",
+      "sales assistant",
+      "retail",
+      "brand ambassaor",
+      "How can a digital person help in ecommerce",
+      "how can a dp help in ecommerce",
+      "How can a digital person help in e commerce",
+      "how can a dp help in e commerce"
+    ],
+    "metadata": [{
+      "text": "From sales assistant to brand ambassador, Digital People can help your customers in amazing new ways. Click here for more. @ShowCards(externalLink) Take a look here for more information.",
+      "variables": {
+        "public": {
+          "externalLink": {
+             "type": "externalLink",
+             "data": {
+                "url": "https://liam-pool-sml.github.io/soul-machines/use-cases/retail-ecommerce",
+                "title": "More on Retail and Ecommerce",
+                "imageUrl": "",
+                "description":""
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "intent":"Entertainment",
+    "examples": [
+      "How can a digital person help in entertainment",
+      "how can a dp help in entertainment",
+      "digital celebrity",
+      "tell me about entertainment",
+      "entertainment sector",
+      "digital celebrities",
+      "entertainment",
+      "entertainment use case"
+    ],
+    "metadata": [{
+      "text": "From digital twins to avatars to on-air personalities, Digital People can help entertainers and entertainment companies connect with audiences in a whole new way.  @ShowCards(externalLink) Click here to find out more.",
+      "variables": {
+        "public": {
+          "externalLink": {
+             "type": "externalLink",
+             "data": {
+                "url": "https://liam-pool-sml.github.io/soul-machines/use-cases/entertainment",
+                "title": "More on Entertainment",
+                "imageUrl": "",
+                "description":""
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "intent":"Education",
+    "examples": [
+      "How can a digital person help in education",
+      "how can a dp help in education",
+      "digital tutor",
+      "tell me about education",
+      "education sector",
+      "education use case",
+      "tutoring",
+      "education"
+    ],
+    "metadata": [{
+      "text": "From administrative and enrollment support to tutoring and career counseling, Digital People can be trained to do the job. @ShowCards(externalLink) Take a look here for more information",
+      "variables": {
+        "public": {
+          "externalLink": {
+             "type": "externalLink",
+             "data": {
+                "url": "https://liam-pool-sml.github.io/soul-machines/use-cases/education",
+                "title": "More on Education",
+                "imageUrl": "",
+                "description":""
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "intent":"Tech and Media",
+    "examples": [
+      "How can a digital person help in tech and media",
+      "how can a dp help in tech and media",
+      "shop assistant",
+      "tell me about tech and media",
+      "tell me about tech",
+      "tell me about media",
+      "tech sector",
+      "tech and media sector",
+      "media sector",
+      "tech and media use case",
+      "tech and media",
+      "How can a digital person help in media and tech",
+      "how can a dp help in media and tech",
+      "How can a digital person help in media",
+      "how can a dp help in media",
+      "How can a digital person help in tech",
+      "how can a dp help in tech"
+    ],
+    "metadata": [{
+      "text": "The possibilities for Digital People in Tech and Media are as wide open as the industries themselves. @ShowCards(externalLink) Click here for more information.",
+      "variables": {
+        "public": {
+          "externalLink": {
+             "type": "externalLink",
+             "data": {
+                "url": "https://liam-pool-sml.github.io/soul-machines/use-cases/tech-media",
+                "title": "More on Tech and Media",
+                "imageUrl": "",
+                "description":""
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "intent":"Professional Services",
+    "examples": [
+      "How can a digital person help in professional services",
+      "how can a dp help in professional services",
+      "tell me about professional services",
+      "professional services use case",
+      "professional services"
+    ],
+    "metadata": [{
+      "text": "With a focus on efficient and empathetic customer service, Digital People are bringing together the best of human and machine collaboration.  @ShowCards(externalLink) Click here for more information.",
+      "variables": {
+        "public": {
+          "externalLink": {
+             "type": "externalLink",
+             "data": {
+                "url": "https://liam-pool-sml.github.io/soul-machines/use-cases/professional-services",
+                "title": "More on Professional Services",
+                "imageUrl": "",
+                "description":""
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "intent":"Public Sector",
+    "examples": [
+      "How can a digital person help in the public sector",
+      "How can a digital person help in public sectors",
+      "how can a dp help in public sector",
+      "tell me about public sector",
+      "public sector",
+      "public sector use case"
+    ],
+    "metadata": [{
+      "text": "From answering questions to explaining procedures and services, Digital People can help the populations you serve to always be safer and better-informed. Click here for more information.",
+      "variables": {
+        "public": {
+          "externalLink": {
+             "type": "externalLink",
+             "data": {
+                "url": "https://liam-pool-sml.github.io/soul-machines/use-cases/public-sector",
+                "title": "More on Public Sector",
+                "imageUrl": "",
+                "description":""
+              }
+            }
+          }
+        }
+      }
     ]
   },
   {
