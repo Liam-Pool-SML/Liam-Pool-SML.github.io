@@ -1,5 +1,21 @@
 [
   {
+    "intent": "AskAboutPets",
+    "examples": [
+      "Are [cats](subject) good pets",
+      "Are [dogs](subject) good pets",
+      "Are [parrots](subject) good pets",
+      "Are [hamsters](subject) good pets",
+      "Would a [dog](subject) make a good pet",
+      "Should I get a [parrot](subject) as a good pets",
+      "Are cute [hamsters](subject) good pets",
+      "Are [cats](subject) good listeners"
+    ],
+    "metadata": [
+      "All pets are good if they make the owner happy."
+    ]
+  },
+  {
     "intent":"SM Contact",
     "examples": [
       "How do I contact Soul Machines",
