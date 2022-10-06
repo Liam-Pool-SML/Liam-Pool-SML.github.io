@@ -296,7 +296,7 @@ sm-video {
 }
 
 .sm-h-40 {
-    height: 160px
+    height: 1024px
 }
 
 .sm-h-1 {
@@ -344,7 +344,7 @@ sm-video {
 }
 
 .sm-w-63 {
-    width: 252px
+    width: 100%
 }
 
 .sm-w-18 {
@@ -1219,7 +1219,7 @@ sm-widget video {
     }
 
     .md\:sm-h-54 {
-        height: 216px
+        height: 1024px
     }
 
     .md\:sm-w-12 {
@@ -1227,7 +1227,7 @@ sm-widget video {
     }
 
     .md\:sm-w-88 {
-        width: 352px
+        width: 100%
     }
 
     .md\:sm-w-35 {
