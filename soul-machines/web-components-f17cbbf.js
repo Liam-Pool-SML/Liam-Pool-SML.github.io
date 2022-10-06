@@ -15520,7 +15520,7 @@ function Pb({
 			config: Dr.stiff
 		}),
 		d = Le({
-			"sm-scale-50 sm-origin-bottom-right": l
+			"sm-scale-50": l
 		});
 	return S("div", {
 		className: `sm-text-primary-text sm-z-max sm-pointer-events-none sm-h-full  ${u}`,
@@ -15544,7 +15544,7 @@ function Pb({
 						children: [c && S("button", {
 							onClick: s,
 							"data-sm-cy": "connectButton",
-							className: "sm-w-18 sm-h-18 md:sm-w-35 md:sm-h-35 sm-flex sm-justify-center sm-items-center sm-text-primary-base sm-border-none sm-outline sm-outline-2 sm-outline-transparent sm-bg-transparent hover:sm-outline-secondary-base sm-transition-colors sm-overflow-hidden",
+							className: "md:sm-w-35 md:sm-h-35 sm-flex sm-justify-center sm-items-center sm-text-primary-base sm-border-none sm-outline sm-outline-2 sm-outline-transparent sm-bg-transparent hover:sm-outline-secondary-base sm-transition-colors sm-overflow-hidden",
 							children: S(qp, {
 								src: e
 							})
