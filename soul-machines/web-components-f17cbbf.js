@@ -15554,7 +15554,7 @@ function Pb({
 								"sm-w-63 sm-h-40 md:sm-h-54 md:sm-w-88 sm-border-2 sm-border-solid sm-border-gray-lightest": l
 							}),
 							children: [S(ku, {
-								autoConnect: !1,
+								autoConnect: 1,
 								loadingIndicator: S(p, {})
 							}), a && S($p, {})]
 						})]
