@@ -15176,16 +15176,16 @@ function v1({
 			"sm-scale-50 sm-origin-bottom-right": o
 		});
 	return I("div", {
-		className: "sm-fixed sm-bottom-0 sm-right-0 sm-p-2 sm-z-max sm-pointer-events-none sm-h-full md:sm-p-5 ",
+		className: "sm-z-max sm-pointer-events-none sm-h-full",
 		children: ve("div", {
-			className: "sm-flex sm-flex-col sm-items-end sm-gap-y-2 sm-h-full sm-justify-end md:sm-gap-y-5",
+			className: "",
 			children: [I("div", {
-				class: "sm-w-63 md:sm-w-88 sm-max-h-full sm-flex sm-flex-col sm-justify-end sm-gap-y-2 sm-overflow-hidden sm-p-8 -sm-m-8 sm-box-content md:sm-gap-y-3",
+				class: "",
 				children: I(b1, {})
 			}), ve("div", {
-				className: "sm-flex sm-flex-wrap sm-gap-2 sm-items-center sm-justify-end md:sm-gap-5",
+				className: "",
 				children: [s && I("div", {
-					className: "sm-max-w-xs",
+					className: "sm-max-w-xs sm-origin-bottom-right sm-fixed sm-bottom-100 sm-right-0 sm-z-max",
 					children: I(Mp, {
 						greeting: t
 					})
@@ -15193,18 +15193,18 @@ function v1({
 					className: u,
 					children: ve(Ir.div, {
 						style: l,
-						className: "sm-rounded-xl sm-origin-bottom-right sm-shadow-lg sm-bg-secondary-100 sm-pointer-events-auto md:sm-rounded-3xl",
+						className: "sm-shadow-lg sm-pointer-events-auto",
 						children: [s && I("button", {
 							onClick: i,
 							"data-sm-cy": "connectButton",
-							className: "sm-w-18 sm-h-18 md:sm-w-35 md:sm-h-35 sm-flex sm-justify-center sm-items-center sm-rounded-inherit sm-text-primary-300 sm-border-2 sm-border-transparent sm-bg-transparent hover:sm-border-primary-400 sm-transition-colors sm-overflow-hidden",
+							className: "sm-w-full sm-h-1024 sm-flex sm-justify-center sm-items-center sm-text-primary-300 sm-border-2 sm-border-transparent sm-bg-transparent hover:sm-border-primary-400 sm-transition-colors sm-overflow-hidden",
 							children: I(Pp, {
 								src: e
 							})
 						}), ve("div", {
 							className: ft({
-								"sm-relative sm-rounded-inherit sm-overflow-hidden sm-transform-gpu": !0,
-								"sm-w-63 sm-h-40 md:sm-h-54 md:sm-w-88 sm-border-2 sm-border-primary-400": o
+								"sm-transform-gpu": !0,
+								"sm-w-full sm-h-1024 sm-border-2 sm-border-primary-400": o
 							}),
 							children: [I(Cu, {
 								autoConnect: !1,

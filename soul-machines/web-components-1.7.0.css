@@ -294,6 +294,10 @@ sm-video {
     height: 40px
 }
 
+.sm-h-1024 {
+    height: 1024px
+}
+
 .sm-h-full {
     height: 100%
 }
