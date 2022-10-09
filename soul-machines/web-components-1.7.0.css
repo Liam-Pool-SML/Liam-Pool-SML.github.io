@@ -362,6 +362,10 @@ sm-video {
     max-width: 272px
 }
 
+.sm-max-h-contentCard {
+    max-height: 350px
+}
+
 .sm-table-auto {
     table-layout: auto
 }

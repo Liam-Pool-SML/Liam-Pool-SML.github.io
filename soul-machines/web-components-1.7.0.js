@@ -7207,7 +7207,7 @@ function Yt({
 			opacity: 0
 		}
 	})((l, u) => u && ve(Ir.div, {
-		className: "sm-relative sm-flex sm-overflow-hidden sm-pointer-events-auto sm-p-8 -sm-m-8",
+		className: "sm-fixed sm-z-max sm-max-w-contentCard sm-flex sm-overflow-hidden sm-pointer-events-auto sm-p-8 -sm-m-8",
 		style: {
 			...l,
 			...n
@@ -15207,7 +15207,7 @@ function v1({
 								"sm-w-full sm-h-1024 sm-border-2 sm-border-primary-400": o
 							}),
 							children: [I(Cu, {
-								autoConnect: !1,
+								autoConnect: 1,
 								loadingIndicator: I(a, {})
 							}), o && I(Rp, {})]
 						})]
