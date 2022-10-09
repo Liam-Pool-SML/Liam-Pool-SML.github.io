@@ -15173,7 +15173,7 @@ function v1({
 			config: Or.stiff
 		}),
 		u = ft({
-			"sm-scale-50 sm-origin-bottom-right": o
+			"sm-scale-50": o
 		});
 	return I("div", {
 		className: "sm-z-max sm-pointer-events-none sm-h-full",
