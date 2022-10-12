@@ -15203,7 +15203,7 @@ function v1({
 							})
 						}), ve("div", {
 							className: ft({
-								"sm-transform-gpu": !0,
+								"sm-transform-gpu sm-background-null": !0,
 								"sm-w-full sm-h-1024 sm-border-2 sm-border-primary-400": o
 							}),
 							children: [I(Cu, {

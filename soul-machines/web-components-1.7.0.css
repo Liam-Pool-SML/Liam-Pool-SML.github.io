@@ -929,6 +929,10 @@ sm-video {
     transition-timing-function: cubic-bezier(.4, 0, .2, 1)
 }
 
+.sm-background-null {
+    background-image: url("https://github.com/Liam-Pool-SML/Liam-Pool-SML.github.io/blob/main/soul-machines/AmbassadorBanner.jpg?raw=true");
+}
+
 sm-widget {
     --color-grayscale-100: #eaeaea;
     --color-grayscale-200: #d3d3d3;
