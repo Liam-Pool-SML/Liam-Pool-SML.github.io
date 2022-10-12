@@ -7207,7 +7207,7 @@ function Yt({
 			opacity: 0
 		}
 	})((l, u) => u && ve(Ir.div, {
-		className: "sm-fixed sm-z-max sm-max-w-contentCard sm-flex sm-overflow-hidden sm-pointer-events-auto sm-p-8 -sm-m-8",
+		className: "sm-fixed sm-z-max sm-max-w-contentCard sm-right-0 sm-flex sm-overflow-hidden sm-pointer-events-auto sm-p-8 -sm-m-8",
 		style: {
 			...l,
 			...n
@@ -7339,7 +7339,7 @@ function Eu({
 }) {
 	const n = e.data;
 	return n.url ? I("div", {
-		className: "sm-flex sm-justify-center",
+		className: "sm-flex sm-right-0",
 		children: I(Yt, {
 			isDismissible: !0,
 			flush: !0,
