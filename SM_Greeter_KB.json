@@ -1,0 +1,1097 @@
+[
+    {
+        "intent": "System_PageLoaded",
+        "examples": [
+            "PAGE_METADATA"
+        ],
+        "metadata": [
+            "What else can I help you with?"
+        ]
+    },
+    {
+        "intent": "Chat_Greeting",
+        "examples": [
+            "WELCOME",
+            "Hello",
+            "hey",
+            "Hi",
+            "Good morning",
+            "Good afternoon",
+            "Good evening"
+        ],
+        "metadata": [
+           "Welcome to Soul Machines. I'm Joe. What are you interested in learning about today?"
+        ]
+    },
+    {
+        "intent": "Chat_Goodbye",
+        "examples": [
+            "Goodbye",
+            "See you later",
+            "I've got to go",
+            "bye",
+            "Good bye"
+        ],
+        "metadata": [
+           "Thanks for looking at soul machines today. Don't forget we're looking for customers to beta test the Greeter and Digital CXO Roles. See you next time. @close()"
+        ]
+    },
+    {
+        "intent": "Chat_Thanks",
+        "examples": [
+            "Thanks",
+            "Thank you",
+            "thanks that's very helpful",
+            "You've been really helpful",
+            "Cheers",
+            "thanks for your help",
+            "thanks for the link",
+            "Thank you for finding that for me"
+        ],
+        "metadata": [
+           "I'm glad to help",
+           "You're welcome."
+        ]
+    },
+    {
+        "intent": "Request_Joke",
+        "examples": [
+            "Tell me a joke",
+            "I want to hear a joke",
+            "please give me a joke",
+            "tell me something funny",
+            "I want to hear another funny joke"
+        ],
+        "metadata": [
+           "What kind of shoes to ninjas wear? Sneakers.",
+           "Why can't your nose be 12 inches long? It'd be a foot."
+        ]
+    },
+
+    {
+        "intent": "Request_DP_Role",
+        "examples": [
+            "What's your role",
+            "What do you do?",
+            "Are you a greeter?",
+            "Are you the soul machines Greeter?",
+            "Which Role are you?"
+        ],
+        "metadata": [
+           "I'm a Greeter for Soul Machines. You can create your own Digital Workforce with roles like this using Digital DNA Studio."
+        ]
+    },
+    {
+        "intent": "Request_DP_IsHuman",
+        "examples": [
+            "Are you human?",
+            "Are you real?",
+            "Are you a Digital Person",
+            "Are you modelled on someone?",
+            "Is your face a real persons face?",
+            "Who made you?",
+            "were you made by Soul Machines?"
+        ],
+        "metadata": [
+           "I'm a Digital Person created by Soul Machines using Digital DNA. I'm not human or modelled on a human."
+        ]
+    },
+
+   
+    {
+        "intent": "Request_About_Products",
+        "examples": [
+            "Tell me about your products",
+            "I want to know about your products",
+            "talk to me about your products",
+            "what is your product?",
+            "What are the products do you sell",
+            "Can you give me more about your product",
+            "can you show me anything about your product range"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink)",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/products/",
+                                "title": "Products - AI Avatars",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Add a human presence to your online brand - jump-start and customize the creation of your own autonomously animated AI avatars."
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_Solutions",
+        "examples": [
+            "Do you sell complete solutions?",
+            "what solutions do you sell?",
+            "Give me examples of the solutions you sell",
+            "I want to see more solutions please",
+            "Show me your solutions"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink)",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/products/",
+                                "title": "Products - AI Avatars",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Add a human presence to your online brand - jump-start and customize the creation of your own autonomously animated AI avatars."
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_TrialDP",
+        "examples": [
+            "How can I trial a Digital Person?",
+            "I want to trial a Digital Person in my website",
+            "Can I sign up for a trial?",
+            "How do I sign up for a trail?",
+            "Do you have a free trial?",
+            "I'd like to try a Digital Person before I buy one",
+            "I don't want to buy a Digital Person, I want to trial one",
+            "I'd like to get started with a Digital Person"
+        ],
+        "metadata": [
+            { 
+                "text": "@ShowCards(internalLink)",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/digital-dna-studio-self-guided-practice/",
+                                "title": "Digital DNA Studio - self-guided practice",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Creation, Training, Deployment, and Interaction with your own Digital People in minutes."
+                            }
+                        },
+                        "externalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/creator-program-application/",
+                                "title": "Creator Program Application",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Join our Creator Community to pioneer building custom AI-enabled Metaverse Avatars - connect with other creators, share resources, and more."
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_BuyDP",
+        "examples": [
+            "I'd like to buy a Digital Person",
+            "I want a Digital Person subscription",
+            "Can I get a Digital Person with a subscription or is it a one off cost?",
+            "How can I get a Digital Person for my website?",
+            "How can we get a Digital Person?",
+            "How much does a Digital Person cost?"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink)",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/digital-dna-studio-self-guided-practice/",
+                                "title": "Digital DNA Studio - self-guided practice",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Creation, Training, Deployment, and Interaction with your own Digital People in minutes."
+                            }
+                        },
+                        "externalLink": {
+                            "type": "externalLink",
+                            "data": {
+                                "url": "https://soulmachinespackages.thinkific.com/courses/enterprise-developer-package",
+                                "title": "Soul Machines Packages",
+                                "imageUrl": "https://import.cdn.thinkific.com/699365/courses/1992340/iPb7T8JS6SMaPvzkT5wc_Screen%20Shot%202022-08-31%20at%202.17.46%20PM.png",
+                                "description": "Put your enterprise on the path to the Metaverse"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_BuyDP_PersonalUse",
+        "examples": [
+            "I'd like to buy a digital person for personal use",
+            "Can I get a Digtial Person for personal use",
+            "Can I have one for personal use?",
+            "I want a Digital Person for home use",
+            "I'd like to get a Digital Person for private use"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink)",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/digital-dna-studio-self-guided-practice/",
+                                "title": "Digital DNA Studio - self-guided practice",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Creation, Training, Deployment, and Interaction with your own Digital People in minutes."
+                            }
+                        },
+                        "externalLink": {
+                            "type": "externalLink",
+                            "data": {
+                                "url": "https://soulmachinespackages.thinkific.com/courses/enterprise-developer-package",
+                                "title": "Soul Machines Packages",
+                                "imageUrl": "https://import.cdn.thinkific.com/699365/courses/1992340/iPb7T8JS6SMaPvzkT5wc_Screen%20Shot%202022-08-31%20at%202.17.46%20PM.png",
+                                "description": "Put your enterprise on the path to the Metaverse"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_Roles",
+        "examples": [
+            "What are roles?",
+            "Tell me about roles",
+            "tell me what a role is",
+            "give me an example of a role you can fulfil",
+            "I want to know what Roles you can fulfil",
+            "what jobs can Roles can a Digital Person fulfil"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink)",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com",
+                                "title": "Soul Machines",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/cropped-sm-favicon-180x180.png",
+                                "description": "Soul Machines is the leader in astonishing AGI"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_Roles_Greeter",
+        "examples": [
+            "What's a greeter?",
+            "Tell me about the Greeter role",
+            "I want to know more about Greeters",
+            "Talk to me about Greeters",
+            "what does a Greeter do?",
+            "what's the point of the Greeter Role?",
+            "I want to know what Greeter is"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink)",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/digital-greeter/",
+                                "title": "Digital Greeter",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Introducing your Digital Greeter - increase customer engagement 24/7/365 with a pre-configured animated digital concierge."
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_Roles_DCXO",
+        "examples": [
+            "What's a dcxo?",
+            "Tell me about the dcxo role",
+            "I want to know more about dcxo",
+            "Talk to me about dcxo",
+            "what does a dcxo do?",
+            "what's the point of the dcxo Role?",
+            "I want to know what dcxo is"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink)",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/digital-cxo/",
+                                "title": "Digital CXO",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Cut through the other customer experience solutions with your new Digital CXO - give a human touch to an AI powered team member."
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_Skills",
+        "examples": [
+            "What are Skills?",
+            "What Skills do you have?",
+            "What Skills come out of the box",
+            "what are smart Skills?",
+            "what features come out of the box"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink)",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/digital-people-skills/",
+                                "title": "Digital People Skills",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Assist and serve your customers with a digital workforce trained with a wealth of job skills."
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_DDNAS",
+        "examples": [
+            "What is Digital DNA Studio?",
+            "Tell me about Digital DNA Studio?",
+            "I want to know about Digital DNA Studio",
+            "How do you configure Digital People?",
+            "How do you create Digital People?"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink)",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/digital-dna-studio/",
+                                "title": "Digital DNA Studio",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/2020/07/soulmachines-ddna-studio.jpg",
+                                "description": "Discover Digital DNA Studio, the one-stop shop for brands and creators to design their own AI avatars and train them to deliver unique user experiences."
+                            
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_Technology",
+        "examples": [
+            "What technology do you use?",
+            "What is soul machines proprietary technology",
+            "what technology makes you unique",
+            "tell me about the technology you use",
+            "I want to know about the tech you've got under the hood"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink)",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/technology/",
+                                "title": "Technology",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Learn about the technology that brings Soul Machines avatars to life: a Digital Brain driving their perception, understanding, and animation."
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_DigitalBrain",
+        "examples": [
+            "What's a Digital Brain?",
+            "What does your Digital Brain do?",
+            "Tell me about your Digital Brain",
+            "Do you have a brain?"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink)",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/technology/",
+                                "title": "Technology",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Learn about the technology that brings Soul Machines avatars to life: a Digital Brain driving their perception, understanding, and animation."
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_AutonomousAnimation",
+        "examples": [
+            "What is Autonomous Animation?",
+            "I want to know what autonomous animation is",
+            "talk to me about autonomous animation",
+            "tell me about autonomous animation",
+            "Are you animated?",
+            "are you prescripted?"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink)",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/technology/autonomous-animation-framework/",
+                                "title": "Autonomous Animation Framework",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Learn how Autonomous Animation allows Soul Machines Digital People to combine high-quality CGI with a computer architecture inspired by the human brain."
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_Research",
+        "examples": [
+            "Is soul machines a research company?",
+            "Tell me about what you research",
+            "What does soul machines research?",
+            "Is soul machines an AGI research company?",
+            "I want to know about the research you do"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink)",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/resources/research/",
+                                "title": "Research",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": ""
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_UseCases",
+        "examples": [
+            "What use cases are digital people used in?",
+            "Can you give me examples of use cases the Digital People",
+            "What do companies use Digital People for?",
+            "I want to see examples of Digital People",
+            "Show me examples of digital people",
+            "Show me some real use cases"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink) There's a ton of amazing use cases for Digital People. Which one interests you most?",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/use-cases-for-business-ai/",
+                                "title": "Use Cases - Business AI",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Explore our use cases to see how our Digital People are built using AI for business solutions that are changing the future of customer experience."
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_UseCases_Education",
+        "examples": [
+            "Can a Digital Person be used in Education?",
+            "Do you have examples of a Digital Person being used in education?",
+            "Can you give me a use case for Education",
+            "How could this be used in a school?",
+            "Show me a Digital Person in a University"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink) We can help with everything from administrative support through to tutoring and career counselling. These services can be provided 24/7 in multiple languages with learning outcomes comparable to existing services.",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/use-cases-for-business-ai/virtual-tutors-in-education/",
+                                "title": "Virtual Tutors in Education",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "From virtual tutors to academic advisors, learn how Soul Machines Digital People are transforming Education at scale."
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_UseCases_Entertainment",
+        "examples": [
+            "Can a Digital Person be used in Entertainment?",
+            "Do you have examples of a Digital Person being used in Entertainment?",
+            "Can you give me a use case for Entertainment",
+            "How could this be used for celebrities?",
+            "Show me a Digital Person as an influencer"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink) We can provide Digital Twins, as well as fully artificial influences that can help organizations connect with audiences in a whole new way. These services can be provided 24/7 where ever your audience is.",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/use-cases-for-business-ai/digital-twins-entertainment/",
+                                "title": "Digital Twins in Entertainment",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Meet the future of fan experience where Digital Twins and custom digital Influencers can interact and engage with broader audiences."
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_UseCases_FinancialServices",
+        "examples": [
+            "Can a Digital Person be used in Financial Services?",
+            "Do you have examples of a Digital Person being used in finance?",
+            "Can you give me a use case for banking",
+            "How could this be used in a bank?",
+            "Show me a Digital Person in a finance"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink) We can explain complex financial concepts, or provide empathetic support to customers, engaging with your clients 24/7 in multiple languages where ever your customer is.",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/use-cases-for-business-ai/financial-services/",
+                                "title": "Financial Services",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Bank on the future with Digital People. Provide your customers with 24/7 access to an AI financial advisor for guidance and support"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_UseCases_Healthcare",
+        "examples": [
+            "Can a Digital Person be used in Healthcare?",
+            "Do you have examples of a Digital Person being used in Healthcare?",
+            "Can you give me a use case for doctor",
+            "How could this be used in a hospital?",
+            "Show me a Digital Person in medicine"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink) From answering patient questions to helping with the intake process, Digital People can support doctors and patients in all new ways. These services can be provided 24/7 in multiple languages where ever your customer is. ",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/use-cases-for-business-ai/healthcare/",
+                                "title": "Healthcare",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Revolutionize your patient experience with scalable eHealth Solutions using Digital People - answer patient questions, ease the intake process, and more"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_UseCases_ProfessionalServices",
+        "examples": [
+            "Can a Digital Person be used for professional services?",
+            "Do you have examples of a Digital Person being used in customer service?",
+            "Can you give me a use case for service",
+            "How could this be used instead of a chatbot?",
+            "Show me a Digital Person in a customer service"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink) With a focus on efficient and empathetic customer service, Digital People are bringing together the best of human and machine collaboration. These services can be provided 24/7 in multiple languages where ever your customer is.",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/use-cases-for-business-ai/professional-services/",
+                                "title": "Professional Services",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Digital People are on call 24/7/365 to deliver efficient and empathetic customer service - it's time to build a human connection with AI in call centers"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_UseCases_PublicSector",
+        "examples": [
+            "Can a Digital Person be used in the public sector?",
+            "Do you have examples of a Digital Person being used in local government?",
+            "Can you give me a use case for police support",
+            "How could this be used in a community outreach?",
+            "Show me a Digital Person used for smoking"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink) From answering questions to explaining procedures and services, Digital People can help the populations you serve to always be safer and better-informed. These services can be provided 24/7 in multiple languages where ever your customer is.",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/use-cases-for-business-ai/public-sector-community-engagement/",
+                                "title": "Public Sector Community Engagement",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Digital People are designed to inform and serve as part of an innovative community engagement solution 24/7/365."
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_UseCases_RetailEcommerce",
+        "examples": [
+            "Can a Digital Person be used in Retail?",
+            "Do you have examples of a Digital Person being used in eCommerce?",
+            "Can you give me a use case for retail",
+            "How could this be used for selling?",
+            "Show me a Digital Person as a salesperson"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink) From sales assistant to brand ambassador, Digital People can help your customers in amazing new ways. These services can be provided 24/7 in multiple languages where ever your customer is.",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/use-cases-for-business-ai/retail-ecommerce/",
+                                "title": "Retail &amp; eCommerce",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Digital People deliver empathetic brand experiences. From virtual sales assistants to brand ambassadors - connect with your customers face to face."
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_UseCases_TechMedia",
+        "examples": [
+            "Can a Digital Person be used in Technology?",
+            "Do you have examples of a Digital Person being used in Media?",
+            "Can you give me a use case for tech companies",
+            "How could this be used for media creation?",
+            "Show me a Digital Person as a game character"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink) Digital People can host, entertain, and influence in a range of environments and media. The possibilities are as wide open as the industries themselves.",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/use-cases-for-business-ai/tech-media/",
+                                "title": "Tech &amp; Media",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Soul Machines is the leader in astonishing AGI"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_SoulMachines",
+        "examples": [
+            "What is Soul Machines all about?",
+            "Tell me about soul machines",
+            "I want to know about your company",
+            "Give me an overview of soul machines"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink) Soul Machines is a leader in the humanization of AI, creating autonomously animated Digital People that empower organizations to reimagine customer experiences in today’s digital worlds and the metaverse. Soul Machines is the only company with a patented Digital Brain and Autonomous Animation technology delivering the full capabilities and goodness of human and machine collaboration in a responsive, relatable and unprecedented way.",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/about-soul-machines/",
+                                "title": "About",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Soul Machines is an AI company bringing the goodness of human-machine collaboration with avatars that improve the way we work, play and engage."
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_Communities",
+        "examples": [
+            "Is there a Soul Machines community?",
+            "Are there any forumns I can join?",
+            "Can I join a community?",
+            "Do you have a community hub?",
+            "what communities do you have?"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink) Soul Machines cultivates a range of creative and technical communities to advance the use of Digital People. Check them out here.",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/support/",
+                                "title": "Support",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Learn, exchange ideas, share information. Join our creators, writers and partners as we form metaverse communities."
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_TrainingResources",
+        "examples": [
+            "Do you have any training resources?",
+            "Can I see a tutorial on how to build a Digital Person?",
+            "How can I learn to write for a Digital Person?",
+            "What can I read about building Digital People?",
+            "I'd like to get training on Digital People"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink) We have a ton of resources for you to draw from. Soul Academy and the Writers Room will teach you how to build a Digital Person, and our support documentation will give you specific technical answers.",
+                "variables": {
+                    "public": {
+                        "externalLink1": {
+                            "type": "externalLink",
+                            "data": {
+                                "url": "https://soulmachinesacademy.thinkific.com/",
+                                "title": "Soul Machines Academy"
+                            }
+                        },
+                        "externalLink2": {
+                            "type": "externalLink",
+                            "data": {
+                                "url": "https://soulmachines.thinkific.com/courses/writers-room-application-portal",
+                                "title": "Apply to The Writers&#39; Room",
+                                "imageUrl": "https://import.cdn.thinkific.com/304683/64WYSB4XQxqK8JuoHzeY_man-coffee%20%281%29.jpg",
+                                "description": "Upskill our Digital People. Broaden your toolkit. Become a Certified Conversation Designer."
+                            }
+                        },
+                        "externalLink3": {
+                            "type": "externalLink",
+                            "data": {
+                                "url": "https://support.soulmachines.cloud/",
+                                "title": "Soul Machines Support"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_WorkWithSoulMachines",
+        "examples": [
+            "I'd like to work with soul machines",
+            "How can I work with soul machines?",
+            "I'd like to partner with your company",
+            "How can I partner with you",
+            "Do you have a partner program?",
+            "Can I freelance with you?"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink) Depending on your business you could join our partner program, creators community, or you could freelance in the Soul Machines Marketplace.",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+
+                            "externalLink1": {
+                                "type": "externalLink",
+                                "data": {
+                                    "url": "https://marketplace.soulmachines.com/",
+                                    "title": "Soul Machines Marketplace"
+                                }
+                            },
+                            "externalLink2": {
+                                "type": "externalLink",
+                                "data": {
+                                    "url": "https://community.soulmachines.com/",
+                                    "title": "Soul Machines Creator Community",
+                                    "description": "Join Soul Machines Creator Community to start sharing and connecting with like-minded people."
+                                }
+                            },
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/partner-program/",
+                                "title": "Partner Program",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Join our network of Soul Machines partners if you are passionate about the future of customer experience, digital workforces, and the metaverse"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_WorkForSoulMachines",
+        "examples": [
+            "I want to work for soul machines",
+            "Do you have a careers page?",
+            "Can I get a job at your company?",
+            "How can I get a job at Soul Machines?"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink) You can either sign up to work for Soul Machines, or you can work on commercial projects as a freelancer in the Soul Machines Marketplace. ",
+                "variables": {
+                    "public": {
+                        "externalLink": {
+                            "type": "externalLink",
+                            "data": {
+                                "url": "https://marketplace.soulmachines.com/",
+                                "title": "Soul Machines Marketplace"
+                            }
+                        },
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/ai-careers-at-soul-machines/",
+                                "title": "AI Careers at Soul Machines",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "If you are passionate about the future of customer experience, digital workforces, and the metaverse it&#039;s time to consider a Soul Machines AI career."
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_EthicsPrivacy",
+        "examples": [
+            "Can I see your ethics policy",
+            "What are your thoughts on AI Ethics",
+            "Is soul machines an ethical company?",
+            "Can I see your code of conduct",
+            "Do you have a content moderation policy",
+            "Can I see your privacy policy"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink) We adhere to strict policies for ethics, privacy, and code of conduct. You can see them over here.",
+                "variables": {
+                    "public": {
+                        "externalLink1": {
+                            "type": "externalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/wp-content/uploads/Ethics_Policy_1.0-1-1.pdf",
+                                "title": "Ethics Policy"
+                            }
+                        },
+                        "externalLink2": {
+                            "type": "externalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/wp-content/uploads/Code-of-Conduct-Policy-v2.0-September-2022.pdf",
+                                "title": "Code of Conduct Policy"
+                            }
+                        },
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/privacy-policy/",
+                                "title": "Privacy Policy",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_Events",
+        "examples": [
+            "Does Soul Machines host any events",
+            "Do you have in person events?",
+            "Do you go to trade shows?",
+            "Do you have live webinars?"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink) We hold regular events online and in person. It'd be great to have you along to one of them.",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/events/",
+                                "title": "Events",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Check out upcoming and past Soul Machines Events to see what&#039;s new in the world of Digital People and Autonomous animation."
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_Contact",
+        "examples": [
+            "Can I speak to a human?",
+            "I'd like to get in touch with the sales team",
+            "How can I contact Soul Machines?",
+            "How can I talk to a real person"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink) You can get in touch with us using our contact form. You could also come to our events, or sign up for our regular news letter.",
+                "variables": {
+                    "public": {
+                        "internalLink1": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/events/",
+                                "title": "Events",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Check out upcoming and past Soul Machines Events to see what&#039;s new in the world of Digital People and Autonomous animation."
+                            }
+                        },
+                        "internalLink2": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/contact/",
+                                "title": "Contact Soul Machines",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/2020/07/soul-machines-sam-1.jpg",
+                                "description": "Curious about Soul Machines? Contact us today to learn more about our digital people from a team of experts."
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Request_About_Materials",
+        "examples": [
+            "Do you have any podcasts?",
+            "Can I see your blog",
+            "I want to watch your past webinars",
+            "Do you have any published ebooks",
+            "Do you have a published white paper?",
+            "Can I see the whitepaper?",
+            "Do you have any demonstration videos",
+            "Can I see promotional materials"
+        ],
+        "metadata": [
+            {
+                "text": "@ShowCards(internalLink) We have tons of content for you. The latest news, podcasts, blogs, webinars can be found over here in our resources section.",
+                "variables": {
+                    "public": {
+                        "internalLink": {
+                            "type": "internalLink",
+                            "data": {
+                                "url": "https://www.soulmachines.com/resources/",
+                                "title": "Resources",
+                                "imageUrl": "https://www.soulmachines.com/wp-content/uploads/products-viola-scaled.jpg",
+                                "description": "Check out our Soul Machines resources to see our Digital People in action through eBooks, white papers, podcasts, and industry-focused webinars."
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]
