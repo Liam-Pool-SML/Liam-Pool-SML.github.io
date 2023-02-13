@@ -928,9 +928,11 @@ sm-video {
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
     transition-timing-function: cubic-bezier(.4, 0, .2, 1)
 }
-
+:root{
+    --bkgImage: "test";
+}
 .sm-background-null {
-    background-image: url("https://github.com/Liam-Pool-SML/Liam-Pool-SML.github.io/blob/main/soul-machines/Ambassador-Suki-Banner.jpg?raw=true");
+    background-image: url( var(--bkgImage));
 }
 
 sm-widget {
