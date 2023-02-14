@@ -932,7 +932,7 @@ sm-video {
     --bkgImage: "test";
 }
 .sm-background-null {
-    background-image: url( var(--bkgImage));
+    background-image: none;
 }
 
 sm-widget {

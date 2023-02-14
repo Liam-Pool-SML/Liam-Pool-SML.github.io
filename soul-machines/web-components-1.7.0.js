@@ -7155,7 +7155,7 @@ function Rp() {
 		toggleVideoMuted: s
 	} = It(), a = r ? "volumeOff" : "volume", l = r ? "Unmute video" : "Mute video", u = t ? "microphone" : "microphoneOff", c = n ? "camera" : "cameraOff", f = t ? "Disable microphone" : "Enable microphone", p = n ? "Disable camera" : "Enable camera";
 	return ve("div", {
-		className: "sm-p-3 sm-flex sm-flex-col sm-justify-between sm-absolute sm-top-0 sm-left-0 sm-w-full sm-h-full",
+		className: "sm-p-3 sm-flex sm-flex-col sm-justify-between sm-absolute sm-left-0 sm-w-full sm-h-full",
 		children: [ve("div", {
 			className: "sm-flex sm-justify-between",
 			children: [I(Lt, {
@@ -7293,7 +7293,7 @@ function Mp({
 			if (t === be.TIMED_OUT) return ve("div", {
 				className: "sm-flex sm-flex-col sm-gap-y-3 sm-items-start",
 				children: [I(jt, {
-					children: "Your session has ended. You can reconnect anytime you are ready."
+					children: "Your call has ended. You can reconnect anytime you are ready."
 				}), I(On, {
 					onClick: n,
 					children: "Connect"
