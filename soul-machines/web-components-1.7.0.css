@@ -940,7 +940,7 @@ sm-video {
 }
 
 .sm-background-hack {
-    background-image: "https://smitstage.wpengine.com/wp-content/uploads/the-new-face-of-customer-service-no-play.jpg";
+    background-image: url(https://smitstage.wpengine.com/wp-content/uploads/the-new-face-of-customer-service-no-play.jpg)!important;
 }
 
 sm-widget {
