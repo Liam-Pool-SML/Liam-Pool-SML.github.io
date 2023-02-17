@@ -15164,7 +15164,7 @@ function v1({
 	const a = () => I("div", {
 			className: "sm-w-full sm-max-h-full sm-flex sm-items-center sm-justify-center sm-text-primary-600",
 			children: I("div", {
-				className: "sm-w-12 sm-h-12 md:sm-w-24 md:sm-h-24 sm-text-base",
+				className: "sm-w-12 sm-h-full md:sm-w-24 md:sm-h-full sm-text-base",
 				children: n || I(xu, {})
 			})
 		}),
