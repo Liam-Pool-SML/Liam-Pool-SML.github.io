@@ -945,6 +945,7 @@ sm-video {
 
 .sm-background-hack {
     background-image: url(https://smitstage.wpengine.com/wp-content/uploads/Ambassador-Suki-Black-Banner.jpg)!important;
+    min-height: 400px;
 }
 
 sm-widget {
