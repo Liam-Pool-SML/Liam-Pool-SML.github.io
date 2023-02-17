@@ -7207,7 +7207,7 @@ function Yt({
 			opacity: 0
 		}
 	})((l, u) => u && ve(Ir.div, {
-		className: "sm-fixed sm-z-max sm-max-w-contentCard sm-right-0 sm-flex sm-overflow-hidden sm-pointer-events-auto sm-p-8 -sm-m-8",
+		className: "sm-fixed sm-z-max sm-max-w-contentCard sm-right-8 sm-flex sm-overflow-hidden sm-pointer-events-auto sm-p-8 -sm-m-8",
 		style: {
 			...l,
 			...n
@@ -15176,7 +15176,7 @@ function v1({
 			"sm-scale-50": o
 		});
 	return I("div", {
-		className: "",
+		className: "sm-background-hack",
 		children: ve("div", {
 			className: "sm-z-max sm-pointer-events-none sm-h-full",
 			children: [I("div", {
