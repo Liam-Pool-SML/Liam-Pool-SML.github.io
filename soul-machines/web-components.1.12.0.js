@@ -20452,7 +20452,7 @@
 				"sm-origin-bottom-left": n === nn.BOTTOM_LEFT
 			}),
 			children: C("div", {
-				className: "sm-relative sm-floating-container sm-round-shadow-box",
+				className: "sm-relative sm-embedded-container sm-round-shadow-box",
 				children: e
 			})
 		}));
@@ -21875,7 +21875,7 @@
 								connectionState: o
 							})
 						}), l === xe.FLOAT && f && C("div", {
-							className: "sm-floating-container",
+							className: "sm-embedded-container",
 							children: C("div", {
 								className: "sm-w-full sm-h-full sm-round-shadow-box sm-border-2 sm-border-solid sm-border-gray-lightest",
 								children: [C(Is, {
