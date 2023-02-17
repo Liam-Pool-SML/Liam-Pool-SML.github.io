@@ -7155,7 +7155,7 @@ function Rp() {
 		toggleVideoMuted: s
 	} = It(), a = r ? "volumeOff" : "volume", l = r ? "Unmute video" : "Mute video", u = t ? "microphone" : "microphoneOff", c = n ? "camera" : "cameraOff", f = t ? "Disable microphone" : "Enable microphone", p = n ? "Disable camera" : "Enable camera";
 	return ve("div", {
-		className: "sm-p-3 sm-flex sm-flex-col sm-justify-between sm-absolute sm-left-0 sm-w-full sm-h-full sm-top-0",
+		className: " sm-top-0 sm-p-3 sm-flex sm-flex-col sm-justify-between sm-absolute sm-left-0 sm-w-full sm-h-full sm-top-0",
 		children: [ve("div", {
 			className: "sm-flex sm-justify-between",
 			children: [I(Lt, {
