@@ -15176,7 +15176,7 @@ function v1({
 			"sm-scale-50": o
 		});
 	return I("div", {
-		className: "sm-background-hack sm-h-max",
+		className: "sm-background-hack sm-max-h-800",
 		children: ve("div", {
 			className: "sm-z-max sm-pointer-events-none sm-h-full",
 			children: [I("div", {

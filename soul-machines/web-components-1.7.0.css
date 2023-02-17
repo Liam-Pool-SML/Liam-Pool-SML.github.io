@@ -302,8 +302,8 @@ sm-video {
     height: 800px
 }
 
-.sm-h-max {
-    height: 800px
+.sm-max-h-800 {
+    max-height: 800px
 }
 
 .sm-h-full {
