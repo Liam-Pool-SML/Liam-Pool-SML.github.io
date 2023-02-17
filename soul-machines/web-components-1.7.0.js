@@ -3288,7 +3288,7 @@ var xl = function() {
 					},
 					optionalArgs: {}
 				};
-				this.sendRequest("conversationSend", o), console.log(lr.PAGE_LOADED, o)
+				//this.sendRequest("conversationSend", o), console.log(lr.PAGE_LOADED, o)
 			}
 			this._isResumedSession = n, t && (this._sessionResumeEnabled = !0, Rf(r, i, this._apiKey || ""))
 		}, e.prototype.sessionClosed = function(t) {
@@ -15178,7 +15178,7 @@ function v1({
 	return I("div", {
 		className: "sm-z-max sm-pointer-events-none sm-h-full",
 		children: ve("div", {
-			className: "et_pb_section et_pb_section_15  et_section_regular",
+			className: "et_pb_section et_pb_section_1  et_section_regular",
 			children: [I("div", {
 				class: "et_pb_row",
 				children: I(b1, {})
