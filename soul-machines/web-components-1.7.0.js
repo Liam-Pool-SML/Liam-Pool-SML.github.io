@@ -15176,7 +15176,7 @@ function v1({
 			"sm-scale-50": o
 		});
 	return I("div", {
-		className: "et_pb_section et_pb_section_1  et_pb_with_background et_section_regular sm-background-hack",
+		className: "",
 		children: ve("div", {
 			className: "sm-z-max sm-pointer-events-none sm-h-full",
 			children: [I("div", {
