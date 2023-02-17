@@ -15180,7 +15180,7 @@ function v1({
 		children: ve("div", {
 			className: "sm-z-max sm-pointer-events-none sm-h-700",
 			children: [I("div", {
-				class: "et_pb_row",
+				class: "",
 				children: I(b1, {})
 			}), ve("div", {
 				className: "",
