@@ -15178,7 +15178,7 @@ function v1({
 	return I("div", {
 		className: "et_pb_section et_pb_section_1  et_pb_with_background et_section_regular",
 		children: ve("div", {
-			className: "sm-z-max sm-pointer-events-none sm-h-800",
+			className: "sm-z-max sm-pointer-events-none sm-h-full",
 			children: [I("div", {
 				class: "",
 				children: I(b1, {})
@@ -15197,7 +15197,7 @@ function v1({
 						children: [s && I("button", {
 							onClick: i,
 							"data-sm-cy": "connectButton",
-							className: "sm-w-full sm-max-h-800 sm-top-0 sm-flex sm-justify-center sm-items-center sm-text-primary-300 sm-border-2 sm-border-transparent sm-bg-transparent hover:sm-border-primary-400 sm-transition-colors sm-overflow-hidden",
+							className: "sm-w-full sm-max-h-800 sm-flex sm-justify-center sm-items-center sm-text-primary-300 sm-border-2 sm-border-transparent sm-bg-transparent hover:sm-border-primary-400 sm-transition-colors sm-overflow-hidden sm-top-0 ",
 							children: I(Pp, {
 								src: e
 							})
