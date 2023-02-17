@@ -15162,7 +15162,7 @@ function v1({
 		s && sessionStorage.getItem(Re.sessionId) && i()
 	}, [i, s]);
 	const a = () => I("div", {
-			className: "sm-w-full sm-h-1024 sm-flex sm-items-center sm-justify-center sm-text-primary-600",
+			className: "sm-w-full sm-max-h-full sm-flex sm-items-center sm-justify-center sm-text-primary-600",
 			children: I("div", {
 				className: "sm-w-12 sm-h-12 md:sm-w-24 md:sm-h-24 sm-text-base",
 				children: n || I(xu, {})
@@ -15178,7 +15178,7 @@ function v1({
 	return I("div", {
 		className: "sm-z-max sm-pointer-events-none sm-h-full",
 		children: ve("div", {
-			className: "et_pb_section et_pb_section_0  et_section_regular",
+			className: "et_pb_section et_pb_section_15  et_section_regular",
 			children: [I("div", {
 				class: "et_pb_row",
 				children: I(b1, {})
@@ -15197,14 +15197,14 @@ function v1({
 						children: [s && I("button", {
 							onClick: i,
 							"data-sm-cy": "connectButton",
-							className: "sm-w-full sm-h-1024 sm-flex sm-justify-center sm-items-center sm-text-primary-300 sm-border-2 sm-border-transparent sm-bg-transparent hover:sm-border-primary-400 sm-transition-colors sm-overflow-hidden",
+							className: "sm-w-full sm-max-h-full sm-flex sm-justify-center sm-items-center sm-text-primary-300 sm-border-2 sm-border-transparent sm-bg-transparent hover:sm-border-primary-400 sm-transition-colors sm-overflow-hidden",
 							children: I(Pp, {
 								src: e
 							})
 						}), ve("div", {
 							className: ft({
 								"sm-transform-gpu sm-background-null": !0,
-								"sm-w-full sm-h-1024 sm-border-2 sm-border-primary-400": o
+								"sm-w-full sm-max-h-full sm-border-2 sm-border-primary-400": o
 							}),
 							children: [I(Cu, {
 								autoConnect: 1,
