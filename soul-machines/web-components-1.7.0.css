@@ -939,6 +939,10 @@ sm-video {
     background-image: none;
 }
 
+.sm-backgorund-hack {
+    background-image: "https://smitstage.wpengine.com/wp-content/uploads/the-new-face-of-customer-service-no-play.jpg";
+}
+
 sm-widget {
     --color-grayscale-100: #eaeaea;
     --color-grayscale-200: #d3d3d3;
