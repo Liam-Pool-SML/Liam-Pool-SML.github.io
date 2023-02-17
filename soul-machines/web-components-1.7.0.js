@@ -15176,9 +15176,9 @@ function v1({
 			"sm-scale-50": o
 		});
 	return I("div", {
-		className: "sm-z-max sm-pointer-events-none sm-h-700",
+		className: "et_pb_section et_pb_section_1  et_pb_with_background et_section_regular",
 		children: ve("div", {
-			className: "et_pb_section et_pb_section_1  et_pb_with_background et_section_regular",
+			className: "sm-z-max sm-pointer-events-none sm-h-700",
 			children: [I("div", {
 				class: "et_pb_row",
 				children: I(b1, {})
